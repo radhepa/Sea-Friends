@@ -1,0 +1,510 @@
+{
+ "personalities": {
+  "warmhearted": {
+   "hobby": "rolling kelp wraps for anyone who looks hungry",
+   "loves": ["seafriends:kelp_wrap", "minecraft:honey_bottle", "minecraft:apple"],
+   "dislikes": ["minecraft:rotten_flesh"],
+   "gift": "seafriends:kelp_wrap"
+  },
+  "thoughtful": {
+   "hobby": "reading old bottle letters by pickle light",
+   "loves": ["minecraft:book", "minecraft:paper", "minecraft:glass_bottle"],
+   "dislikes": ["minecraft:fire_charge"],
+   "gift": "minecraft:paper"
+  },
+  "playful": {
+   "hobby": "racing nautili round the reef",
+   "loves": ["minecraft:cookie", "minecraft:tropical_fish", "minecraft:slime_ball"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:tropical_fish"
+  },
+  "adventurous": {
+   "hobby": "swimming out to the shelf to peer into the deep",
+   "loves": ["minecraft:nautilus_shell", "minecraft:spyglass", "minecraft:compass"],
+   "dislikes": ["minecraft:sponge"],
+   "gift": "minecraft:prismarine_crystals"
+  },
+  "meticulous": {
+   "hobby": "sorting shells by the turn of their spirals",
+   "loves": ["minecraft:clock", "minecraft:prismarine_crystals", "minecraft:white_candle"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:prismarine_shard"
+  },
+  "steadfast": {
+   "hobby": "sweeping the sand off the shrine steps",
+   "loves": ["minecraft:sea_pickle", "minecraft:bread", "seafriends:tide_lamp"],
+   "dislikes": ["minecraft:fire_charge"],
+   "gift": "minecraft:sea_pickle"
+  },
+  "reserved": {
+   "hobby": "listening to the current from the far kelp rows",
+   "loves": ["minecraft:candle", "minecraft:dried_kelp"],
+   "dislikes": ["minecraft:pufferfish"],
+   "gift": "minecraft:dried_kelp"
+  },
+  "imaginative": {
+   "hobby": "drawing maps of the dry from bottle letters",
+   "loves": ["minecraft:feather", "minecraft:glow_ink_sac", "minecraft:map"],
+   "dislikes": ["minecraft:sponge"],
+   "gift": "minecraft:glow_ink_sac"
+  },
+  "pragmatic": {
+   "hobby": "mending kelp nets and arguing about knots",
+   "loves": ["minecraft:string", "minecraft:cod", "minecraft:iron_ingot"],
+   "dislikes": ["minecraft:pufferfish"],
+   "gift": "minecraft:cod"
+  },
+  "curious": {
+   "hobby": "collecting whatever sinks down from the dry",
+   "loves": ["minecraft:bell", "minecraft:honeycomb", "minecraft:sunflower"],
+   "dislikes": ["minecraft:rotten_flesh"],
+   "gift": "minecraft:gold_nugget"
+  },
+  "protective": {
+   "hobby": "riding the arches at dusk with my trident close",
+   "loves": ["minecraft:turtle_scute", "minecraft:salmon"],
+   "dislikes": ["minecraft:rotten_flesh", "minecraft:fire_charge"],
+   "gift": "minecraft:salmon"
+  },
+  "gentle": {
+   "hobby": "humming to the seadragons in the garden",
+   "loves": ["minecraft:blue_orchid", "minecraft:sweet_berries", "minecraft:sea_pickle"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:tube_coral_fan"
+  }
+ },
+ "stories": [
+  {
+   "id": "mer_saltcombe_bell",
+   "roles": [],
+   "title": "The bell with our names",
+   "intro": "Every family rings the town bell on Bell Night, but mine had its own as well. A little hand-bell from Saltcombe, older than the reef. I lost it. Now I sit at the back on Bell Night with empty hands.",
+   "confide": "I wasn't meant to take it out. Bell Night only, that's the rule. But I wanted the fry to hear it, so I rang it at the Long Cut, showing off. A shoal spooked, I dropped it, and the sand had it before I could turn. Gran never once scolded me. That was worse. I've felt like the one who let our names go quiet.",
+   "encourage": "Gran used to say the bell only carried our names. We're the ones who keep them. This Bell Night I'll sit at the front and say every one out loud. They were never in the bell. They were in us.",
+   "practical": "I'll ask the dry for a new bell, a plain one, and wrap it in kelp-cloth. It won't know our names yet. I'll teach it, one Bell Night at a time, the way Gran taught me.",
+   "gift": "seafriends:tidepearl",
+   "requests": [
+    {
+     "id": "kelp_cloth",
+     "title": "Fresh kelp-cloth",
+     "item": "minecraft:kelp",
+     "count": 8,
+     "prompt": "Could you bring eight kelp? Even with no bell to wrap, I'd like a fresh kelp-cloth ready. It feels like keeping a place set at supper.",
+     "thanks": "Thank you. I'll weave it tonight. An empty cloth is a kind of promise, isn't it?"
+    },
+    {
+     "id": "sifting",
+     "title": "One more look",
+     "item": "minecraft:brush",
+     "count": 1,
+     "prompt": "I've heard sandtoes have a little brush for finding old things in the dirt. Could you bring me one? I'd like to search the sand one last time, properly.",
+     "thanks": "It's so small and so serious! I'll sweep the rows at low tide. Even if I find nothing, I'll know I looked."
+    },
+    {
+     "id": "new_bell",
+     "title": "A bell from the dry",
+     "item": "minecraft:bell",
+     "count": 1,
+     "prompt": "If you ever come across a bell up in the dry, I'd treasure it. It won't be Saltcombe's. It could still be ours.",
+     "thanks": "Oh. It's heavier than I remembered bells being. I'll wrap it in the cloth, and it can start learning our names."
+    }
+   ]
+  },
+  {
+   "id": "mer_blushing_comb",
+   "roles": ["shellwright"],
+   "title": "A comb for a late blusher",
+   "intro": "There's a fry in town whose tail is still silver, two springs after it should have blushed. Her family's stopped mentioning Blushing Day. I've a shell comb half-carved for her, and I can't decide what colour to finish it.",
+   "confide": "My tail didn't blush until I was nearly grown. Every spring the other fry got their combs and their songs, and I got kind looks. People whispered that the Tide hadn't finished with me. I never had a comb. By the time my colour came, it felt too late to ask. I don't want her waiting the way I did.",
+   "encourage": "I'll give her the comb this Lantern Night, silver tail and all, and tell her a comb says she belongs, not what colour she'll be. Then I'll carve one for myself. It's late. It still counts.",
+   "practical": "I'll finish her comb in plain white shell and leave the edge uncarved. When her colour comes, we'll carve it in together. Nobody should have to wait to be given the beginning.",
+   "gift": "minecraft:nautilus_shell",
+   "requests": [
+    {
+     "id": "comb_teeth",
+     "title": "Comb teeth",
+     "item": "minecraft:bone",
+     "count": 3,
+     "prompt": "Could you bring three bones? Whale bone's best for comb teeth, but land bone will do, and I'm curious how it carves.",
+     "thanks": "Land bone! It's finer than I expected. It carves like it already wants to be a comb."
+    },
+    {
+     "id": "bee_comb",
+     "title": "The dry sort of comb",
+     "item": "minecraft:honeycomb",
+     "count": 1,
+     "prompt": "Somebody told me land folk have a comb that bees make. A bee comb! Bring me one, would you? I have to see how they managed it without hands.",
+     "thanks": "It's all little rooms. Not a spiral anywhere. I'm jealous and offended at the same time."
+    },
+    {
+     "id": "second_comb",
+     "title": "A shell with a good spiral",
+     "item": "minecraft:nautilus_shell",
+     "count": 1,
+     "prompt": "One nautilus shell, if you find one. I'd like to carve her a second comb for when her colour comes. With the spiral, never against it.",
+     "thanks": "Look at that turn. It's a comb waiting to happen. She'll have two, and I'll make sure she knows why."
+    }
+   ]
+  },
+  {
+   "id": "mer_lowmere_verse",
+   "roles": ["singer", "elder"],
+   "title": "Gran's Lowmere verse",
+   "intro": "My gran had a verse of \"Hush Now, Little Fin\" that nobody else sings. She learned it as a fry in Lowmere, before the Heart went dark. I've been singing it at the shrine, and I keep losing the end.",
+   "confide": "The Elders say Lowmere fell because its singers forgot the songs. Gran was a Lowmere fry, and she never forgot a thing. Now I'm the last who knows her verse, and it's slipping. Every time a line goes, I think: so this is how it starts. Some nights I'm scared I'm a little bit Lowmere.",
+   "encourage": "Gran kept that verse alive with half a town gone behind her. I can keep it with a whole town around me. I'll sing what I have at Bell Night, gaps and all, and let everyone hum the gaps.",
+   "practical": "I'll write down every line I still have, the dry folk's way, and keep the book at the shrine. A song on a page isn't sung. But it isn't lost, either. The singing can come back to it.",
+   "gift": "seafriends:tide_lamp",
+   "requests": [
+    {
+     "id": "brew_kelp",
+     "title": "Kelp for a voice brew",
+     "item": "minecraft:dried_kelp",
+     "count": 4,
+     "prompt": "Could you bring four dried kelp? I practise late, when the shrine's empty, and a warm brew keeps my voice from cracking. Gran's recipe, of course.",
+     "thanks": "That's the stuff. The brew's on. If you hear an old song tonight, that's me and the kelp."
+    },
+    {
+     "id": "empty_book",
+     "title": "A book with empty pages",
+     "item": "minecraft:writable_book",
+     "count": 1,
+     "prompt": "Land folk keep words in books with a feather and ink. Could you bring me one with empty pages? Gran's verse deserves a dry home.",
+     "thanks": "All those empty pages. I'll start with her verse, and leave room for whatever comes back."
+    },
+    {
+     "id": "dry_horn",
+     "title": "A horn from the dry",
+     "item": "minecraft:goat_horn",
+     "count": 1,
+     "prompt": "Land folk have horns that sing one long note, like a conch. Could you find one? Gran's verse ends on a long note, and I'd like to hear one from the dry.",
+     "thanks": "It sounds like a conch that's been somewhere cold. Wait. I think I remember how the last line rises. Not the words yet. The rise. That's a start."
+    }
+   ]
+  },
+  {
+   "id": "mer_wandering_nautilus",
+   "roles": [],
+   "title": "The nautilus who won't come home",
+   "intro": "My nautilus, Barley, won't come home to the stable. Every evening she swims off toward the next reef and floats there at the edge, looking back at me. I've tried bribes, songs and scolding. She just waits.",
+   "confide": "Barley was my brother's before he moved to the next reef. We quarrelled over something so small I'm embarrassed to say it. A kelp rack. He left, and she stayed with me. I think she's trying to take me to him. I'm too proud to follow a nautilus, and too proud to send a bottle.",
+   "encourage": "I'll let Barley lead, and I'll follow her all the way. If she knows the way to him, maybe she knows what to say when we get there. I'll start with sorry. About the rack, and everything after.",
+   "practical": "I'll send him one bottle with one line: Barley misses you, and so do I. If he answers, I'll ride over. Small and true. That's all a first bottle has to be.",
+   "gift": "minecraft:prismarine_crystals",
+   "requests": [
+    {
+     "id": "bribes",
+     "title": "Nautilus bribes",
+     "item": "minecraft:pufferfish",
+     "count": 2,
+     "prompt": "Could you bring two pufferfish? Barley adores them, the strange thing. It might keep her near the stable while I think.",
+     "thanks": "She ate both and looked at me as if I'd still missed the point. She's not wrong."
+    },
+    {
+     "id": "gentle_lead",
+     "title": "Something gentle to follow",
+     "item": "minecraft:lead",
+     "count": 1,
+     "prompt": "A lead, if you have one spare. Not to drag her. Just so I can follow without losing her in the dark past the lamps.",
+     "thanks": "It's soft. Good. I'd never tie her. I just want to keep hold of something while I'm being brave."
+    },
+    {
+     "id": "her_name",
+     "title": "Her name, spelled right",
+     "item": "minecraft:name_tag",
+     "count": 1,
+     "prompt": "My brother named her but never marked it. Could you find a name tag? I'd like her to wear it when we go to him.",
+     "thanks": "Barley. Spelled properly, for once. He'll tease me about that. I'll let him."
+    }
+   ]
+  },
+  {
+   "id": "mer_bottle_letter",
+   "roles": [],
+   "title": "A bottle for my cousin",
+   "intro": "My cousin in the dry sends a bottle every spring. Nine springs now. They pile up on my shelf, and I've never once written back. I keep starting. Everything I write sounds small next to rain.",
+   "confide": "Mum always wrote our replies. She'd read the bottles aloud and laugh at the land words. Since she went, the bottles keep coming, addressed to her. Writing back means telling my cousin she's gone. As long as I don't, the letters still sound like they're talking to her.",
+   "encourage": "I'll tell them about Mum. Then I'll tell them how the light comes down in ripples on a calm day. She'd want them to have both, the sad news and the lovely things. She always wrote both.",
+   "practical": "Three lines. Hello. Mum's gone, and she loved your letters. I'm still here, and I'd like to keep writing. The rest can go in the next bottle. There's always a next bottle.",
+   "gift": "seafriends:tidepearl",
+   "requests": [
+    {
+     "id": "dry_paper",
+     "title": "Something to write on",
+     "item": "minecraft:paper",
+     "count": 3,
+     "prompt": "Could you bring three sheets of paper? Kelp-paper runs if you breathe on it, and this letter needs to arrive.",
+     "thanks": "Three whole sheets. That's more room than I've had courage for in nine springs."
+    },
+    {
+     "id": "quill",
+     "title": "A land quill",
+     "item": "minecraft:feather",
+     "count": 2,
+     "prompt": "Mum wrote with a feather from the dry. Could you bring me a couple? I'd like to write the way she did.",
+     "thanks": "A bird wore this. Up in the air! I'll write slowly with it. She always did."
+    },
+    {
+     "id": "stout_bottle",
+     "title": "A stout bottle",
+     "item": "minecraft:glass_bottle",
+     "count": 1,
+     "prompt": "One glass bottle, a stout one. Ours come from wrecks and most of them leak. This one has a lot to carry.",
+     "thanks": "Not a crack in it. My cousin will be so surprised to get a dry letter. I might cry on it a little. Only a little."
+    }
+   ]
+  },
+  {
+   "id": "mer_letter_rock",
+   "roles": ["diver"],
+   "title": "The girl on the Letter Rock",
+   "intro": "When I was a fry, a sandtoe girl used to sit on the old Letter Rock at low tide and dangle her toes in. I brought her pearls and she brought me apples. Then one summer she just didn't come.",
+   "confide": "I know why. I pulled her under to show her the reef. Only for a moment. She came up coughing and frightened, and she ran, and I never saw her again. I was a fry. I didn't understand breath. I've kept sandtoes a fin's length away ever since. You're the first I've let near.",
+   "encourage": "I'll leave a pearl on the Letter Rock, the old trade. If she's still up there, she'll know who. And if she isn't, someone else will find it and wonder about the sea. That's not a bad thing to give.",
+   "practical": "I'll swim to the Letter Rock at low tide tomorrow and sit where she sat. Just sit. I've been swimming the long way round it for years. Starting with the rock feels like enough.",
+   "gift": "seafriends:tidepearl",
+   "requests": [
+    {
+     "id": "apples",
+     "title": "Apples, like she brought",
+     "item": "minecraft:apple",
+     "count": 3,
+     "prompt": "Could you bring three apples? She always brought them, and I haven't had a fresh one since. The ones in bottles arrive pickled.",
+     "thanks": "Crisp! I'd forgotten crisp. I'll eat one on the rock and keep the others for luck."
+    },
+    {
+     "id": "sun_flower",
+     "title": "Her flower as big as a plate",
+     "item": "minecraft:sunflower",
+     "count": 1,
+     "prompt": "She used to tell me about flowers as big as plates that follow the sun around. I never believed her. Could you bring me one?",
+     "thanks": "It's real! And it's still looking for the sun, even down here. She wasn't telling Pell stories after all."
+    },
+    {
+     "id": "spyglass",
+     "title": "To watch the shore",
+     "item": "minecraft:spyglass",
+     "count": 1,
+     "prompt": "A spyglass, if you can manage one. I'd like to watch the shore from the water without anyone seeing me watch it.",
+     "thanks": "I can see the Letter Rock from the kelp! Every barnacle. I'm a coward with a spyglass now, which is a step up from a plain coward."
+    }
+   ]
+  },
+  {
+   "id": "mer_left_the_arch",
+   "roles": ["warden"],
+   "title": "The night I left the arch",
+   "intro": "There's a fry in town called Tam with a scar on her fin. She's very proud of it. Shows it to everyone. I can't look at it, and I'm a warden. Wardens are meant to be able to look at anything.",
+   "confide": "That scar's mine. On watch one night I heard a bell past the shelf that wasn't ours. I knew the rule. I swam toward it anyway, only a little way. A drowned came through my arch while I was gone, and Tam was out after curfew. She's fine. I've held the arch every night since, and it still feels like I'm standing in the wrong place.",
+   "encourage": "I'll tell Tam the truth. She deserves a warden who owns a mistake, not one who flinches at a fry. Then I'll let her show me that scar properly, and tell her it's the bravest one in town.",
+   "practical": "I've hung a lamp at my arch. Every night I touch it on the way out and say the Oath. Hold the arch. It's a small thing. It reminds my tail where it belongs when the deep starts calling.",
+   "gift": "seafriends:tide_lamp",
+   "requests": [
+    {
+     "id": "grip",
+     "title": "A new grip",
+     "item": "minecraft:string",
+     "count": 4,
+     "prompt": "Could you bring four string? My trident grip's worn smooth from holding on too tight. Land thread binds better than kelp.",
+     "thanks": "There. Tight and new. Maybe I'll hold it a bit looser now. Maybe."
+    },
+    {
+     "id": "arch_lamp",
+     "title": "A lamp for the arch",
+     "item": "minecraft:lantern",
+     "count": 1,
+     "prompt": "A land lantern, the kind sandtoes hang by their doors. I'd like one by my arch, so I always know where I'm meant to be.",
+     "thanks": "Odd little flame, sitting there in its cage. It isn't going anywhere. Good example."
+    },
+    {
+     "id": "fin_guard",
+     "title": "Something for Tam",
+     "item": "minecraft:turtle_scute",
+     "count": 1,
+     "prompt": "One turtle scute, if you find one. Tam wants a shell guard like mine. I'd like to make her one. A small one, for a brave fry.",
+     "thanks": "She'll wear it everywhere. To supper. To bed. I'll pretend to be stern about it."
+    }
+   ]
+  },
+  {
+   "id": "mer_last_bell_night",
+   "roles": ["elder"],
+   "title": "The names I ring alone",
+   "intro": "This will be my last Bell Night ringing the old bell. My arms tire before the names do now, and the young singer's ready to take the rope. I'm glad. I'm also not sleeping, and I'd like to know why.",
+   "confide": "After the town goes home on Bell Night, I ring on alone. For Lowmere. I knew its people when I was young. Nobody rings for them. They say Lowmere forgot its songs, as if that makes it a lesson and not a loss. When I stop, those names stop. I've never told anyone. I was ashamed to grieve out loud.",
+   "encourage": "This Bell Night I'll ring Lowmere's names with the whole town still at the shrine. Then I'll put the rope in the young one's hands and stay to hum. A loss isn't a lesson. We can grieve it together.",
+   "practical": "I'll teach the young singer one Lowmere name a night, the way I learned our own. By Bell Night she'll have them all, and I'll only have to listen. I think I'm ready to listen.",
+   "gift": "seafriends:conch",
+   "requests": [
+    {
+     "id": "old_throat",
+     "title": "Something for an old throat",
+     "item": "minecraft:honey_bottle",
+     "count": 1,
+     "prompt": "Bring me a bottle of honey, would you? The dry folk swear by it for tired voices, and mine has a long night ahead.",
+     "thanks": "Sweet as a fry's first song. My throat feels younger already. My tail doesn't, but one thing at a time."
+    },
+    {
+     "id": "land_lights",
+     "title": "Land lights for the lost",
+     "item": "minecraft:candle",
+     "count": 5,
+     "prompt": "Five candles, the dry folk's lamps. I know they won't burn down here. I'd like them on the shrine steps anyway, for the ones nobody rings for.",
+     "thanks": "They won't light. They don't need to. Five little dry things keeping watch for a lost town. That's right, somehow."
+    },
+    {
+     "id": "first_light",
+     "title": "A light for the young one",
+     "item": "minecraft:sea_lantern",
+     "count": 1,
+     "prompt": "One sea lantern, for the young singer's first Bell Night. The first one is long, and she should have a good light.",
+     "thanks": "Bright and steady. She'll need that by the fortieth verse. So did I, once."
+    }
+   ]
+  },
+  {
+   "id": "mer_pickle_moon",
+   "roles": ["farmer"],
+   "title": "Gran's pickle wrap",
+   "intro": "Everyone asks me to make Gran's sea-pickle wrap for the Long Cut supper. It's famous across three reefs. I haven't rolled one since she passed. I tell people I've forgotten how. I haven't.",
+   "confide": "The pickle moon was my fault. Gran said cut the shelf rows early, a storm was coming. I wanted them tall to show off at the Long Cut, so I waited. The storm tore the kelp loose and the whole town lived on pickles for a moon. Gran just laughed and rolled pickles into wraps. That wrap is my mistake with her kindness rolled round it.",
+   "encourage": "I'll roll Gran's wraps for the Long Cut and tell the whole story while everyone eats. Even the part where I was wrong. Especially that part. That's what made it her recipe and not just a sad moon.",
+   "practical": "I'll cut the shelf rows a week early this year, her way. Then I'll roll one pickle wrap, just one, for myself, and see if my hands still remember. I think they do.",
+   "gift": "seafriends:kelp_wrap",
+   "requests": [
+    {
+     "id": "row_feed",
+     "title": "Feed for the rows",
+     "item": "minecraft:bone_meal",
+     "count": 4,
+     "prompt": "Could you bring four bone meal? The shelf rows are slow this year, and I'd like them ready to cut early for once.",
+     "thanks": "Look at them go! Early and sweet. Gran would say I've finally learned something."
+    },
+    {
+     "id": "secret_middle",
+     "title": "The secret middle",
+     "item": "minecraft:sea_pickle",
+     "count": 6,
+     "prompt": "Six sea pickles, please. You know what they're for. Don't tell anyone.",
+     "thanks": "There's the secret. Six of them. My hands are already doing the rolling, look."
+    },
+    {
+     "id": "land_wrap",
+     "title": "Gran's other idea",
+     "item": "minecraft:bread",
+     "count": 3,
+     "prompt": "Gran always wondered how a wrap would taste rolled in bread instead of kelp. Could you bring three loaves? I'd like to try it for her.",
+     "thanks": "It went soft at once, but the taste! She'd have loved it. A land wrap. We'll call it Gran's Folly."
+    }
+   ]
+  },
+  {
+   "id": "mer_spiral_race",
+   "roles": ["diver", "farmer", "shellwright"],
+   "title": "One last Spiral Race",
+   "intro": "My nautilus, Biscuit, is getting old. His shell's gone chalky round the edges. Every year at the Spiral Race he bobs at the start line and looks at me, and every year I lead him home instead.",
+   "confide": "Years ago we raced, and I steered us straight into the shrine arch in front of the whole town. Everyone laughed. Kindly, but they laughed. I never raced again. I told myself it was for Biscuit's sake. It was for mine. Now he's old, and I've spent his best years keeping him home.",
+   "encourage": "We'll race this year. We'll probably come last. Biscuit won't mind, and I've decided I won't either. If we hit the arch again, I'll laugh first. Then I'll knock on coral and keep going.",
+   "practical": "We'll swim the course once at dawn, slowly, just the two of us, with nobody watching. If Biscuit enjoys it, we'll be at the start line on the day. One lap at a time.",
+   "gift": "minecraft:nautilus_shell",
+   "requests": [
+    {
+     "id": "breakfast",
+     "title": "Biscuit's breakfast",
+     "item": "minecraft:cod",
+     "count": 4,
+     "prompt": "Could you bring four cod? Biscuit swims better on a full belly, and I'd like him strong for what I'm planning.",
+     "thanks": "He ate every one and flared his tentacles at me. I think he knows something's coming."
+    },
+    {
+     "id": "ribbon",
+     "title": "Racing colours",
+     "item": "minecraft:lime_dye",
+     "count": 2,
+     "prompt": "Two lime dye, please. Every racer flies a ribbon in their family colour. Ours is green like the kelp, and I haven't dyed one in years.",
+     "thanks": "Green as the shelf rows. I'll tie it to his shell and try not to grin too much. I'll fail."
+    },
+    {
+     "id": "dry_saddle",
+     "title": "A saddle from the dry",
+     "item": "minecraft:saddle",
+     "count": 1,
+     "prompt": "Corran the Carver made the first nautilus saddle from a cart seat. If you find a land saddle, I'd like Biscuit's last race to have a bit of the dry in it too.",
+     "thanks": "Leather! It smells like the dry. We'll fit it round his spiral. He'll be the best-dressed old nautilus who ever came last."
+    }
+   ]
+  },
+  {
+   "id": "mer_sunset_lamp",
+   "roles": ["shellwright"],
+   "title": "Bringing the sunset down",
+   "intro": "My dad used to swim up to the sun-rocks every evening to watch the sunset. His tail's gone stiff and he can't make the climb now. He says he doesn't mind. He sits by his curtain at dusk, facing up.",
+   "confide": "He taught me to carve. Every lamp I ever made, he'd hold it up and say, \"Nearly as good as a sunset.\" I've been trying to carve him one that really is. Every one fails. I think I'm afraid that if I can't bring the sunset down to him, I'll have to admit he's never going back up.",
+   "encourage": "I'll stop chasing a perfect sunset and carve one that's ours. He'll hold it up and say \"nearly as good\", and this time I'll hear it the way he meant it. It was always the highest praise he had.",
+   "practical": "Tonight I'll carry him up to the sun-rocks myself, slowly, at high tide when the climb is short. The lamp can wait. The sunset's still up there. I only have to bring him to it.",
+   "gift": "minecraft:sea_lantern",
+   "requests": [
+    {
+     "id": "sunset_orange",
+     "title": "Sunset orange",
+     "item": "minecraft:orange_dye",
+     "count": 2,
+     "prompt": "Could you bring two orange dye? Sunset colours are hard to find down here. Everything's blue, and blue is no help at all.",
+     "thanks": "That's it. That's the colour the water goes at the top, just before evening. I won't cry at the bench. Nearly didn't."
+    },
+    {
+     "id": "soft_glow",
+     "title": "A soft glow",
+     "item": "minecraft:glow_ink_sac",
+     "count": 3,
+     "prompt": "Three glow ink sacs, please. A sunset doesn't glare. It glows, and then it goes softer.",
+     "thanks": "Soft and warm, like the end of a good day. Dad will say it's too bright. Dad says that about everything."
+    },
+    {
+     "id": "red_flower",
+     "title": "Red as a land sunset",
+     "item": "minecraft:poppy",
+     "count": 1,
+     "prompt": "One poppy from the dry. Dad says the sun sets red on land, red as poppies. I'd like to check.",
+     "thanks": "So that's red! He was right. He usually is, and he'll be unbearable about it."
+    }
+   ]
+  },
+  {
+   "id": "mer_lantern_promise",
+   "roles": ["singer"],
+   "title": "And I am seen",
+   "intro": "This Lantern Night I sing \"The Lantern Promise\" to the Prismari envoy, alone, for the first time. The envoy says \"I see you\", and I answer \"And I am seen\". I can sing every deep note. I can't say that line.",
+   "confide": "It isn't the Prismari I'm afraid of. It's the line. When they say \"I see you\", I believe them. That great eye looks all the way down. I've spent my life singing so people hear the song and not me. I don't know how to be seen.",
+   "encourage": "When the envoy says \"I see you\", I'll look back and say \"And I am seen\", and mean it, cracked notes and all. Wenna went into the dark with one lantern. I can stand in the light with a whole town.",
+   "practical": "Every night I'll say the line to the Heart, quietly, ten times, until it stops catching in my throat. The Heart hums back. If it ever goes off-key, I'll know I wasn't being honest yet.",
+   "gift": "minecraft:prismarine_crystals",
+   "requests": [
+    {
+     "id": "step_pickle",
+     "title": "A pickle for the steps",
+     "item": "minecraft:sea_pickle",
+     "count": 1,
+     "prompt": "Could you bring me one sea pickle? Every family sets one on the shrine steps for Lantern Night. I'd like mine there early, so I can look at it while I practise.",
+     "thanks": "There it is, my little light, waiting on the steps. Now I have to be brave enough to stand beside it."
+    },
+    {
+     "id": "ringing_stone",
+     "title": "Something that rings",
+     "item": "minecraft:amethyst_shard",
+     "count": 2,
+     "prompt": "Two amethyst shards, please. An envoy once told me land crystals ring. I'd like to tune my low notes to them.",
+     "thanks": "Listen to that! Clear as Prismari singing. I'll tune my deep notes to it every evening."
+    },
+    {
+     "id": "news_of_sun",
+     "title": "News of the sun",
+     "item": "minecraft:dandelion",
+     "count": 3,
+     "prompt": "The Pact says we carry news of the sun down to the deep. This year I'd like to carry some of the sun's own flowers. Three dandelions?",
+     "thanks": "Little yellow suns! The envoy will look at them for an hour. They look at everything for an hour."
+    }
+   ]
+  }
+ ]
+}

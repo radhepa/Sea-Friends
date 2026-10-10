@@ -65,6 +65,24 @@ Not-So-Vanilla Mobs, Turning Seasons, Cave Expansion, End Friends and Nether Fri
   - **The Oldest Eye**: the court's eldest archivist; gives the Monument Seal to a friend (friendship level 3).
   - Young grow up.
 
+### Friendship (both peoples)
+They are Village Friends residents, so friendship points, levels, trust, bonds, memories and the conversation window
+are Village Friends' own. What Village Friends would fill with land-village content is the sea's instead:
+- Profiles: a Village Friends personality (its label and ribbon colour) with the sea's hobby, loves, dislikes and daily
+  present for that personality and people (`tools/friendship/{merfolk,prismari}.json`, `personalities`).
+- Stories: 12 per people (`stories`), each with the jobs it suits (twice as likely for them), compiled by
+  `tools/friendship/friendship.py` into `data/seafriends/friendship/`. `NarrativeEngineMixin` hands Village Friends'
+  Story tab the resident's own story; the four chapters, requests, trust and endings work as Village Friends has them.
+- Greeting: their own line (Village Friends' fixed picnic and adventure greetings never clear once earned), sometimes
+  with a memory of time spent together. Village Friends' land questions and offers aren't asked.
+- Gifts: job favourites 10, their people's treasures 8, otherwise Village Friends' emeralds, flowers and treats.
+- Time and Travel: the same outings in the sea's words (`SeaWindow`), sea food for feasts, and after travelling they
+  go home into the water, never onto dry ground. Guards keep their tridents and own armour (no Village Friends
+  chainmail, which hid the merfolk's tops).
+- Village tab: the town book (`TownBook`): townsfolk with your friendship with each, the Heart, rumours, customs.
+- `SeaWindow.adjust` rewrites every window update Village Friends sends to one of ours: job title, home, gift hint,
+  reply labels and Village Friends' fixed land sentences.
+
 ### Creatures
 - **Leafy Seadragon**: a small, slow, gentle seadragon (long tube snout, curled tail, leafy kelp-like fins).
   Lives among kelp and seagrass in warm and temperate seas and in Reef Town gardens. Bucketable.

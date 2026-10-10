@@ -1,0 +1,510 @@
+{
+ "personalities": {
+  "warmhearted": {
+   "hobby": "keeping the guest niche stocked with fresh breath-stones and something to eat",
+   "loves": ["seafriends:kelp_wrap", "minecraft:sea_lantern", "minecraft:cod"],
+   "dislikes": ["minecraft:fire_charge"],
+   "gift": "seafriends:kelp_wrap"
+  },
+  "thoughtful": {
+   "hobby": "reading the old tide records by glow-ink light",
+   "loves": ["minecraft:book", "minecraft:glow_ink_sac", "minecraft:writable_book"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:paper"
+  },
+  "playful": {
+   "hobby": "carving little prismarine guardians for the young",
+   "loves": ["minecraft:prismarine_shard", "minecraft:sea_pickle", "minecraft:glow_item_frame"],
+   "dislikes": ["minecraft:goat_horn"],
+   "gift": "minecraft:prismarine_shard"
+  },
+  "adventurous": {
+   "hobby": "watching the far ridge for lights nobody has named yet",
+   "loves": ["minecraft:spyglass", "minecraft:compass", "minecraft:nautilus_shell"],
+   "dislikes": ["minecraft:rotten_flesh"],
+   "gift": "minecraft:nautilus_shell"
+  },
+  "meticulous": {
+   "hobby": "grinding lenses until they stop lying",
+   "loves": ["minecraft:glass", "minecraft:clock", "minecraft:amethyst_shard"],
+   "dislikes": ["minecraft:torch"],
+   "gift": "minecraft:glass"
+  },
+  "steadfast": {
+   "hobby": "keeping the count of every tide, even the dull ones",
+   "loves": ["minecraft:clock", "minecraft:dried_kelp", "minecraft:prismarine_bricks"],
+   "dislikes": ["minecraft:rotten_flesh", "minecraft:goat_horn"],
+   "gift": "minecraft:cod"
+  },
+  "reserved": {
+   "hobby": "sitting the stillness by the jelly pond",
+   "loves": ["minecraft:sea_pickle", "minecraft:glow_lichen", "seafriends:tidepearl"],
+   "dislikes": ["minecraft:goat_horn"],
+   "gift": "minecraft:sea_pickle"
+  },
+  "imaginative": {
+   "hobby": "naming the colours prismarine has not settled on yet",
+   "loves": ["minecraft:prismarine_crystals", "minecraft:amethyst_shard", "minecraft:light_blue_stained_glass"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:amethyst_shard"
+  },
+  "pragmatic": {
+   "hobby": "mending cracked lamp-cages into steps and pond-rims",
+   "loves": ["minecraft:prismarine_bricks", "minecraft:dried_kelp_block", "minecraft:sponge"],
+   "dislikes": ["minecraft:fire_charge"],
+   "gift": "minecraft:dried_kelp"
+  },
+  "curious": {
+   "hobby": "asking the merfolk couriers what the sun is like",
+   "loves": ["minecraft:clock", "minecraft:map", "minecraft:book"],
+   "dislikes": ["minecraft:ink_sac"],
+   "gift": "minecraft:feather"
+  },
+  "protective": {
+   "hobby": "walking the ring of lamps at the edge of the court",
+   "loves": ["minecraft:spyglass", "minecraft:sea_lantern", "minecraft:turtle_scute"],
+   "dislikes": ["minecraft:rotten_flesh", "minecraft:torch"],
+   "gift": "minecraft:prismarine_crystals"
+  },
+  "gentle": {
+   "hobby": "carrying glowjellies between the ponds, very slowly",
+   "loves": ["minecraft:glow_ink_sac", "minecraft:sea_pickle", "seafriends:tidepearl"],
+   "dislikes": ["minecraft:goat_horn", "minecraft:fire_charge"],
+   "gift": "minecraft:glow_ink_sac"
+  }
+ },
+ "stories": [
+  {
+   "id": "pri_dark_lamp",
+   "roles": ["lightwright"],
+   "title": "The lamp that went dark",
+   "intro": "A merfolk courier brought one of my Tide Lamps back down last turning. The cage was cracked through, and the light was out. It was meant to burn in a reef garden for longer than I will live. Since then I have turned only floor bricks. Bricks do not go out. I think I would like to try a cage again. Not yet. Soon.",
+   "confide": "Every lamp in a Pact crate carries its Lightwright's mark on the base. A merfolk fry slept beside that lamp because the dark frightens them, and one night it simply stopped. I have been afraid that every lamp I make is only waiting to do the same. Then the courier told me the fry has asked for a new lamp. From the same hands. Mine. I have not known what to do with that.",
+   "encourage": "I will keep the cracked lamp on my bench, where I can see it, and turn a new one for the fry with my mark on its base. Light given is light kept. I had forgotten that the saying has two halves. Thank you for reminding my hands.",
+   "practical": "One cage, one lamp, and every face checked against the lens before I turn the next. It goes up in the next crate, with the count on the side. A Lightwright who checks is better than one who never fails. I am told there is no other kind.",
+   "gift": "seafriends:tide_lamp",
+   "requests": [
+    {
+     "id": "shards",
+     "title": "Shards for a new cage",
+     "item": "minecraft:prismarine_shard",
+     "count": 4,
+     "prompt": "Would you bring me four prismarine shards? Not for bricks. I would like to try a cage again, and I would rather not use my own stock. It remembers the last one.",
+     "thanks": "Good grain. These have never been anything yet, so they have nothing to be ashamed of. Perhaps neither have I."
+    },
+    {
+     "id": "crystals",
+     "title": "Light for the heart",
+     "item": "minecraft:prismarine_crystals",
+     "count": 3,
+     "prompt": "A lamp needs crystals at its heart. Three would do. Good crystals hum. You will not hear it, but bring them anyway.",
+     "thanks": "They are humming. Loudly, for crystals. I think they are glad to be useful. I know the feeling. I am learning it again."
+    },
+    {
+     "id": "lens",
+     "title": "A lens to check by",
+     "item": "minecraft:glass",
+     "count": 2,
+     "prompt": "Two blocks of glass, please. I will grind a lens and check each face of the new lamp before it leaves my bench. I did not check the last one twice.",
+     "thanks": "Clear glass. I will grind it until it is honest with me. Then I will listen to it, which is the harder part."
+    }
+   ]
+  },
+  {
+   "id": "pri_twelfth_colour",
+   "roles": ["lightwright"],
+   "title": "The twelfth colour",
+   "intro": "When I was learning, my teacher had me watch one block of prismarine for a whole tide without blinking. I saw eleven colours. I was told there were twelve. I have been looking for the twelfth ever since. I would like a fresh block to watch. Mine are too familiar. They stopped trying to surprise me long ago.",
+   "confide": "My teacher stopped counting before telling me the twelfth. I have always believed that left me unfinished, and that whatever I teach the young will be unfinished too. But I watched you look at my lamps, and you named a colour in them I had never once seen. Perhaps the twelfth is the colour prismarine shows only to someone else. Perhaps my teacher could not tell me because it was never theirs to see.",
+   "encourage": "I will teach the young the eleven, carefully, and leave the twelfth as a question, the way it was left to me. A question is not an unfinished thing. It is only a thing still thinking. Like prismarine.",
+   "practical": "I have written the eleven down with the Archivists, so the count is kept. One block stays on my bench for the twelfth, and anyone who sees it is to tell me. You first, I think. You have the eyes for it. Both of them.",
+   "gift": "minecraft:prismarine_crystals",
+   "requests": [
+    {
+     "id": "block",
+     "title": "A block to watch",
+     "item": "minecraft:prismarine",
+     "count": 1,
+     "prompt": "Would you bring me one block of prismarine? Plain, not bricks. I want to watch it the way I did when I was young, before I knew what I was looking for.",
+     "thanks": "Already it is changing its mind. Green, then grey-green, then something with no name. Good. Let it think. I will sit with it."
+    },
+    {
+     "id": "amethyst",
+     "title": "Something to compare",
+     "item": "minecraft:amethyst_shard",
+     "count": 3,
+     "prompt": "Three amethyst shards, if you can find them. Land stones that hold light a different way. Sometimes you only see a colour when something else is beside it.",
+     "thanks": "Violet, and steady. They do not change their minds at all. Beside them the prismarine looks restless. That is useful. Thank you."
+    },
+    {
+     "id": "spyglass",
+     "title": "A sharper eye",
+     "item": "minecraft:spyglass",
+     "count": 1,
+     "prompt": "A spyglass, please. Your kind use it to look at far things. I would like to look at a near thing very closely, and see whether it has been hiding anything.",
+     "thanks": "Through this, the block is a whole reef of colours. I counted ten before I had to rest my eye. Fewer, not more. I am delighted. I do not know why."
+    }
+   ]
+  },
+  {
+   "id": "pri_empty_niche",
+   "roles": ["spongekeeper"],
+   "title": "Room for a stranger",
+   "intro": "The spire keeps a niche of breath-stones for guests who breathe air. For many turnings nobody used it, and I kept the stones fresh anyway. Now the young ask whether draining a room is a real thing or only something we say. I would like to show them, once, properly. The stones will need a good rest first.",
+   "confide": "Nobody now living has drained a whole room for a guest. Not me, not my teacher. The Sponge Vaults did it every tide in the Long Tide, and I keep a garden. I have been afraid that I am keeping something already gone, the way the old halls keep their lamps lit for nobody. Then you stood in my garden and breathed, and did not hurry. A craft is not gone while there is someone to use it for.",
+   "encourage": "I will drain one small room in the spire and keep it dry for anyone who needs to breathe. The young may stand in it and feel the air. We were a people who made room for strangers before we were anything else. We still are.",
+   "practical": "Three stones, one sealed room, and the young watching through the glass. It took two tides to drink the room dry. Nobody cheered; we do not. But every spine in the court was down. Thank you for being the reason there was a room to drain.",
+   "gift": "minecraft:sponge",
+   "requests": [
+    {
+     "id": "kelp",
+     "title": "Kelp to wrap the stones",
+     "item": "minecraft:kelp",
+     "count": 4,
+     "prompt": "Four strands of fresh kelp, please. A breath-stone sleeps better wrapped in kelp. That is not learning; it is only kindness. They will need their rest before such work.",
+     "thanks": "Fresh. I will wrap the stones tonight. They will sleep well, and tomorrow they will be thirsty. That is exactly what I want."
+    },
+    {
+     "id": "glass",
+     "title": "A wall to see through",
+     "item": "minecraft:glass",
+     "count": 3,
+     "prompt": "Three blocks of glass. A drained room must be sealed, and I would like one wall the young can see through. A kindness should be watched, the first time.",
+     "thanks": "The young are already pressing their faces to it, and it is not even built. Good. Watching is how we learn everything."
+    },
+    {
+     "id": "sponge",
+     "title": "One more breath-stone",
+     "item": "minecraft:sponge",
+     "count": 1,
+     "prompt": "One dry sponge, if you can find one. My stones are enough for a small room. One more would make it a room for two. I do not like a guest to be alone in the air.",
+     "thanks": "A dry one. It smells of somewhere dry; I will not ask where. It will sit on the top rack, where it can see the whole garden."
+    }
+   ]
+  },
+  {
+   "id": "pri_courier",
+   "roles": ["spongekeeper"],
+   "title": "The courier's name",
+   "intro": "For most of the time I have kept this garden, one merfolk courier has carried my wet sponges up to the sun and back. This turning a different courier came, a young one. The old one has grown too slow for the climb, they said. I would like to send something up with the next sponges. Something bright, I think. I do not know what merfolk like.",
+   "confide": "I counted every sponge that courier ever carried. A great many turnings, and not one sponge missing. I never once asked their name. I said \"I see you\" every time, and I did not. The worst thing among us is to be unseen, and I did it to someone who carried our breath into the sun for me, singing, for most of their life. Merfolk lives are short beside ours. I spent a great deal of that one not looking.",
+   "encourage": "When the sponges next go up, I will go to the edge of the deep and wait for the old courier, however slowly they come. I will say their name first, and then \"I see you\". In that order, this time.",
+   "practical": "The young courier told me the name. I have tied it to the drying racks on a kelp-cord tag, beside the count. Every sponge that goes up now goes up with a name beside it. It is a small thing. Small things are what we keep.",
+   "gift": "seafriends:tidepearl",
+   "requests": [
+    {
+     "id": "pickles",
+     "title": "Something bright to send",
+     "item": "minecraft:sea_pickle",
+     "count": 2,
+     "prompt": "Two sea pickles, please. Living lights, and they do not mind travelling. Merfolk houses are dim in the evenings, I am told. A pickle on the sill might say what I have not.",
+     "thanks": "Two. Two is not lucky, but it is not lonely either. They will go up with the sponges, wrapped in kelp. I hope the courier understands. I hope I explain it."
+    },
+    {
+     "id": "paper",
+     "title": "Names to write down",
+     "item": "minecraft:paper",
+     "count": 3,
+     "prompt": "Three sheets of paper. Land paper drinks the sea, I know. I will write quickly. There are names I should have written down a long time ago.",
+     "thanks": "I have written one already. It is short. Merfolk names are short; they say them so often. I said it aloud to the sponges. It sounded right."
+    },
+    {
+     "id": "lantern",
+     "title": "A light for their house",
+     "item": "minecraft:sea_lantern",
+     "count": 1,
+     "prompt": "One sea lantern. The old courier stays at home now. Their house should have a light that needs no tending. That, at least, I know how to give.",
+     "thanks": "It goes up with the next sponges. The young courier promised to carry it carefully. Merfolk promise very loudly. I find I believe them."
+    }
+   ]
+  },
+  {
+   "id": "pri_lost_turning",
+   "roles": ["archivist"],
+   "title": "The tides I lost",
+   "intro": "Every Long Count, every book in the Archive is copied once. This time I am copying a turning I first wrote when I was young. Twenty-eight tides. I would like fresh paper for it, the best you can find. I want this copy done properly. More properly than the first time.",
+   "confide": "When I was young I carried a page of that turning across the court, and a current took it. Four tides, gone. I copied them from another court's record and told no one. They are accurate. They are not ours. Every Long Count since, that page has been copied again, and nobody has noticed. A thing written wrong becomes true by being old. I have been helping it grow old.",
+   "encourage": "I will write a note in the margin in my own hand: these four tides were lost by me and kept by another court. The next copyist will know why the hand changes. It is not a confession. It is accuracy, which is the same thing, said properly.",
+   "practical": "I took the borrowed tides to the Oldest Eye and set them beside my own. The Oldest read both pages, blinked slowly, and wrote one word in the margin: kept. No tide goes unkept. I had not understood that it did not have to be me who kept them.",
+   "gift": "minecraft:glow_ink_sac",
+   "requests": [
+    {
+     "id": "paper",
+     "title": "Fresh pages",
+     "item": "minecraft:paper",
+     "count": 3,
+     "prompt": "Three sheets of paper, please. Land paper drinks the sea, but it takes glow ink well. I will copy slowly, so the old hand and the new hand agree on every letter.",
+     "thanks": "Clean pages. I do not trust clean pages; they promise too much. But I will try to deserve these."
+    },
+    {
+     "id": "ink",
+     "title": "Ink for the dark",
+     "item": "minecraft:glow_ink_sac",
+     "count": 2,
+     "prompt": "Two glow ink sacs. The tides are always written in glow ink, so they can be read in the dark. The margins are plain ink. Something tells me I will need a margin.",
+     "thanks": "Bright ink. It will fade from my fingers within a tide. It will not fade from the page. That is the arrangement, and I am grateful for it."
+    },
+    {
+     "id": "book",
+     "title": "A new binding",
+     "item": "minecraft:book",
+     "count": 1,
+     "prompt": "One book, if you have it. The old binding has held that turning for a long time. I would like to give it a rest, and the tides a new home.",
+     "thanks": "It closes properly. The old one never did; it always fell open at the same page. You can guess which."
+    }
+   ]
+  },
+  {
+   "id": "pri_hall_name",
+   "roles": ["archivist", "oldest"],
+   "title": "A name said aloud",
+   "intro": "I have found a name in an old ledger. A hall's name, one that went into the dark with its keepers. When a lost hall's name is found, the whole court gathers at the spire to hear it said aloud. They are gathering for this one soon. I would like a lens first. One letter of it is less clear than I would like.",
+   "confide": "The third letter could be one of two. If I say it wrong, the court will say it back, and the young will learn it, and in a few Long Counts the wrong name will be true because it is old. A hall is only stone, but a name was someone's home. I have told myself it is better the name stays lost than is found wrong. That is not true. I am only afraid of being wrong in front of everyone.",
+   "encourage": "I will say it aloud at the spire, and say the doubt aloud with it: the third letter may be one of two. The Archive keeps both opinions on most things. It can keep both on this. A name with a question in it is still a name.",
+   "practical": "I checked it against two more ledgers by lamplight. One agreed with the first reading, one with the second. So I said both names at the spire, and the court said both back. Somewhere in the dark, one of them is right. Both are kept now.",
+   "gift": "minecraft:spyglass",
+   "requests": [
+    {
+     "id": "glass",
+     "title": "A lens to read by",
+     "item": "minecraft:glass",
+     "count": 2,
+     "prompt": "Two blocks of glass, please. I will grind a reading lens. The letter is small and old and has had a long time to become difficult.",
+     "thanks": "Good, clear glass. With a lens I may see what the ink meant, instead of what it became."
+    },
+    {
+     "id": "paper",
+     "title": "Clean copies",
+     "item": "minecraft:paper",
+     "count": 4,
+     "prompt": "Four sheets of paper. Before I say it aloud I want to copy the line out each way it could be read, and look at them side by side for a tide.",
+     "thanks": "Two readings, each written twice, in case one of them is me guessing. Both of them may be me guessing. That is also worth knowing."
+    },
+    {
+     "id": "lantern",
+     "title": "Light for the ledgers",
+     "item": "minecraft:sea_lantern",
+     "count": 1,
+     "prompt": "A sea lantern, if you can spare one. Old ledgers are best read in steady light, and my reading lamp has begun to have opinions.",
+     "thanks": "Steady. Not a flicker. Now, if I am wrong, at least I will be wrong in good light."
+    }
+   ]
+  },
+  {
+   "id": "pri_untested",
+   "roles": ["eyeguard"],
+   "title": "The trident I never threw",
+   "intro": "I have stood the watch for a long time. My pile of quiet-watch pebbles is very tall. I have never once thrown my trident at anything that mattered. I am drilling extra tides now, through the tide-meal. Please do not ask why. My spines will tell you anyway, eventually. They are very bad at keeping the watch's secrets.",
+   "confide": "I know the names of the first Eyeguards, who stood at the Deep Gate to see everyone out. Every one of them stood until the last of the court had passed. I say their names at every watch. And every watch I wonder whether I would stand, if the dark came to the lamps. I have never been tested. I may never be. I am afraid I am a guard only because nothing has yet asked me to be more.",
+   "encourage": "I have been weighing myself against a tide that may never come. The first Eyeguards watched every tide before the one that tested them, just as I do. The watch is where the courage is kept. I will keep it, and stop weighing it.",
+   "practical": "I asked to drill with the merfolk Wardens. They are fast and loud, and they knocked me flat twice. The third time I stood. It was a small test, not the one I feared, but now I know what my feet do when something comes at the lamps. They stay.",
+   "gift": "seafriends:tide_lamp",
+   "requests": [
+    {
+     "id": "kelp",
+     "title": "Food for long drills",
+     "item": "minecraft:dried_kelp",
+     "count": 4,
+     "prompt": "Four dried kelp, please. I have been drilling through the tide-meal. My spines know I am hungry before I do, and they tell everyone.",
+     "thanks": "Thank you. I will eat between drills, as a guard should. The dummy will be glad of the rest. It has not complained. It never does."
+    },
+    {
+     "id": "shards",
+     "title": "Spines for the dummies",
+     "item": "minecraft:prismarine_shard",
+     "count": 5,
+     "prompt": "The training dummies are worn smooth. Five prismarine shards would give them spines again. A guard should drill against something that looks as if it means it.",
+     "thanks": "Now they look as if they mean it. I struck one and my spines rose. Good. I had forgotten what a little fear feels like. It is useful."
+    },
+    {
+     "id": "lanterns",
+     "title": "Lamps for the edge",
+     "item": "minecraft:sea_lantern",
+     "count": 2,
+     "prompt": "Two sea lanterns. One of the outermost lamps has dimmed. Nothing has come near it. I would like nothing to keep coming near it.",
+     "thanks": "Both lit, at the edge, facing outward. The dark has been told again. I will watch it listen."
+    }
+   ]
+  },
+  {
+   "id": "pri_guardian",
+   "roles": ["eyeguard"],
+   "title": "The beast at the edge of sight",
+   "intro": "There is a guardian at the edge of sight, past the ridge. It has been there two tides. It does not come closer, and I do not go further. When I was young, before I was given my count, I fed a guardian cod from my own hand. Bring me a few cod, would you? I have a foolish thought I would like to try.",
+   "confide": "I found it tangled in kelp, far from any hall, smaller than my arm. I cut it free and fed it for a turning, and it followed me round the edge of the court with its spines down. Then I was told a watch-beast belongs to its hall. So I led it to the ridge, and it went. The beasts remember the Seal, not our faces. I know that. I became an Eyeguard so I could keep watching the way it went.",
+   "encourage": "I will stop hoping it remembers me. It does not need to. I remember it, and I will keep watching that way, so that if it ever looks back, someone will be there to be seen. That is enough. That is what an Eyeguard is for.",
+   "practical": "I left the cod at the outermost lamp at the falling tide. By the rising it was gone. It may have been the guardian. It may have been the current, or a hungry fish. I have recorded it as cod, taken, and decided not to know more. I will leave more next turning.",
+   "gift": "minecraft:prismarine_crystals",
+   "requests": [
+    {
+     "id": "cod",
+     "title": "What it used to eat",
+     "item": "minecraft:cod",
+     "count": 3,
+     "prompt": "Three raw cod, please. Raw, mind; your kind's habit with fire would only confuse it. I used to feed it cod. I would like to leave some at the outermost lamp.",
+     "thanks": "Fresh. I will set them out at the falling. If nothing comes, the fish will have a feast. Either way, something is fed."
+    },
+    {
+     "id": "shards",
+     "title": "A little carving",
+     "item": "minecraft:prismarine_shard",
+     "count": 4,
+     "prompt": "Four prismarine shards. The young play with little prismarine guardians. I would like to carve one with its spines down, the way mine looked. The young only ever carve them angry.",
+     "thanks": "Spines down, eye half shut. The young asked if it was broken. I told them no, it was only content. They did not believe me."
+    },
+    {
+     "id": "spyglass",
+     "title": "To see it properly",
+     "item": "minecraft:spyglass",
+     "count": 1,
+     "prompt": "A spyglass, if you can find one. I have only ever seen it as a shape. I would like to see its eye once, from here, without going a single length further.",
+     "thanks": "Old, and steady. It was not looking at the court. It was looking at the lamps. I do not know what that means. I am choosing to think it means something."
+    }
+   ]
+  },
+  {
+   "id": "pri_pact_hum",
+   "roles": ["oldest"],
+   "title": "What I heard at the Pact",
+   "intro": "I was very young when the Pact of Lanterns was sworn at the edge of the deep. My spines were still soft. The young were sent to carry the lamps, because the young carry carefully and say nothing. I have been thinking of that night again. Old things come back up, like the tide. Sit with me. And bring me some of that kelp the merfolk wrap their food in, if you would.",
+   "confide": "Every telling of the Pact says the merfolk sang and we kept silent, and both counted as an oath. I have told it so myself, to more young ones than I can count. It is not quite true. One of us hummed. Very softly, under the song, because I could not help it. It was the first song I had ever heard. Nobody noticed, or nobody said. I have kept that silence about our silence for a very long time.",
+   "encourage": "I will not change the telling. It is told as it was told to me. But tonight, after the telling, I will tell the young in my own words that one of us hummed, and the Pact held anyway. Perhaps it held a little better. A raised spine is a word unsaid. I am tired of unsaid words.",
+   "practical": "I have written it in the margin of the Pact's record, in my own hand, beside the line about the silence: one hummed. The next Oldest Eye may keep the note or strike it. That will be their choice. Writing it down was mine, and it is done.",
+   "gift": "minecraft:sea_lantern",
+   "requests": [
+    {
+     "id": "wraps",
+     "title": "Merfolk fare",
+     "item": "seafriends:kelp_wrap",
+     "count": 2,
+     "prompt": "Two kelp wraps, from the merfolk farmers. They shared them with us that night, at the edge of the deep. I have not tasted one since. I would like to know whether my memory has been honest.",
+     "thanks": "Salt, and something sweet, and far too much of both. Exactly as I remember. My memory has been honest. That is a relief, at my age."
+    },
+    {
+     "id": "conch",
+     "title": "A song to hold",
+     "item": "seafriends:conch",
+     "count": 1,
+     "prompt": "A conch, of the kind the Tide Singers carry. I will not play it. I could not. I would only like to hold the thing that kind of song comes out of, for a while.",
+     "thanks": "Heavier than I thought. Songs must be. I held it to my spines and heard only the sea. The song is somewhere else now. Somewhere good, I think."
+    },
+    {
+     "id": "lamp",
+     "title": "A lamp for the edge",
+     "item": "seafriends:tide_lamp",
+     "count": 1,
+     "prompt": "One Tide Lamp. I would like it set at the edge of the deep, where the Pact was sworn, facing up toward the reef. Nobody will know why it is there. I will.",
+     "thanks": "It burns. The merfolk can see it from the reef, they tell me. They will soon claim it is the first lamp of the Pact. Let them."
+    }
+   ]
+  },
+  {
+   "id": "pri_young_sun",
+   "roles": [],
+   "title": "A young one who asks about the sun",
+   "intro": "There is a young one in the court who used to ask me about the sun every tide. What colour, how warm, whether it blinks. I told them we do not go up, and my spines rose when I said it. They have not asked me anything since. I would like to bring them something from above. A small thing. Something that has lived near the sun.",
+   "confide": "When I was young I asked about the sun too. I was told we do not go up, and I stopped asking. In time I stopped wanting to. I have been calling that wisdom. Watching you, who come down from the sun as if it were nothing, I think it was only forgetting. I do not want to teach them safety by teaching them to stop wanting. That is not the stillness. That is only being still.",
+   "encourage": "I will tell the young one I was wrong to raise my spines. They may ask me about the sun every tide, and when I do not know, we will ask the merfolk together. Wanting a thing you cannot reach is not foolish. It is only far.",
+   "practical": "I asked the merfolk couriers to bring down a sponge dried in the sun, still warm from it. The young one held it for a whole tide and said it smelled of somewhere loud. Then they asked me nine questions. I answered three. We are going to the couriers for the rest.",
+   "gift": "minecraft:sponge",
+   "requests": [
+    {
+     "id": "feather",
+     "title": "Something from above",
+     "item": "minecraft:feather",
+     "count": 1,
+     "prompt": "Would you bring a feather? The young one has never seen a thing that grew in the air. I would like to show them there are creatures who live in the sky the way we live in the deep.",
+     "thanks": "So light. It does not sink properly; it wanders. The young one will love it. I am afraid I love it a little too."
+    },
+    {
+     "id": "clock",
+     "title": "The sun in a box",
+     "item": "minecraft:clock",
+     "count": 1,
+     "prompt": "A clock. I am told your kind carry the sun's place in a little round case, and that it works even down here. If that is true, it is the most wonderful thing I have heard this Long Count.",
+     "thanks": "It turns. The sun is there on its face, sinking. Even in the deep, it knows where the sun is. The young one and I watched it for a tide. Neither of us blinked."
+    },
+    {
+     "id": "sunflower",
+     "title": "A flower that follows it",
+     "item": "minecraft:sunflower",
+     "count": 1,
+     "prompt": "The merfolk say there is a land flower that turns its face to follow the sun all day. If it is real, I would like the young one to meet something that looks at the sun the way we look at the deep.",
+     "thanks": "It is looking for the sun even now, I think. Down here it cannot find it. The young one says it is practising the stillness. Perhaps it is."
+    }
+   ]
+  },
+  {
+   "id": "pri_first_two_eyes",
+   "roles": [],
+   "title": "The first Two-Eyes",
+   "intro": "You are not the first Two-Eyes I have known. When I was young, another came down to the court. A diver, very loud, with a land thing in a little box that always pointed the same way. They came for a few of your summers, and then they stopped coming. Take the tide-meal with me, would you? I would like to tell you about them, slowly.",
+   "confide": "I never learned what became of them. Your kind live half as long as we do, and spend it twice as fast. When you first swam in, my spines rose, and it was not for fear of you. It was for fear of this: that I would let you close, and then go on counting your tides after you had stopped. The dead are counted. The unseen are only missing. I kept that diver in my count. They were never missing to me.",
+   "encourage": "So I will let you close, and count you, and be glad of it for as long as I am counting. Whatever comes after, you will not be unseen. That is a promise our kind can keep. We are very good at keeping things.",
+   "practical": "I took the diver's name to the Archive and had it written into the record of my count, with yours beside it. Two Two-Eyes, one page. Whatever else happens, you are in the same book now. I think they would have liked you. They were loud too.",
+   "gift": "seafriends:tidepearl",
+   "requests": [
+    {
+     "id": "cod",
+     "title": "A tide-meal for two",
+     "item": "minecraft:cod",
+     "count": 2,
+     "prompt": "Bring two raw cod, and we will take the tide-meal together. Raw, please. I know your kind prefer to argue with your food over a fire first.",
+     "thanks": "Raw and cold, as it should be. Sit. Eat slowly. The diver never could. They said the deep made them hungry. I think it was only the talking."
+    },
+    {
+     "id": "compass",
+     "title": "A needle that points home",
+     "item": "minecraft:compass",
+     "count": 1,
+     "prompt": "A compass, like the one the diver carried. They told me it pointed home. I never asked whose home. I would like to see which way yours points.",
+     "thanks": "It points up and away, toward the land somewhere. So that is home, for your kind. Very far. You come a long way to sit with me. I see that."
+    },
+    {
+     "id": "paper",
+     "title": "Two names to write",
+     "item": "minecraft:paper",
+     "count": 2,
+     "prompt": "Two sheets of paper. There are two names I would like written down in my own hand before the Archive writes them in theirs. Mine is the less tidy hand. It is the fonder one.",
+     "thanks": "Both written. One very old, one very new. The ink on the old name is shakier. That is my hand, not the name. The name is perfectly steady."
+    }
+   ]
+  },
+  {
+   "id": "pri_far_hall",
+   "roles": [],
+   "title": "The hall I saw from the ridge",
+   "intro": "When I was young I swam past the last lamp, which is forbidden, and up onto the far ridge, which is more forbidden. From there I saw one of the old halls, lit, far off at the edge of the dark. I went home and said nothing. I would like to build something now. Will you bring me shards? I will explain in time. My spines will try to explain first.",
+   "confide": "I have been homesick for that hall all my life. A place I never lived in, built by people I never knew, left for a reason I am not allowed to read. It feels foolish to miss it, and worse than foolish: the court left it, and missing it feels like taking the wrong side. But you miss the land, I think, and you are still here, and still kind. Perhaps a person can miss a place without wishing to go back to it.",
+   "encourage": "I will build one corner of my house in the old way: bricks, a dark floor, a lamp facing outward. Not a hall. A remembering. No tide goes unkept, and I think no hall should go unmissed. Someone ought to miss them. I will.",
+   "practical": "One wall of prismarine bricks, the way the halls were built, with one lamp set in it facing the dark. I finished it at the falling tide. It is small and rather crooked. I sat in front of it until the rising, and felt, for once, that I had been somewhere.",
+   "gift": "minecraft:sea_lantern",
+   "requests": [
+    {
+     "id": "shards",
+     "title": "Shards for a wall",
+     "item": "minecraft:prismarine_shard",
+     "count": 4,
+     "prompt": "Four prismarine shards, please. I would like to try building something in the old way. I am no Lightwright. The shards will forgive me, I hope; they have seen worse.",
+     "thanks": "These have the right grain. Green, then grey, then thinking. Like the hall was, from far off. I will begin small."
+    },
+    {
+     "id": "bricks",
+     "title": "Bricks in the old way",
+     "item": "minecraft:prismarine_bricks",
+     "count": 4,
+     "prompt": "Four prismarine bricks. The halls were built of them, every wall and every pillar. I would like my wall built the way theirs were, even if nothing else about it is.",
+     "thanks": "Heavy, and square, and old in a way new things should not be able to be. I set the first one and my spines rose. Gladness, I think."
+    },
+    {
+     "id": "floor",
+     "title": "A floor that remembers",
+     "item": "minecraft:dark_prismarine",
+     "count": 2,
+     "prompt": "Two blocks of dark prismarine, for the floor. Plain prismarine soaked in ink until it forgets it was ever green. The halls had floors like that, I am told. I would like to stand on one.",
+     "thanks": "Dark, and smooth, and cold. I stood on it with my eye shut and my spines down. For a moment, I was somewhere else."
+    }
+   ]
+  }
+ ]
+}

@@ -106,11 +106,48 @@ public final class FolkTalk {
         }
 
         var bond = VillageFriends.bond(v, p);
+        // The first good chat once you're friendly: they tell you about themselves (hobby, loves, dislikes, values).
+        if (topic.equals("chat") && !v.isBaby() && !bond.has("preferences") && VillageFriends.state(v, p).points() >= 15) {
+            VillageFriends.saveBond(v, p, bond.flag("preferences"));
+            return preferences(v, role);
+        }
         Set<String> recent = new HashSet<>(bond.recentLines());
         TalkBank.Line line = bank.pick(moment, fill, recent, RANDOM);
         if (line == null) return null;
         VillageFriends.saveBond(v, p, VillageFriends.bond(v, p).line(line.id()));
         return line.text();
+    }
+
+    /** Telling a friend about themselves. */
+    static String preferences(Villager v, Role role) {
+        var profile = VillageFriends.profile(v);
+        String love = VillageFriends.itemName(profile.love()), dislike = VillageFriends.itemName(profile.dislike());
+        return role.merfolk()
+                ? "You asked about me! Nobody asks the " + role.title().toLowerCase(java.util.Locale.ROOT) + ". I spend a lot of time "
+                        + profile.hobby() + ". I'm soft on " + love + ", but " + dislike + "? Keep it. What I care about most is " + profile.value() + "."
+                : "You ask about me. Good. I spend much of my time " + profile.hobby() + ". I value " + love + ". " + capital(dislike)
+                        + " I do not care for. Above all things I care for " + profile.value() + ".";
+    }
+    private static String capital(String s) { return s.isEmpty() ? s : Character.toUpperCase(s.charAt(0)) + s.substring(1); }
+
+    /**
+     * Their greeting (for Village Friends' window): their own line, now and then followed by something you did
+     * together that they still think about.
+     */
+    public static String greeting(Villager v, ServerPlayer p) {
+        String line = line(v, p, "greet");
+        var resident = Residents.of(v);
+        if (line == null || resident == null || resident.kind() == null) return line;
+        var b = VillageFriends.bond(v, p);
+        boolean mer = resident.kind().merfolk();
+        var memories = new java.util.ArrayList<String>();
+        if (b.has("activity:walk")) memories.add(mer ? "I still think about our swim." : "I remember our swim. It was a good one.");
+        if (b.has("activity:picnic")) memories.add(mer ? "That feast we shared was the best since the Long Cut." : "The meal we shared stays with me.");
+        if (b.has("activity:explore")) memories.add(mer ? "Exploring the reef with you was the best fun I've had in a tide." : "Our journey into the deep is in my count of good days.");
+        if (b.has("activity:gathering")) memories.add(mer ? "The neighbours still talk about our gathering at the Heart." : "The court still speaks of our gathering at the spire.");
+        if (b.has("adventure_return")) memories.add(mer ? "It's good to see you safe. I still think about our swim out into the open sea." : "It is good to see you safe. I still count our journey together.");
+        if (memories.isEmpty() || RANDOM.nextInt(4) != 0) return line;
+        return line + " " + memories.get(RANDOM.nextInt(memories.size()));
     }
 
     /** What kind of thing the player holds, as our lines know it ("" for nothing they'd remark on). */

@@ -86,6 +86,8 @@ import net.minecraft.world.phys.shapes.CollisionContext;
  *   <li>{@code Seal}: a guardian never targets a player carrying the Monument Seal (and does without it), and an
  *       elder guardian's curse passes the seal-bearer by.</li>
  *   <li>{@code Creatures}: a leafy seadragon and a glowjelly, alive in the water.</li>
+ *   <li>{@code Friends}: a merfolk and a Prismari befriended tab by tab in Village Friends' window: their sea
+ *       profile, own story (request delivered), journal, a treasured gift, a swim together, the town book.</li>
  *   <li>{@code Wardrobe}: all forty merfolk tops on real merfolk, each in its own top, the bare tail bottom and a sea
  *       palette; front and back screenshots, ten to a page.</li>
  * </ul>
@@ -150,6 +152,7 @@ public class SeaClientTest implements FabricClientGameTest {
                     && !id.equals("java") && !id.equals("minecraft") && !id.equals("mixinextras")).sorted().toList());
             if (wanted("gallery")) gallery(ctx, w);
             if (wanted("wardrobe")) wardrobe(ctx, w);
+            if (wanted("friends")) friends(ctx, w);
             if (wanted("jelly")) jelly(ctx, w);
             if (wanted("reef")) village(ctx, w, "reef_town", catalog.getAsJsonObject("reef_town"));
             if (wanted("court")) village(ctx, w, "prism_court", catalog.getAsJsonObject("prism_court"));
@@ -334,7 +337,17 @@ public class SeaClientTest implements FabricClientGameTest {
             return f;
         });
         ctx.waitTicks(20);
-        BlockPos goal = at.offset(12, 0, 0);
+        // somewhere twelve blocks off that is open water too (the seabed may rise toward the reef)
+        BlockPos goal = onServer(w, level -> {
+            for (int[] d : new int[][]{{12, 0}, {-12, 0}, {0, 12}, {0, -12}, {9, 9}, {-9, -9}, {9, -9}, {-9, 9}})
+                for (int dy = 0; dy <= 3; dy++) {
+                    BlockPos g = at.offset(d[0], dy, d[1]);
+                    if (level.getFluidState(g).is(FluidTags.WATER) && level.getFluidState(g.above()).is(FluidTags.WATER)
+                            && level.getFluidState(g.below()).is(FluidTags.WATER)) return g;
+                }
+            return at.offset(12, 0, 0);
+        });
+        this.report.put("swim_goal", at.toShortString() + " -> " + goal.toShortString());
         w.getServer().runOnServer(s -> m.getBrain().setMemory(MemoryModuleType.WALK_TARGET, new WalkTarget(goal, 0.6F, 1)));
         look(ctx, w, Vec3.atCenterOf(at).add(5, 1.5, -7), Vec3.atCenterOf(at).add(5, 0, 0), 30);
         shoot(ctx, "sea-swim-1");
@@ -352,6 +365,8 @@ public class SeaClientTest implements FabricClientGameTest {
         SeaFriends.LOG.info("[sea test] swim probes: {} | {}", probe, probe2);
         ctx.waitTicks(140);
         double moved = onServer(w, level -> m.position().distanceTo(Vec3.atCenterOf(at)));
+        double left = onServer(w, level -> m.position().distanceTo(Vec3.atCenterOf(goal)));
+        this.report.put("swim_left", String.format(Locale.ROOT, "%.1f blocks from the goal", left));
         boolean wet = onServer(w, level -> m.isInWater() && level.getFluidState(m.blockPosition()).is(FluidTags.WATER));
         this.report.put("swim", "moved " + String.format(Locale.ROOT, "%.1f", moved) + " blocks, in water " + wet + ", health " + m.getHealth());
         check(moved > 5, "a merfolk swims where it's sent (moved " + moved + ")");
@@ -555,6 +570,148 @@ public class SeaClientTest implements FabricClientGameTest {
         this.report.put("wardrobe", dressed);
     }
 
+    /**
+     * Friendship with a merfolk and a Prismari, tab by tab, through Village Friends' own actions: their sea profile,
+     * greeting, the Story tab (their own story: intro, the first request delivered, chapter two), the journal, about
+     * and story notes, a gift they treasure, the Time tab in the sea's words (a swim started and finished, remembered
+     * in the journal), the Village tab's town book and the moment they tell you about themselves. Screenshots of the
+     * window on each tab.
+     */
+    void friends(ClientGameTestContext ctx, TestSingleplayerContext w) {
+        BlockPos o = onServer(w, level -> player(w).blockPosition().above(30));
+        w.getServer().runCommand(String.format(Locale.ROOT, "fill %d %d %d %d %d %d minecraft:light_blue_stained_glass hollow", o.getX() - 6, o.getY() - 1, o.getZ() - 8, o.getX() + 46, o.getY() + 8, o.getZ() + 8));
+        w.getServer().runCommand(String.format(Locale.ROOT, "fill %d %d %d %d %d %d minecraft:sand", o.getX() - 5, o.getY() - 1, o.getZ() - 7, o.getX() + 45, o.getY() - 1, o.getZ() + 7));
+        w.getServer().runCommand(String.format(Locale.ROOT, "fill %d %d %d %d %d %d minecraft:water", o.getX() - 5, o.getY(), o.getZ() - 7, o.getX() + 45, o.getY() + 7, o.getZ() + 7));
+        ctx.waitTicks(20);
+        var all = new LinkedHashMap<String, Object>();
+        for (String who : List.of("diver", "lightwright")) {
+            int dx = who.equals("diver") ? 4 : 34;
+            Vec3 spot = new Vec3(o.getX() + dx + .5, o.getY() + 2, o.getZ() + .5);
+            look(ctx, w, spot.add(0, 0.4, -3.2), spot, 20);   // be there first, so they settle in loaded, ticking chunks
+            int id = onServer(w, level -> {
+                var type = who.equals("diver") ? SeaEntities.MERFOLK : SeaEntities.PRISMARI;
+                var v = type.create(level, EntitySpawnReason.SPAWN_ITEM_USE);
+                v.addTag(dev.seafriends.resident.Role.TAG + who);
+                v.snapTo(spot.x, spot.y - 1, spot.z, 180F, 0F);
+                v.setYHeadRot(180F);
+                level.addFreshEntity(v);
+                return v.getId();
+            });
+            ctx.waitTicks(20);
+            var facts = new LinkedHashMap<String, Object>();
+            onServer(w, level -> {
+                var v = (net.minecraft.world.entity.npc.villager.Villager) level.getEntity(id);
+                var p = player(w);
+                var role = dev.seafriends.friend.SeaFriendship.role(v);
+                check(role != null, who + " settled as a sea resident");
+                v.setNoAi(true);
+                var profile = VillageFriends.profile(v);
+                var story = dev.seafriends.friend.SeaFriendship.arc(v);
+                check(story != null && profile.story().startsWith(role.merfolk() ? "mer_" : "pri_"), who + " has one of their people's stories, not " + profile.story());
+                facts.put("profile", profile.personality() + " / " + profile.hobby() + " / loves " + profile.love() + " / dislikes " + profile.dislike() + " / story " + profile.story());
+                java.util.function.Function<String, dev.villagefriends.FriendshipPayload> act = a -> {
+                    dev.seafriends.friend.SeaWindow.last = null;
+                    VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), a));
+                    var sent = dev.seafriends.friend.SeaWindow.last;
+                    check(sent != null, who + ": the window answered " + a);
+                    return sent;
+                };
+                var greet = act.apply("talk_tab");
+                check(greet.profession().equals(role.title()), who + "'s window names their job " + role.title() + ", not " + greet.profession());
+                check(!greet.home().isEmpty() && greet.giftHint().contains(role.merfolk() ? "Merfolk treasure" : "Prismari prize"), who + ": sea home and gift hint");
+                facts.put("greeting", greet.dialogue());
+                var intro = act.apply("story");
+                check(intro.dialogue().equals(story.intro()), who + ": the Story tab tells their own story");
+                facts.put("story", story.title() + ": " + story.intro());
+                var asked = act.apply("listen");
+                var first = story.requests().getFirst();
+                check(asked.dialogue().equals(first.prompt()), who + ": the first request is asked");
+                var item = net.minecraft.core.registries.BuiltInRegistries.ITEM.getValue(net.minecraft.resources.Identifier.parse(first.item()));
+                p.setItemInHand(net.minecraft.world.InteractionHand.MAIN_HAND, new net.minecraft.world.item.ItemStack(item, first.count()));
+                int before = VillageFriends.state(v, p).points();
+                var thanks = act.apply("deliver");
+                check(thanks.dialogue().equals(first.thanks()) && VillageFriends.bond(v, p).chapter() == 2, who + ": the request is delivered and the story moves on");
+                check(VillageFriends.state(v, p).points() >= before + 20, who + ": +20 friendship for the delivery");
+                facts.put("delivered", first.count() + " " + first.item() + " -> " + thanks.dialogue());
+                var journal = act.apply("journal");
+                check(journal.dialogue().contains(first.title().toLowerCase(Locale.ROOT)), who + ": the journal remembers the help");
+                var about = act.apply("about");
+                check(about.dialogue().contains(profile.hobby()) && about.dialogue().contains("Lives at"), who + ": About shows their sea hobby and home");
+                check(act.apply("story_notes").dialogue().contains(story.title()), who + ": story notes");
+                // A gift they treasure.
+                String gift = role.merfolk() ? "seafriends:tidepearl" : "minecraft:prismarine_crystals";
+                p.setItemInHand(net.minecraft.world.InteractionHand.MAIN_HAND, new net.minecraft.world.item.ItemStack(
+                        net.minecraft.core.registries.BuiltInRegistries.ITEM.getValue(net.minecraft.resources.Identifier.parse(gift))));
+                before = VillageFriends.state(v, p).points();
+                var thanked = act.apply("gift");
+                int gained = VillageFriends.state(v, p).points() - before;
+                check(gained >= 8, who + ": a treasured gift is welcome (+" + gained + ")");
+                facts.put("gift", gift + " +" + gained + ": " + thanked.dialogue());
+                // Time together, in the sea's words.
+                var together = act.apply("together");
+                check(!together.dialogue().contains("picnic") && !together.dialogue().contains("bread"), who + ": Time is offered in the sea's words: " + together.dialogue());
+                check(together.choices().stream().anyMatch(c -> c.id().equals("walk") && c.label().startsWith(role.merfolk() ? "Go for a swim" : "Swim together")), who + ": a swim, not a walk");
+                facts.put("together", together.dialogue() + " | " + together.choices().stream().map(c -> c.label()).toList());
+                var swim = act.apply("walk");
+                check(swim.dialogue().contains("swim"), who + ": the swim begins: " + swim.dialogue());
+                return null;
+            });
+            // Swim ten blocks away together, wait, and finish.
+            look(ctx, w, spot.add(dx < 20 ? 10 : -10, 0.4, 0), spot, 20);
+            ctx.waitTicks(320);
+            onServer(w, level -> {
+                var v = (net.minecraft.world.entity.npc.villager.Villager) level.getEntity(id);
+                var p = player(w);
+                facts.put("swam to", String.format(Locale.ROOT, "%.1f blocks from the player, in water: %s", v.distanceTo(p), v.isInWater()));
+                return null;
+            });
+            onServer(w, level -> {
+                var v = (net.minecraft.world.entity.npc.villager.Villager) level.getEntity(id);
+                var p = player(w);
+                var role = dev.seafriends.friend.SeaFriendship.role(v);
+                dev.seafriends.friend.SeaWindow.last = null;
+                VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), "finish_activity"));
+                var done = dev.seafriends.friend.SeaWindow.last;
+                facts.put("swim", done == null ? "no answer" : done.dialogue());
+                check(VillageFriends.bond(v, p).has("activity:walk"), who + ": the swim is finished and remembered");
+                dev.seafriends.friend.SeaWindow.last = null;
+                VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), "journal"));
+                var journal = dev.seafriends.friend.SeaWindow.last;
+                check(journal != null && journal.dialogue().contains(role.merfolk() ? "We went for a swim together." : "We swam a little way together."), who + ": the journal remembers the swim in the sea's words");
+                dev.seafriends.friend.SeaWindow.last = null;
+                VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), "ledger"));
+                var book = dev.seafriends.friend.SeaWindow.last;
+                check(book != null && book.dialogue().contains("CUSTOMS") && book.dialogue().contains(role.merfolk() ? "Fair currents" : "I see you"), who + ": the Village tab opens their town book");
+                facts.put("town book", book.dialogue());
+                dev.seafriends.friend.SeaWindow.last = null;
+                VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), "chat"));
+                var chat = dev.seafriends.friend.SeaWindow.last;
+                check(chat != null && chat.dialogue().contains(VillageFriends.profile(v).hobby()), who + ": once friendly, they tell you about themselves: " + (chat == null ? "" : chat.dialogue()));
+                facts.put("about themselves", chat.dialogue());
+                v.setNoAi(true);
+                return null;
+            });
+            // The window itself, on each tab.
+            int n = who.equals("diver") ? 1 : 2;
+            Vec3 at = onServer(w, level -> level.getEntity(id).position().add(0, 1.4, 0));
+            look(ctx, w, at.add(0, 0.2, -3.0), at, 20);
+            for (String tab : List.of("talk_tab", "story", "together", "ledger")) {
+                onServer(w, level -> {
+                    var v = (net.minecraft.world.entity.npc.villager.Villager) level.getEntity(id);
+                    var p = player(w);
+                    if (tab.equals("talk_tab")) VillageFriends.show(p, v, "talk", dev.villagefriends.NarrativeEngine.greeting(v, p), "Fair currents", true);
+                    else VillageFriends.handleAction(p, new dev.villagefriends.ActionPayload(v.getId(), v.getUUID(), tab));
+                    return null;
+                });
+                ctx.waitTicks(60);
+                shoot(ctx, "sea-friends-" + n + "-" + who + "-" + tab);
+            }
+            ctx.runOnClient(client -> { if (client.gui.screen() != null) client.gui.screen().onClose(); });
+            all.put(who, facts);
+        }
+        this.report.put("friends", all);
+    }
+
     /** A glowjelly and a seadragon in open air beside the same pair in water (to compare how they're lit). */
     void jelly(ClientGameTestContext ctx, TestSingleplayerContext w) {
         BlockPos o = onServer(w, level -> player(w).blockPosition().above(40));
@@ -638,7 +795,13 @@ public class SeaClientTest implements FabricClientGameTest {
         float yaw = (float) Math.toDegrees(Math.atan2(-dx, dz));
         float pitch = (float) -Math.toDegrees(Math.atan2(dy, Math.sqrt(dx * dx + dz * dz)));
         w.getServer().runCommand(String.format(Locale.ROOT, "tp @a %.2f %.2f %.2f %.1f %.1f", eye.x, eye.y - 1.62, eye.z, yaw, pitch));
-        fly(w);   // a camera in open air would otherwise fall while it waits
+        // A camera in open air would otherwise fall while it waits (never changes the game mode: the seal test
+        // needs a survival player).
+        onServer(w, level -> {
+            ServerPlayer p = player(w);
+            if (p.getAbilities().mayfly && !p.getAbilities().flying) { p.getAbilities().flying = true; p.onUpdateAbilities(); }
+            return null;
+        });
         ctx.waitTicks(ticks);
         settle(ctx, w);
         ctx.waitTicks(10);

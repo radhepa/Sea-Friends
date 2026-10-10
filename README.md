@@ -24,6 +24,21 @@ the Eye Spire. Jobs: Lightwrights (prismarine, sea lanterns, Tide Lamps), Sponge
 Archivists (enchanted books), Eyeguards, and the Oldest Eye, who gives a trusted friend the **Monument Seal**:
 carry it, and guardians and elder guardians leave you be.
 
+## Friendship
+Both peoples use Village Friends' conversation window, and every tab speaks for the sea:
+- **Talk**: their own lines on every topic (news and "anyone special" unlock with friendship as usual); once you're
+  friendly they tell you about themselves; now and then they greet you remembering something you did together.
+- **Story**: 24 personal stories of their own (12 merfolk, 12 Prismari, some written for a job), each in four
+  chapters with three favours to fetch and a gift at the end.
+- **Journal**: shared memories, about them (their sea hobby, loves and dislikes, their town) and story notes.
+- **Time**: go for a swim, share a sea feast (fish, dried kelp, kelp wraps or a treat from the dry), explore the reef
+  or the deep, or gather at the Heart.
+- **Travel**: they swim with you through the sea (not onto the dry), and go home into the water afterwards.
+- **Gift**: merfolk treasure pearls, shells, sea food and curiosities from the dry; the Prismari, things that shine
+  or see. Each job has its favourites; a best friend slips you a sea present each day.
+- **Village**: the town book of their Reef Town or Prism Court: who lives there and how well you know them, whether
+  the Heart is humming, the talk of the town and its customs.
+
 ## Creatures and things
 - **Leafy Seadragon** (warm seas, Reef Town gardens) and **Glowjelly** (deep oceans, Prism Court ponds), both
   bucketable.
@@ -43,4 +58,5 @@ the Monument Seal, default 3).
 ## Building
 `build.ps1` (or `gradlew build`). Villages: `python tools/villages/build.py`; dialogue: `python tools/talk/talk.py`;
 models: `python tools/models/build_all.py`; block and item art: `python tools/art/blocks.py`; merfolk clothes:
-`python tools/wardrobe/merwear.py` (previews: `tools/wardrobe/merpreview.py`). See DESIGN.md.
+`python tools/wardrobe/merwear.py` (previews: `tools/wardrobe/merpreview.py`); stories and tastes:
+`python tools/friendship/friendship.py`. See DESIGN.md.

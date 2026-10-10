@@ -49,6 +49,24 @@ public enum Role {
     public boolean child() { return this == CHILD || this == YOUNG; }
     public boolean guard() { return this == WARDEN || this == EYEGUARD; }
     public String dwellerRole() { return DWELLER_PREFIX + this.id; }
+    /** Their job's name, as the conversation window shows it under their name. */
+    public String title() {
+        return switch (this) {
+            case DIVER -> "Pearl Diver";
+            case FARMER -> "Kelp Farmer";
+            case SHELLWRIGHT -> "Shellwright";
+            case SINGER -> "Tide Singer";
+            case WARDEN -> "Reef Warden";
+            case ELDER -> "Elder of the Reef";
+            case CHILD -> "Fry";
+            case LIGHTWRIGHT -> "Lightwright";
+            case SPONGEKEEPER -> "Spongekeeper";
+            case ARCHIVIST -> "Archivist";
+            case EYEGUARD -> "Eyeguard";
+            case OLDEST -> "Oldest Eye";
+            case YOUNG -> "Young One";
+        };
+    }
     /** The village kind a role lives in when the structure can't be found (a resident spawned by hand). */
     public String village() { return this.merfolk ? "reef_town" : "prism_court"; }
 

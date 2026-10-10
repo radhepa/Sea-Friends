@@ -101,8 +101,11 @@ public final class Residents {
         String place = Places.name(village, seed);
         var profile = VillageFriends.profile(v);
         String recipe = profile.look();
-        VillageFriends.target(v).setAttached(VillageFriends.PROFILE,
-                ResidentProfile.withPersonality(profile, role.personality(seed ^ v.getUUID().getLeastSignificantBits()), recipe));
+        // A Village Friends personality with the sea's hobby, loves and dislikes, and one of their people's stories.
+        String personality = role.personality(seed ^ v.getUUID().getLeastSignificantBits());
+        VillageFriends.target(v).setAttached(VillageFriends.PROFILE, dev.seafriends.friend.SeaFriendship.loaded()
+                ? dev.seafriends.friend.SeaFriendship.profile(v, role, personality, profile)
+                : ResidentProfile.withPersonality(profile, personality, recipe));
         String name = role.merfolk() ? ResidentNames.name(v.getUUID(), recipe) : Places.prismariName(v.getUUID());
         VillageFriends.target(v).setAttached(Homesteads.DWELLER,
                 new Dwelling.Dweller(role.dwellerRole(), name, place, dwelling, middle.getX(), middle.getY(), middle.getZ()));
@@ -114,6 +117,9 @@ public final class Residents {
         if (v instanceof Merfolk m) m.setTail(own < 3 ? family : own < 6 ? family / 7 : own);
         if (v instanceof Prismari p) p.setEye(own < 4 ? family : own < 6 ? family / 5 : own);
         VillageFriends.target(v).setAttached(RESIDENT, new Resident(role.id(), village, "", "", ""));
+        // Village Friends would dress its guards in chainmail and iron; the sea's guards wear their own (merfolk
+        // armour tops, Prismari spines) and carry tridents.
+        if (role.guard()) VillageFriends.target(v).setAttached(VillageFriends.GUARD_EQUIPPED, true);
         gear(v, role);
         LOADED.put(v.getUUID(), v);
         VillageFriends.ensureIdentity(v);
@@ -139,6 +145,16 @@ public final class Residents {
     }
 
     public static void unloaded(Villager v) { LOADED.remove(v.getUUID()); }
+
+    /** Everyone loaded who lives in the same town (its dwelling id), the given resident included. */
+    public static List<Villager> townsfolk(String dwelling) {
+        List<Villager> out = new ArrayList<>();
+        for (Villager v : LOADED.values()) {
+            var d = Homesteads.dweller(v);
+            if (!v.isRemoved() && v.isAlive() && d != null && d.dwelling().equals(dwelling)) out.add(v);
+        }
+        return out;
+    }
 
     public static void clear() { LOADED.clear(); RUMORS.clear(); }
 

@@ -4,10 +4,16 @@
 	"package": "dev.seafriends.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
+		"CompanionControllerMixin",
 		"ElderCurseMixin",
+		"GiftPreferencesMixin",
 		"GuardianTargetMixin",
+		"HearthVillageMixin",
 		"HomesteadsMixin",
-		"TalkWorldMixin"
+		"NarrativeEngineMixin",
+		"TalkWorldMixin",
+		"VillageFriendsMixin",
+		"VillageLedgerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

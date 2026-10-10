@@ -42,6 +42,7 @@ public final class SeaFriends implements ModInitializer {
         Residents.register();
         MonumentSeal.register();
         FolkTalk.register();
+        dev.seafriends.friend.SeaFriendship.register();
 
         // Settle our residents before Village Friends looks at a newly loaded villager, so it never tries to put
         // them in a land village.

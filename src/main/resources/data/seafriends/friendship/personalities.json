@@ -1,0 +1,299 @@
+{
+ "version": 1,
+ "peoples": {
+  "merfolk": {
+   "warmhearted": {
+    "hobby": "rolling kelp wraps for anyone who looks hungry",
+    "loves": [
+     "seafriends:kelp_wrap",
+     "minecraft:honey_bottle",
+     "minecraft:apple"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh"
+    ],
+    "gift": "seafriends:kelp_wrap"
+   },
+   "thoughtful": {
+    "hobby": "reading old bottle letters by pickle light",
+    "loves": [
+     "minecraft:book",
+     "minecraft:paper",
+     "minecraft:glass_bottle"
+    ],
+    "dislikes": [
+     "minecraft:fire_charge"
+    ],
+    "gift": "minecraft:paper"
+   },
+   "playful": {
+    "hobby": "racing nautili round the reef",
+    "loves": [
+     "minecraft:cookie",
+     "minecraft:tropical_fish",
+     "minecraft:slime_ball"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:tropical_fish"
+   },
+   "adventurous": {
+    "hobby": "swimming out to the shelf to peer into the deep",
+    "loves": [
+     "minecraft:nautilus_shell",
+     "minecraft:spyglass",
+     "minecraft:compass"
+    ],
+    "dislikes": [
+     "minecraft:sponge"
+    ],
+    "gift": "minecraft:prismarine_crystals"
+   },
+   "meticulous": {
+    "hobby": "sorting shells by the turn of their spirals",
+    "loves": [
+     "minecraft:clock",
+     "minecraft:prismarine_crystals",
+     "minecraft:white_candle"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:prismarine_shard"
+   },
+   "steadfast": {
+    "hobby": "sweeping the sand off the shrine steps",
+    "loves": [
+     "minecraft:sea_pickle",
+     "minecraft:bread",
+     "seafriends:tide_lamp"
+    ],
+    "dislikes": [
+     "minecraft:fire_charge"
+    ],
+    "gift": "minecraft:sea_pickle"
+   },
+   "reserved": {
+    "hobby": "listening to the current from the far kelp rows",
+    "loves": [
+     "minecraft:candle",
+     "minecraft:dried_kelp"
+    ],
+    "dislikes": [
+     "minecraft:pufferfish"
+    ],
+    "gift": "minecraft:dried_kelp"
+   },
+   "imaginative": {
+    "hobby": "drawing maps of the dry from bottle letters",
+    "loves": [
+     "minecraft:feather",
+     "minecraft:glow_ink_sac",
+     "minecraft:map"
+    ],
+    "dislikes": [
+     "minecraft:sponge"
+    ],
+    "gift": "minecraft:glow_ink_sac"
+   },
+   "pragmatic": {
+    "hobby": "mending kelp nets and arguing about knots",
+    "loves": [
+     "minecraft:string",
+     "minecraft:cod",
+     "minecraft:iron_ingot"
+    ],
+    "dislikes": [
+     "minecraft:pufferfish"
+    ],
+    "gift": "minecraft:cod"
+   },
+   "curious": {
+    "hobby": "collecting whatever sinks down from the dry",
+    "loves": [
+     "minecraft:bell",
+     "minecraft:honeycomb",
+     "minecraft:sunflower"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh"
+    ],
+    "gift": "minecraft:gold_nugget"
+   },
+   "protective": {
+    "hobby": "riding the arches at dusk with my trident close",
+    "loves": [
+     "minecraft:turtle_scute",
+     "minecraft:salmon"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh",
+     "minecraft:fire_charge"
+    ],
+    "gift": "minecraft:salmon"
+   },
+   "gentle": {
+    "hobby": "humming to the seadragons in the garden",
+    "loves": [
+     "minecraft:blue_orchid",
+     "minecraft:sweet_berries",
+     "minecraft:sea_pickle"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:tube_coral_fan"
+   }
+  },
+  "prismari": {
+   "warmhearted": {
+    "hobby": "keeping the guest niche stocked with fresh breath-stones and something to eat",
+    "loves": [
+     "seafriends:kelp_wrap",
+     "minecraft:sea_lantern",
+     "minecraft:cod"
+    ],
+    "dislikes": [
+     "minecraft:fire_charge"
+    ],
+    "gift": "seafriends:kelp_wrap"
+   },
+   "thoughtful": {
+    "hobby": "reading the old tide records by glow-ink light",
+    "loves": [
+     "minecraft:book",
+     "minecraft:glow_ink_sac",
+     "minecraft:writable_book"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:paper"
+   },
+   "playful": {
+    "hobby": "carving little prismarine guardians for the young",
+    "loves": [
+     "minecraft:prismarine_shard",
+     "minecraft:sea_pickle",
+     "minecraft:glow_item_frame"
+    ],
+    "dislikes": [
+     "minecraft:goat_horn"
+    ],
+    "gift": "minecraft:prismarine_shard"
+   },
+   "adventurous": {
+    "hobby": "watching the far ridge for lights nobody has named yet",
+    "loves": [
+     "minecraft:spyglass",
+     "minecraft:compass",
+     "minecraft:nautilus_shell"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh"
+    ],
+    "gift": "minecraft:nautilus_shell"
+   },
+   "meticulous": {
+    "hobby": "grinding lenses until they stop lying",
+    "loves": [
+     "minecraft:glass",
+     "minecraft:clock",
+     "minecraft:amethyst_shard"
+    ],
+    "dislikes": [
+     "minecraft:torch"
+    ],
+    "gift": "minecraft:glass"
+   },
+   "steadfast": {
+    "hobby": "keeping the count of every tide, even the dull ones",
+    "loves": [
+     "minecraft:clock",
+     "minecraft:dried_kelp",
+     "minecraft:prismarine_bricks"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh",
+     "minecraft:goat_horn"
+    ],
+    "gift": "minecraft:cod"
+   },
+   "reserved": {
+    "hobby": "sitting the stillness by the jelly pond",
+    "loves": [
+     "minecraft:sea_pickle",
+     "minecraft:glow_lichen",
+     "seafriends:tidepearl"
+    ],
+    "dislikes": [
+     "minecraft:goat_horn"
+    ],
+    "gift": "minecraft:sea_pickle"
+   },
+   "imaginative": {
+    "hobby": "naming the colours prismarine has not settled on yet",
+    "loves": [
+     "minecraft:prismarine_crystals",
+     "minecraft:amethyst_shard",
+     "minecraft:light_blue_stained_glass"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:amethyst_shard"
+   },
+   "pragmatic": {
+    "hobby": "mending cracked lamp-cages into steps and pond-rims",
+    "loves": [
+     "minecraft:prismarine_bricks",
+     "minecraft:dried_kelp_block",
+     "minecraft:sponge"
+    ],
+    "dislikes": [
+     "minecraft:fire_charge"
+    ],
+    "gift": "minecraft:dried_kelp"
+   },
+   "curious": {
+    "hobby": "asking the merfolk couriers what the sun is like",
+    "loves": [
+     "minecraft:clock",
+     "minecraft:map",
+     "minecraft:book"
+    ],
+    "dislikes": [
+     "minecraft:ink_sac"
+    ],
+    "gift": "minecraft:feather"
+   },
+   "protective": {
+    "hobby": "walking the ring of lamps at the edge of the court",
+    "loves": [
+     "minecraft:spyglass",
+     "minecraft:sea_lantern",
+     "minecraft:turtle_scute"
+    ],
+    "dislikes": [
+     "minecraft:rotten_flesh",
+     "minecraft:torch"
+    ],
+    "gift": "minecraft:prismarine_crystals"
+   },
+   "gentle": {
+    "hobby": "carrying glowjellies between the ponds, very slowly",
+    "loves": [
+     "minecraft:glow_ink_sac",
+     "minecraft:sea_pickle",
+     "seafriends:tidepearl"
+    ],
+    "dislikes": [
+     "minecraft:goat_horn",
+     "minecraft:fire_charge"
+    ],
+    "gift": "minecraft:glow_ink_sac"
+   }
+  }
+ }
+}
