@@ -1,0 +1,1718 @@
+{
+  "type": "seafriends:village",
+  "biomes": "#seafriends:has_village/prism_court",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  },
+  "anchor": "seabed",
+  "depth": {
+    "min": 30,
+    "max": 50
+  },
+  "flatness": 14,
+  "radius": 60,
+  "layouts": [
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": 20,
+          "z": -25,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": 24,
+          "z": -5,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": 24,
+          "z": 14,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": 2,
+          "z": 26,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": -18,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": -24,
+          "z": 2,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": -26,
+          "z": -19,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": -5,
+          "z": -24,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            20,
+            -17
+          ],
+          [
+            11,
+            -9
+          ]
+        ],
+        [
+          [
+            17,
+            -5
+          ],
+          [
+            13,
+            -4
+          ]
+        ],
+        [
+          [
+            17,
+            14
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        [
+          [
+            2,
+            17
+          ],
+          [
+            2,
+            14
+          ]
+        ],
+        [
+          [
+            -18,
+            17
+          ],
+          [
+            -10,
+            10
+          ]
+        ],
+        [
+          [
+            -17,
+            2
+          ],
+          [
+            -14,
+            2
+          ]
+        ],
+        [
+          [
+            -17,
+            -19
+          ],
+          [
+            -9,
+            -10
+          ]
+        ],
+        [
+          [
+            -5,
+            -17
+          ],
+          [
+            -4,
+            -13
+          ]
+        ]
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": 16,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": -7,
+          "z": 26,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": -28,
+          "z": 19,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": -25,
+          "z": -10,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": -2,
+          "z": -26,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": 19,
+          "z": -24,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": 24,
+          "z": 1,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            16,
+            17
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        [
+          [
+            -7,
+            17
+          ],
+          [
+            -5,
+            13
+          ]
+        ],
+        [
+          [
+            -21,
+            19
+          ],
+          [
+            -10,
+            9
+          ]
+        ],
+        [
+          [
+            -17,
+            -10
+          ],
+          [
+            -12,
+            -7
+          ]
+        ],
+        [
+          [
+            -2,
+            -17
+          ],
+          [
+            -2,
+            -14
+          ]
+        ],
+        [
+          [
+            19,
+            -17
+          ],
+          [
+            10,
+            -9
+          ]
+        ],
+        [
+          [
+            17,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": 24,
+          "z": -3,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": 26,
+          "z": 16,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": 6,
+          "z": 25,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": -18,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": -26,
+          "z": 2,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": -24,
+          "z": -19,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": -4,
+          "z": -26,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": 16,
+          "z": -26,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            17,
+            -3
+          ],
+          [
+            14,
+            -2
+          ]
+        ],
+        [
+          [
+            19,
+            16
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        [
+          [
+            6,
+            17
+          ],
+          [
+            5,
+            13
+          ]
+        ],
+        [
+          [
+            -18,
+            17
+          ],
+          [
+            -10,
+            10
+          ]
+        ],
+        [
+          [
+            -17,
+            2
+          ],
+          [
+            -14,
+            2
+          ]
+        ],
+        [
+          [
+            -17,
+            -19
+          ],
+          [
+            -9,
+            -10
+          ]
+        ],
+        [
+          [
+            -4,
+            -17
+          ],
+          [
+            -3,
+            -14
+          ]
+        ],
+        [
+          [
+            16,
+            -19
+          ],
+          [
+            9,
+            -11
+          ]
+        ]
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": 1,
+          "z": 25,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": -18,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": -24,
+          "z": 1,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": -26,
+          "z": -20,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": -6,
+          "z": -25,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": 14,
+          "z": -24,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": 26,
+          "z": 1,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": 25,
+          "z": 22,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            17
+          ],
+          [
+            1,
+            14
+          ]
+        ],
+        [
+          [
+            -18,
+            17
+          ],
+          [
+            -10,
+            10
+          ]
+        ],
+        [
+          [
+            -17,
+            1
+          ],
+          [
+            -14,
+            1
+          ]
+        ],
+        [
+          [
+            -17,
+            -20
+          ],
+          [
+            -9,
+            -11
+          ]
+        ],
+        [
+          [
+            -6,
+            -18
+          ],
+          [
+            -4,
+            -13
+          ]
+        ],
+        [
+          [
+            14,
+            -17
+          ],
+          [
+            9,
+            -11
+          ]
+        ],
+        [
+          [
+            17,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        [
+          [
+            18,
+            22
+          ],
+          [
+            9,
+            11
+          ]
+        ]
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": 6,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": -21,
+          "z": 26,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": -24,
+          "z": 0,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": -20,
+          "z": -25,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": 9,
+          "z": -26,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": 24,
+          "z": -4,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": 24,
+          "z": 20,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            6,
+            17
+          ],
+          [
+            5,
+            13
+          ]
+        ],
+        [
+          [
+            -21,
+            17
+          ],
+          [
+            -11,
+            9
+          ]
+        ],
+        [
+          [
+            -17,
+            0
+          ],
+          [
+            -14,
+            0
+          ]
+        ],
+        [
+          [
+            -20,
+            -17
+          ],
+          [
+            -11,
+            -9
+          ]
+        ],
+        [
+          [
+            9,
+            -17
+          ],
+          [
+            7,
+            -12
+          ]
+        ],
+        [
+          [
+            17,
+            -4
+          ],
+          [
+            14,
+            -3
+          ]
+        ],
+        [
+          [
+            17,
+            20
+          ],
+          [
+            9,
+            11
+          ]
+        ]
+      ]
+    },
+    {
+      "weight": 1,
+      "pieces": [
+        {
+          "template": "seafriends:prismari/spire",
+          "x": 0,
+          "z": 0,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/lathe_hall",
+          "x": -17,
+          "z": -24,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": 2,
+          "z": -24,
+          "y": -1,
+          "turn": 0,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/archive",
+          "x": 25,
+          "z": -18,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_a",
+          "x": 24,
+          "z": 2,
+          "y": -1,
+          "turn": 1,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/sponge_garden",
+          "x": 19,
+          "z": 26,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/eyeguard_post",
+          "x": -3,
+          "z": 24,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/jelly_pond",
+          "x": -25,
+          "z": 26,
+          "y": -1,
+          "turn": 2,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        },
+        {
+          "template": "seafriends:prismari/pod_b",
+          "x": -24,
+          "z": -4,
+          "y": -1,
+          "turn": 3,
+          "mode": "floor",
+          "footing": true,
+          "soft": true,
+          "footing_block": "minecraft:prismarine_bricks"
+        }
+      ],
+      "paths": [
+        [
+          [
+            14,
+            0
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            0,
+            14
+          ],
+          [
+            -4,
+            14
+          ],
+          [
+            -7,
+            12
+          ],
+          [
+            -10,
+            10
+          ],
+          [
+            -12,
+            7
+          ],
+          [
+            -14,
+            4
+          ],
+          [
+            -14,
+            0
+          ],
+          [
+            -14,
+            -4
+          ],
+          [
+            -12,
+            -7
+          ],
+          [
+            -10,
+            -10
+          ],
+          [
+            -7,
+            -12
+          ],
+          [
+            -4,
+            -14
+          ],
+          [
+            0,
+            -14
+          ],
+          [
+            4,
+            -14
+          ],
+          [
+            7,
+            -12
+          ],
+          [
+            10,
+            -10
+          ],
+          [
+            12,
+            -7
+          ],
+          [
+            14,
+            -4
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        [
+          [
+            -17,
+            -17
+          ],
+          [
+            -10,
+            -10
+          ]
+        ],
+        [
+          [
+            2,
+            -17
+          ],
+          [
+            2,
+            -14
+          ]
+        ],
+        [
+          [
+            17,
+            -18
+          ],
+          [
+            10,
+            -10
+          ]
+        ],
+        [
+          [
+            17,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        [
+          [
+            19,
+            17
+          ],
+          [
+            10,
+            9
+          ]
+        ],
+        [
+          [
+            -3,
+            17
+          ],
+          [
+            -2,
+            14
+          ]
+        ],
+        [
+          [
+            -25,
+            17
+          ],
+          [
+            -12,
+            8
+          ]
+        ],
+        [
+          [
+            -17,
+            -4
+          ],
+          [
+            -14,
+            -3
+          ]
+        ]
+      ]
+    }
+  ],
+  "path": {
+    "blocks": [
+      "minecraft:prismarine_bricks",
+      "minecraft:prismarine",
+      "minecraft:dark_prismarine",
+      "minecraft:prismarine_bricks"
+    ],
+    "light": "minecraft:sea_lantern",
+    "every": 7,
+    "width": 2
+  }
+}

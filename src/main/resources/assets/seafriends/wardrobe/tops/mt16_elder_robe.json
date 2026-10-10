@@ -1,0 +1,164 @@
+{
+  "id": "mt16_elder_robe",
+  "kind": "top",
+  "name": "Elder Robe",
+  "gender": "male",
+  "texture": "tops/mt16_elder_robe.png",
+  "extrasHeight": 32,
+  "tags": [
+    "merfolk",
+    "robe"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "right_wide_sleeve",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        3.4,
+        -3
+      ],
+      "size": [
+        6,
+        5,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "left_wide_sleeve",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        3.4,
+        -3
+      ],
+      "size": [
+        6,
+        5,
+        6
+      ],
+      "uv": [
+        25,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "pearl_clasp",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        3.4,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        50,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "robe_hem_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        4,
+        1
+      ],
+      "uv": [
+        0,
+        12
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "robe_hem_back",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        4,
+        1
+      ],
+      "uv": [
+        21,
+        12
+      ],
+      "motion": "flap_back"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "An elder's kelp-silk robe: wide sleeves, a pearl clasp, wave-embroidered trim and short hem flaps."
+}

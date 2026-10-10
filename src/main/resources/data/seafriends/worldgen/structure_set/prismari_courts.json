@@ -1,0 +1,52 @@
+{
+  "structures": [
+    {
+      "structure": "seafriends:prism_court",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "seafriends:spread",
+    "spacing": 48,
+    "separation": 18,
+    "salt": 1460391157,
+    "avoid": [
+      {
+        "set": "minecraft:villages",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:ocean_ruins",
+        "chunks": 3
+      },
+      {
+        "set": "minecraft:shipwrecks",
+        "chunks": 3
+      },
+      {
+        "set": "villagefriends:homesteads",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:dens",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:warrens",
+        "chunks": 3
+      },
+      {
+        "set": "oceanexpansion:sites",
+        "chunks": 5
+      },
+      {
+        "set": "minecraft:ocean_monuments",
+        "chunks": 6
+      },
+      {
+        "set": "seafriends:merfolk_villages",
+        "chunks": 10
+      }
+    ]
+  }
+}

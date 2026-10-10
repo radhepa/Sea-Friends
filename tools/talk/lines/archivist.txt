@@ -1,0 +1,69 @@
+# Prismari Archivists: they record every tide, copy the old books, keep the sea's own enchanted books, and guard the
+# barred shelf of the Silence (sealed by the Oldest Eye; nobody reads it). Exact, curious, fond of footnotes.
+# The Oldest Eye falls back to these pools, so keep them free of {elder} and of "our Oldest" talk.
+# Shared canon: the comment block at the top of prismari.txt.
+
+## archivist.greet
+I see you. One moment; I am recording your arrival. Tide, direction, number of eyes. There.
+I see you. You are the first visitor of this tide. I have written it down, so you are now history.
+I see you. Speak slowly, please. I may want to quote you.
+I see you. Mind the shelves. Some of these books are older than {place}, and they know it.
+I see you. The Archive is always open. We have no doors, only very strict looks.
+I see you. Have you come to read, or to be written about? Either can be arranged.
+I see you. Forgive the ink on my fingers. It is glow ink; it will fade within a tide, unlike the record.
+I see you. Visitor noted. Mood of visitor: hopeful. Was I right? Please say yes; it is already in ink.
+
+## archivist.chat
+We record every tide: its height, its pull, its temper. A tide nobody writes down is a tide that never happened, and we do not allow that.
+The Reckoning of Tides is the first book every young one reads. One tide, two tides, twenty-eight, thirteen turnings. After that it is all arithmetic and feelings.
+Our books are written very small. A Long Count fits on a page. The Long Tide fills the Archive. The Silence fills one shelf, and nobody reads it.
+The barred shelf is sealed by the Oldest Eye. The sign says do not read. I have kept it for many turnings and I have never read it. I have also never stopped thinking about it.
+The bars on the sealed shelf are not there to keep the books in.
+We keep the sea's own books: ones that teach the lungs patience, the hands to work in the deep, the feet to swim as we do, and a trident to come home. The Eyeguards borrow that last kind constantly.
+A book that calls the sky's fire down on a trident's point. A book that coaxes fish to the hook. We keep them all, written in the old way. The words are older than the halls.
+An Archivist's highest praise is "accurate". The second highest is "legible". I have given the second, twice.
+I have been reading The Halls We Left again. Every time, I want to add a footnote. Every time, I am not allowed.
+Two-Eyes write in straight lines across the page. We write in rings, from the edge inward, like the eye. You finish a book. We arrive at it.
+Do not ask an Archivist a question unless you have a tide to spare. We have no short answers. We have short chapters.
+Every hall's name is kept here. Some we know only by their first letter. We keep that letter as carefully as a whole name.
+Glow ink for the tides, plain ink for the margins. That way the important things can be read in the dark, and the opinions cannot.
+The merfolk keep their history in songs. We keep ours in books. Their songs change a little every time they are sung. Our books never change. I am no longer sure which is wiser.
+When a young one first feels the pull, an Archivist writes down their count. It is the first line about them in the record. The young ones are all first lines.
+I once spent three turnings checking a single tide. It was correct. I was very pleased, and very tired, and it was correct.
+Every Long Count, every book here is copied once. Nothing in this Archive is older than its last copy, and nothing in it is younger than its first.
+Ossiveth, the last Oldest Eye of the halls, sealed the first record of the Silence. Every Oldest since has sealed it again. The seals are very neat. The shelf has a lot of them.
+"Count the tide, not the wave." A good proverb. The Archive's addition: "But record the wave, in case." We are not popular at gatherings.
+
+## archivist.work
+Recording the tides. The pull came early today. A hair's breadth, but early. I have written it down, with a small, disapproving mark.
+Copying a page that has grown faint. You copy slowly, so the old hand and the new hand agree on every letter.
+I am cataloguing books the merfolk brought down from the shallows. Most are about the land. One is about cooking. I have filed it under fiction.
+If you have a book of the sea, show me. If you want one, I may part with one, for a fair trade and a promise to read it.
+Reading by lamplight. Not for pleasure. Well. Not only for pleasure.
+The count for {place}: four hundred and twelve Long Counts since the leaving, and some turnings over. I could tell you to the tide. Shall I? No? Most people say no.
+Do not touch the chiseled shelves. Each slot is a book's place, and each book knows its place better than you or I.
+Today's record: the tide, the pull, the light of the spire, the visitors. You are under "visitors". You are the whole of "visitors".
+An Archivist reads three books at once: one to learn from, one to check it against, and one to stay awake for the other two.
+I am cross-checking two old ledgers. One says a tide was calm, the other says stormy, and both are in the same hand. I suspect a bad day.
+If you find any writing in the old halls, any at all, bring it here. Do not read it first. Bring it.
+I am mending a margin note a predecessor left. It says "nonsense" in very small letters. I agree. I am writing it larger.
+Every evening I read the day's record aloud to the empty Archive. Nobody listens. That is not the point. The point is that it was said.
+I am writing out a new copy of The Reckoning of Tides for the young. It is the third this Long Count. They keep reading it to pieces. I could not be prouder.
+
+## archivist.heart
+I am afraid, sometimes, that I will write something wrong, and nobody will notice, and it will become true by being old.
+I will never read the sealed shelf. But some nights I stand in front of the bars and wonder whether whoever wrote it wanted it read.
+The names we have lost trouble me more than the halls. A hall is only stone. A name was someone.
+I would like, once, to be written down myself. Not as a count; as a sentence. "They kept the record well." That would be enough.
+You ask questions as if the answers matter. In the Archive, that is the only qualification there is.
+When I stop counting, another Archivist will write one line about me and then go on recording the tide. That seems right to me. The tide is more important. I hope the line is accurate.
+
+## archivist.held.book
+A book! May I? Gently. Ah, land paper; it drinks the sea. Hold it close and swim it home quickly.
+Is that one of ours? Some of the sea's books travel a long way. If it is, it has come back to tell us about it.
+What does it say? No, do not tell me. Let me guess from how you hold it. Something about the land. Something with a sad ending.
+If you ever tire of that book, the Archive will give it a shelf, a number, and a very long life.
+
+## archivist.held.map
+A map! Hold it still. I will copy the part with the sea on it. It will not take long; there is very little.
+Your map is drawn by the sun and the stars. Ours would be counted in tides. Shall we trade? You will find ours very hard to read, and I yours.

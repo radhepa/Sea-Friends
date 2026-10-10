@@ -1,0 +1,76 @@
+{
+  "id": "mt06_diver_harness",
+  "kind": "top",
+  "name": "Diver Harness",
+  "gender": "male",
+  "texture": "tops/mt06_diver_harness.png",
+  "extrasHeight": 16,
+  "tags": [
+    "bare",
+    "harness",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "net_pouch",
+      "bone": "TORSO",
+      "pivot": [
+        -2.55,
+        8.7,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -2
+      ],
+      "size": [
+        3,
+        3,
+        2
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "bone_knife",
+      "bone": "TORSO",
+      "pivot": [
+        2.5,
+        3.6,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        6,
+        1
+      ],
+      "uv": [
+        11,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Sharkskin harness straps over a broad bare chest: shoulder straps, a ringed chest strap and a hip belt, a net pouch for the catch and a bone-sheathed knife riding on the left strap."
+}

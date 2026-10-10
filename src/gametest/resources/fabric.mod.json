@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "seafriends-gametest",
+	"version": "0.1.0",
+	"name": "Sea Friends game tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": ["dev.seafriends.test.SeaClientTest"]
+	},
+	"depends": {
+		"seafriends": "*"
+	}
+}

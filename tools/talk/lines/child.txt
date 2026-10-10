@@ -1,0 +1,162 @@
+# THE FRY (merfolk children): playful, curious, short lines. Falls back to merfolk.
+# Fry are born with pale silver tails that "blush" their family colour on Blushing Day.
+# Canon: see merfolk.txt (the Barnacle King is their bogey; Old Pell; Old Coil; "Big Eyes" = the Prismari).
+
+## child.greet
+Fair currents! Are you a sandtoe? Show me your toes! Please?
+Fair currents! Race you to the shrine! Go! I already started!
+Fair currents! I'm not supposed to talk to strangers, but you look nice.
+Fair currents! I've got a seadragon hiding behind me. No I don't. Yes I do. No I don't.
+Hi! I mean, fair currents! I always forget the proper one.
+Fair currents! My tail's going to blush soon. Probably gold. Definitely gold.
+Fair currents! Did you swim all the way down? With feet? That's so brave.
+Fair currents, {player}! I knew it was you. I could tell by the bubbles.
+Fair currents! You're so tall. Are all sandtoes tall? Are you standing on something?
+Ooh! Fair currents! You look like a story.
+Fair currents! Want to see my shell? It's the best shell. I'll show you. Later. Maybe.
+Fair currents! Tag! You're it!
+
+## child.greet.stranger
+Who are you? Are you from up top? Do you really have to breathe air all the time? Even at night?
+Gran says never talk to strangers. But Gran talks to everyone, so.
+A real sandtoe! Can I touch your feet? Just one?
+Are you a drowned? You don't look drowned. You look normal. Well, normal for a sandtoe.
+Fair currents, stranger! I'm going to tell everyone I met you first.
+
+## child.greet.friend
+{player}! {player}! You came back! I told everyone you'd come back!
+Fair currents, {player}! I saved you a shell. It's a bit broken. That's the best part.
+You're here! Want to see what I learned? I can swim upside down! Watch! ...Was that good?
+{player}! I named a seadragon after you! It's very wiggly. You'd like it.
+Fair currents, best sandtoe! You're my favourite. Don't tell the others.
+
+## child.chat
+Do you have toes? How many? Can they wiggle on their own? Do they have names?
+The Barnacle King lives in Lowmere and he eats fry who don't eat their kelp. I eat all my kelp. Mostly.
+When my tail blushes, I want it to be violet. Gran says it'll be teal like the family. I'm going to blush violet anyway, on purpose.
+I found a seadragon in the garden and named it Sir Fluffington. It isn't fluffy. That's the joke.
+I'm not allowed past the arches. I went past the arches once. Only a little. Don't tell the wardens.
+What's rain? A bottle from my cousin said rain. Is it the sea falling down? Why would the sea fall down?
+I can do a loop! Watch! ...I'll do it better next time.
+Old Pell said a whale once swallowed a whole town and the town just lived in there. I'm going to live in a whale.
+If you knock on coral three times, nothing bad happens. I knocked a hundred times. Nothing bad will happen for ages.
+Nautili are grumpy. I'm grumpy sometimes. That's why we're friends.
+When I grow up I want to be a warden. Or a singer. Or a seadragon.
+Did you know seadragon dads carry the eggs? On their tails! I'm going to tell everyone. I've told everyone.
+My friend says if you whistle over the drop-off, the deep whistles back. I didn't try. I almost tried.
+I've got the best shell collection in {place}. Forty shells. Forty-one with the broken one.
+What's walking like? Is it like swimming but you fall over?
+I learned three verses of the Song today! Then I forgot two. One's still in there, though.
+Do sandtoes have Blushing Day? What colour did your feet go?
+I'm going to find Old Coil and ride her, and everyone will be so jealous.
+We built a fort out of sponge cushions. It's the best fort ever. Grown-ups aren't allowed. You can come, though.
+Why do you have two legs? Wouldn't one tail be easier? I'd have picked the tail.
+I can make bubble rings! Look! ...That one was a bubble square. That's harder.
+
+## child.chat.new
+You're new! I like new things. New shells, new songs, new sandtoes.
+Are you staying? Stay! I'll show you the secret cave. It's not secret. Everyone knows. But it's a cave!
+I'm going to follow you around a bit. Is that all right? I'm doing it anyway.
+Do you know any land games? Teach me one! Only if it's not boring.
+
+## child.chat.close
+You're my best friend, {player}. Don't tell my other best friends.
+When my tail blushes, you have to be there. You have to come. Promise?
+I drew you on the shrine steps with a bit of chalky shell. I gave you a tail. It's gold.
+If you ever get lost up in the dry, I'll come and find you. I'll flop the whole way.
+
+## child.work
+My job is feeding the seadragons. They eat tiny shrimps. I don't eat the shrimps. Mostly.
+I'm chasing seadragons! It's very important work. They get bored if nobody chases them.
+I polish the shrine steps. Well, I'm supposed to. Mostly I slide down them.
+I help count the sea pickles on the paths. There's loads. I stopped at a hundred and something.
+I carry kelp bundles to the racks. They're bigger than me. I'm very strong.
+I'm learning songs at the shrine. The Elder makes a funny face when I sing it wrong. I sing it wrong on purpose sometimes.
+I'm practising tag. That's work. Gran says it's not work. Gran is wrong.
+I sort shells for the divers. Good ones in the basket, broken ones on the path, pretty ones in my cushion.
+When I'm big I'll have a real job. Right now my job is asking questions. I'm very good at it.
+I'm helping the wardens! I watch the arches and shout if I see a drowned. I've shouted loads. None were drowned. One was a squid.
+
+## child.heart
+Sometimes I'm scared of the dark past the lamps. But then I look at the Heart and it's glowing, so it's all right.
+I like you because you listen. Grown-ups pretend to listen. You actually do.
+I miss my cousin on land. I've never met them. I still miss them. Is that silly?
+When I'm big I want to be brave like the wardens and kind like the singers. Both at once.
+If you're ever sad, you can borrow my best shell. Only borrow. Then you give it back. But you can borrow it.
+
+## child.joke
+What's a seadragon's favourite game? Hide and kelp! Get it? Hide and kelp!
+Knock knock! Who's there? Kelp! Kelp who? Kelp me, I'm stuck in a joke!
+What do you call a nautilus that won't move? A nauti-lazy! I made that one up.
+Why don't clams share? Because they're shellfish! Everyone knows that one. I still like it.
+What did the sea say to the beach? Nothing! It just waved! Because waves! The sea waves!
+Why are sandtoes slow in the water? Too many legs! Two is too many!
+What's the Barnacle King scared of? Me! That's not a joke. That's a promise.
+Why did the pufferfish go to the party? To have a blast! It got all puffy. That's the joke.
+
+## child.past
+Gran says before the Flood everyone had feet like you. Even Gran's gran's gran. I don't believe it.
+Wenna went into the dark with one lantern and sang until the Prismari came. I'm going to do that. With two lanterns.
+Old Coil carried the first fry down from the Flood on her shell. A dozen at once! I'd have sat at the front.
+We heard the Flood story today. The water came in and never went out. I held my tail the whole time.
+Lowmere used to be a town like ours. Now the drowned live there. I'm going to fix it when I'm big.
+
+## child.night
+I'm not supposed to be up. Don't tell anyone. Shh.
+The pickles look like stars at night. Gran says stars are pickles in the sky. I think Gran's teasing.
+I sleep with my tail toward the Heart. Then the bad dreams go the other way.
+Did you hear that? That was a squid. Probably. You go and look.
+I can't sleep. Do you know "Hush Now, Little Fin"? It goes hmm-hmm-hmmm. Like that.
+
+## child.adventure
+There's a cave in the reef wall that sings! It's the current, Gran says. I say it's a ghost. A nice ghost.
+If you go past the shelf, bring me back something shiny. Or spooky. Shiny and spooky!
+I'm going to explore the whole sea when I'm big. Every bit of it. Twice.
+Want to go on an adventure? We could find the seadragon that's hiding in the garden. There's always one hiding.
+I dared my friend to touch the drop-off. They did. Then I did. Then we both swam home really fast.
+
+## child.news
+Guess what! Guess! A seadragon's having babies! The dad's carrying them! On his tail!
+Big news: I lost a tooth! Merfolk have teeth, you know. Now you know.
+The nautilus at the stable nipped a warden! Only a little! Everyone laughed except the warden!
+Old Pell's coming! Pell does all the voices! Even the whale!
+I heard the grown-ups whispering about a bell out on the shelf. I'm not scared. I'm a bit scared.
+
+## child.neighbors
+The Prismari have one big eye! It's THIS big! They don't blink. I tried not blinking. I blinked.
+A Prismari said "I see you" to me and I said "I see you too!" and everyone laughed. You're meant to say "And I am seen". I know that now.
+We call them Big Eyes. Not to their faces! They're very tall and very polite and very spiky.
+On Lantern Night a Prismari came up and sang so low it made my tummy buzz. Best night ever.
+
+## child.rumor
+My cousin says there's {rumor_name} way out {rumor_dir}. I'm not allowed to go. You could go! Then tell me!
+The divers say if you swim {rumor_dir}, you'll find {rumor_name}. I'm going there when I'm big.
+Out to the {rumor_dir} there's {rumor_name}! Old Pell said so. Pell knows everything. Or makes it up. Same thing.
+Don't tell anyone I told you, but if you go {rumor_dir}, there's {rumor_name}. It's a secret. Everybody knows it.
+
+## child.rumor.none
+I don't know any secrets today. I know a joke, though!
+Nobody tells me anything. I'm only a fry. Ask a grown-up.
+No news! Only that I can swim upside down now. That's news to me.
+
+## child.held.shell
+A shell! Can I have it? Can I just hold it? Can I hold it forever?
+Ooh, {item}! I'd swap you my second-best shell for that. Third-best. All right, best.
+Put it to your ear! Can you hear the land? I can hear the land. It sounds like walking.
+
+## child.held.trident
+Is that a real trident? Can I hold it? I'll be careful! I'll mostly be careful!
+Whoa. You're like a warden! Are you a warden? A sandtoe warden?
+When I'm big I'm getting a trident and poking the Barnacle King right in the barnacles.
+
+## child.held.pearl
+A pearl! It's so shiny! Is it for me? It's for me, isn't it?
+I've got a pearl too. It's a bead. But it's a pearl in my heart.
+
+## child.held.fish
+Is that fish your friend? Does it have a name? Can I name it?
+That {item} is looking at me. Hello, fish!
+
+## child.held.flower
+What is THAT? It's like coral but soft! Does it bite?
+A land flower! Can I keep it? I'll put it under my cushion so it dreams of the sea.

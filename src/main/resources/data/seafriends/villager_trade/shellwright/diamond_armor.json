@@ -1,0 +1,17 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 28
+  },
+  "gives": {
+    "id": "minecraft:diamond_nautilus_armor",
+    "count": 1
+  },
+  "max_uses": 1,
+  "xp": 30,
+  "reputation_discount": 0.05,
+  "additional_wants": {
+    "id": "minecraft:diamond",
+    "count": 2
+  }
+}

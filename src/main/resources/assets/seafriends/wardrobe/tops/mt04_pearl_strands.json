@@ -1,0 +1,48 @@
+{
+  "id": "mt04_pearl_strands",
+  "kind": "top",
+  "name": "Pearl Strands",
+  "gender": "male",
+  "texture": "tops/mt04_pearl_strands.png",
+  "extrasHeight": 16,
+  "tags": [
+    "bare",
+    "merfolk",
+    "pearls"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "drop_pearl",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        7.05,
+        -2.55
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A lean bare chest layered with a short and a long pearl strand, a drop pearl on the long one; pearl bands ride high on both arms."
+}

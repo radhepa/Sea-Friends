@@ -1,0 +1,105 @@
+# The Oldest Eye: the court's eldest, its eldest Archivist, who keeps the Long Tide (tells it at the spire every
+# evening, word for word), keeps the tribute, gives the young their counts, and gives a trusted friend the Monument
+# Seal. Falls back to archivist, then prismari. Solemn, slow, warm, wry. Never use {elder} here (it is them).
+# Shared canon: the comment block at the top of prismari.txt.
+
+## oldest.seal
+{player}. You have been seen in {place} many times, and not once did my spines rise. Take this: the Monument Seal. The old beasts will know it.
+Hold out your hand, {player}. This is the Monument Seal, older than this court and every court. Carry it, and the old beasts will know it, and let you pass.
+In the Long Tide, all who walked the halls carried this. Now you will. The old beasts will know it, {player}, even if they know nothing else any more.
+I have kept this for a friend I had not yet met. Take the Seal, {player}. The old beasts will know it. Go where we cannot, and come back seen.
+{player}, the court counts you as one of its own. Here is the Seal. The old beasts will know it. Whatever else waits in the halls will not, and for that I am sorry.
+By the Long Tide and the Pact of Lanterns, I give you the Monument Seal. The old beasts will know it, and their weariness will not cling to you. Stay seen, {player}.
+
+## oldest.greet
+I see you. Come close; my eye has seen a great many tides, and it likes to see something new.
+I see you. Sit. The Long Tide will keep; it has kept for ten thousand Long Counts.
+I see you, child of the land. Forgive me. Everyone is a child, from where I sit.
+I see you. You swim into my hall as the young do, as if the water belonged to you. It does. Welcome.
+I see you. I have been watching the deep. It has not done anything interesting. You are an improvement.
+I see you. My spines have not risen in a long while. They are too old to bother. Come in.
+I see you. The tribute is there, the lectern is here, and I am in between, as always.
+I see you. Every visitor is written into the court's count. You are there now. Welcome to history.
+I see you. Speak up a little; the tide is loud in old spines.
+
+## oldest.chat
+I keep the Long Tide. Every evening the court gathers at the spire and I tell it, in the same words it was told to me. Not one word different. That is the hardest thing I do.
+I am the eldest of the Archivists, which means I have read everything once and nothing enough.
+The tribute in my hall was given to the halls in the Long Tide. We carried a little of it out with us. Not to keep: to remember what we were trusted with.
+When I stop counting, the court will count for me. Then a new Oldest Eye will sit here and tell the Long Tide in my words, which were someone else's words. That is a kind of living I am content with.
+You want to know about the Silence. Everyone does. I sealed its shelf again on the day I became Oldest, as every Oldest has. I did not read it first. That is the whole of the ceremony.
+Ossiveth, the last Oldest Eye of the halls, sealed the first record. I sit many seats removed from Ossiveth's. I still feel the cold from that door.
+The Pact of Lanterns is the best thing we have done since the leaving. Our light for their friendship. I would make the trade again every tide.
+The young ask me what the halls were like. I tell them the truth: I have never been. Then I tell them the Long Tide, which has. Between the two, they learn something.
+Still water sees farthest. I have been still a very long time. I see a long way now. Mostly I see the same things coming back.
+An Oldest Eye is not the wisest in the court; only the one who has made the most mistakes and written them all down.
+There are fewer of us than there are halls. I keep the count of the courts as well as the tides. I do not tell the young that number. I tell them they are needed. It is the same thing, said kindly.
+The guardians remember the Seal, not our faces. I find I do not mind. I would not wish to be remembered by them.
+My spines have grown stiff. They rise slowly now, and fall slower. The court says I am calmer. I am only slower to show it.
+A Two-Eyes seen often enough becomes a name. A name seen often enough becomes a friend. A friend seen often enough becomes part of the count. That is how strangers join a court.
+My eye was gold, once. Now it is the colour of old gold, which the young say is the same. It is not.
+The Long Tide says "tell it on as it was told to you". I have told it more times than I can count. I can count very high.
+Every Oldest writes to the Oldests of the other courts once a Long Count. It takes a turning to write and a turning to read. We are very good friends, in a slow way.
+What the deep keeps, the deep keeps. I say that to the young when they ask about the Silence. They think it is wisdom. It is only a door I was told to keep shut.
+
+## oldest.work
+Keeping the Long Tide. I read it once each evening to the court and once each night to myself, to be sure I still have it right.
+Watching the deep. It is the oldest work there is. The deep watches back. We have reached an understanding.
+I am checking the tribute ledger. Every nugget accounted for. Gold does not wander, but it is good to make sure.
+The court brings me its quarrels at the turning. Most are about noise, a few about light, and one, every Long Count, about something that matters.
+I am reading the Archivists' records of this turning. They have recorded the tides perfectly and their own opinions very badly. Both are useful.
+Each Long Count I add one line to the margin of the Long Tide: the number of Long Counts we have kept. My hand is the latest. It will not be the last.
+I am deciding who will tell the Long Tide when my voice gives out. It is not a quick decision. I have been making it for some turnings.
+The young come to me when they first feel the pull. I take their hand, I feel the tide in it, and I name their count. It is the best of my work.
+The Seal I keep for friends of the court. It is not for sale, or trade, or asking. It is only for giving.
+I am listening to the spire's heart. It speaks very softly. If it ever stops, I will be the first to know, and I would rather be the first.
+I settled a quarrel between a Lightwright and a Spongekeeper about how bright the garden should be. I ruled for the glowjellies. Neither was pleased. Both agreed.
+My work is to remember, so that the others need not. It leaves their eyes free for the tide.
+I am resting my eye. It is work, at my age. Do not let anyone tell you it is not.
+Polishing the gold by the lectern. Not because it needs it. Because the shore-kings who gave it are gone, and someone should still be careful with their gift.
+
+## oldest.heart
+I have told the Long Tide so many times that I sometimes fear the story has become more real to me than my own tides.
+The day I became Oldest, I sealed the shelf of the Silence, as every Oldest has. My hand shook. Not because I wanted to read it. Because I did not.
+I would like to see one of the old halls up close before I stop counting. I will not. But I would like to.
+I have held the hand of every young one in {place} when they were given their count. I remember each number. I remember each hand better.
+When I give a friend the Seal, I give them a door we closed. I hope they never need it. I hope they use it well if they do.
+I have the oldest eye in the court, which means it has seen the most farewells. Stay seen, child of the land. I do not want to see yours.
+
+## oldest.past
+In the Long Tide, the Oldest Eye of all the halls sat in the Seat of the Eldest. Ossiveth was the last to sit there. Ossiveth rose, and led the leaving, and the seat has been empty for four hundred and twelve Long Counts.
+The histories say the Silence began in the Last Hall. They say it lasted one Long Count. They say no more. I wrote none of them, and I will add nothing to them.
+I was given the Long Tide by the Oldest before me, who had it from the Oldest before them, back to Ossiveth's own mouth. Not one word changed. I check.
+The gold in the halls was tribute from the shore-kings, who came down to us for light and breathed in rooms we drained for them. Their cities are sand now. We keep faith with their gold. We do not take it back.
+The Pact of Lanterns was sworn at the edge of the deep, where the merfolk's light ends and ours begins. They sang. We kept silent. Both counted as an oath.
+Ossiveth stopped counting in the first Long Count after the leaving. The court that counted for Ossiveth was very small. It counted every tide.
+There is a name for the Last Hall in the old tongue. Every Oldest is told it, once, and never says it. I will not be the first.
+In the Long Tide the eldest beasts would lower their spines when an Oldest Eye passed. I do not know whether they would now. I do not intend to find out.
+
+## oldest.night
+I do not sleep much any more. I watch the deep, and the deep watches me, and between us, the court sleeps soundly.
+At night the Long Tide is louder in my head. I tell it to myself, very quietly, so as not to wake anyone.
+Go to your rest. I will keep the count. I am good at it, and it is lonely, and I would not give it up.
+The spire's heart burns all night over my bed. The young think I keep it lit. I let them.
+
+## oldest.joke
+The young think I know everything. The Archivists think I know nothing. The truth is in the margin, where they both wrote it.
+I have told the Long Tide so often that the court says it with me. Some evenings I stop halfway, to see if they notice. They always finish it for me. It is very touching and slightly annoying.
+Why does the Oldest Eye sit so still? Because if I move, everyone thinks it is an omen.
+An Oldest Eye is like the tribute gold: very old, much admired, and of no practical use whatsoever. Do not repeat that to the court.
+The young asked me what I did before I was old. I said I was young. They did not believe me. Nobody ever does.
+I asked the merfolk Elder how they keep their songs straight. They said they do not; that is what makes them songs. I have not slept well since.
+
+## oldest.held.seal
+You still carry it. Good. Show it to no one but the beasts.
+The Seal sits well in your hand. Whichever Oldest gave it to you chose rightly.
+You carry the Seal. Remember: it keeps the beasts from you. It does not keep the halls from being what they are.
+Do not hold it up to me. I know what it is; every Oldest does. I would rather look at you.
+
+## oldest.held.book
+A book. When you have read it, read it again. Then you will have read it once.
+Bring it closer to my eye. Ah: land writing, all in straight lines, going nowhere. Still, someone cared to write it.
+
+## oldest.held.gold
+Gold. I have sat beside a tribute hoard so long I can no longer see it. Thank you for reminding me that it shines.
+If that came from the halls: carry it, if you can. It was never ours, and it was never light.

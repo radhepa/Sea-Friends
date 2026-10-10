@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "seafriends:item/prismari_spawn_egg"
+  }
+}

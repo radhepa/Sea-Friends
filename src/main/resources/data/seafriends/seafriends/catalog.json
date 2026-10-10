@@ -1,0 +1,90 @@
+{
+  "reef_town": {
+    "people": "merfolk",
+    "structure": "seafriends:reef_town",
+    "set": "seafriends:merfolk_villages",
+    "biomes": [
+      "warm_ocean",
+      "lukewarm_ocean",
+      "ocean"
+    ],
+    "depth": [
+      8,
+      26
+    ],
+    "layouts": 6,
+    "buildings": [
+      "seafriends:merfolk/elder_hall",
+      "seafriends:merfolk/garden",
+      "seafriends:merfolk/home_a",
+      "seafriends:merfolk/home_b",
+      "seafriends:merfolk/kelp_farm",
+      "seafriends:merfolk/pearl_house",
+      "seafriends:merfolk/shell_forge",
+      "seafriends:merfolk/shrine",
+      "seafriends:merfolk/stable",
+      "seafriends:merfolk/warden_ring"
+    ],
+    "residents_first_layout": [
+      "child",
+      "child",
+      "child",
+      "diver",
+      "diver",
+      "diver",
+      "diver",
+      "elder",
+      "farmer",
+      "farmer",
+      "farmer",
+      "shellwright",
+      "singer",
+      "warden",
+      "warden"
+    ],
+    "conduit": "shrine"
+  },
+  "prism_court": {
+    "people": "prismari",
+    "structure": "seafriends:prism_court",
+    "set": "seafriends:prismari_courts",
+    "biomes": [
+      "deep_ocean",
+      "deep_lukewarm_ocean",
+      "deep_cold_ocean"
+    ],
+    "depth": [
+      30,
+      50
+    ],
+    "layouts": 6,
+    "buildings": [
+      "seafriends:prismari/archive",
+      "seafriends:prismari/eyeguard_post",
+      "seafriends:prismari/jelly_pond",
+      "seafriends:prismari/lathe_hall",
+      "seafriends:prismari/pod_a",
+      "seafriends:prismari/pod_b",
+      "seafriends:prismari/spire",
+      "seafriends:prismari/sponge_garden"
+    ],
+    "residents_first_layout": [
+      "archivist",
+      "archivist",
+      "eyeguard",
+      "eyeguard",
+      "lightwright",
+      "lightwright",
+      "lightwright",
+      "lightwright",
+      "oldest",
+      "spongekeeper",
+      "spongekeeper",
+      "spongekeeper",
+      "young",
+      "young",
+      "young"
+    ],
+    "conduit": "spire"
+  }
+}

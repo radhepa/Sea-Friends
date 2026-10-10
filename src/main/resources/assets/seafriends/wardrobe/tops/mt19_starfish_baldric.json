@@ -1,0 +1,75 @@
+{
+  "id": "mt19_starfish_baldric",
+  "kind": "top",
+  "name": "Starfish Baldric",
+  "gender": "male",
+  "texture": "tops/mt19_starfish_baldric.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "strap"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "starfish_boss",
+      "bone": "TORSO",
+      "pivot": [
+        -1.5,
+        4.5,
+        -2.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        -0.5,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "trident_loop",
+      "bone": "TORSO",
+      "pivot": [
+        -1.0,
+        2.6,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        0,
+        0
+      ],
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "uv": [
+        5,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A sea-silk vest under a broad sharkskin baldric with a starfish badge and a trident loop on the back."
+}

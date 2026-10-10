@@ -1,0 +1,222 @@
+{
+  "id": "mf11_warden_cuirass",
+  "kind": "top",
+  "name": "Warden Cuirass",
+  "gender": "female",
+  "texture": "tops/mf11_warden_cuirass.png",
+  "extrasHeight": 32,
+  "tags": [
+    "armour",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "right_pauldron_low",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        -1.2,
+        -3
+      ],
+      "size": [
+        6,
+        2,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.02
+    },
+    {
+      "id": "right_shell_pauldron",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -3.5,
+        -2.7,
+        -2.5
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        25,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "left_pauldron_low",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        -1.2,
+        -3
+      ],
+      "size": [
+        6,
+        2,
+        6
+      ],
+      "uv": [
+        0,
+        9
+      ],
+      "inflate": 0.02
+    },
+    {
+      "id": "left_shell_pauldron",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        -2.7,
+        -2.5
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        25,
+        9
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "belt",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.6,
+        9.8,
+        -2.6
+      ],
+      "size": [
+        9,
+        2,
+        5
+      ],
+      "uv": [
+        0,
+        18
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "tasset_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "uv": [
+        29,
+        18
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "tasset_back",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "uv": [
+        0,
+        26
+      ],
+      "motion": "flap_back"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Reef-warden armour: a fitted nautilus-shell breastplate ridged with nacre, ribbed shell pauldrons and a short-sleeved sharkskin underlayer, belted at the waist."
+}

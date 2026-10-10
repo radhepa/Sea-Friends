@@ -1,0 +1,47 @@
+{
+  "id": "mf09_diver_crop",
+  "kind": "top",
+  "name": "Diver Crop",
+  "gender": "female",
+  "texture": "tops/mf09_diver_crop.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "sharkskin"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "net_pouch",
+      "bone": "TORSO",
+      "pivot": [
+        -3.6,
+        8.9,
+        -1.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1.0
+      ],
+      "size": [
+        2,
+        3,
+        2
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A pearl diver's fitted sharkskin top covering the chest, a strap harness down to a hip belt, a net pouch for pearls on the hip and sea-silk wraps at the wrists."
+}

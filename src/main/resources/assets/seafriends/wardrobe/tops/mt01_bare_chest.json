@@ -1,0 +1,18 @@
+{
+  "id": "mt01_bare_chest",
+  "kind": "top",
+  "name": "Bare Chest",
+  "gender": "male",
+  "texture": "tops/mt01_bare_chest.png",
+  "extrasHeight": 0,
+  "tags": [
+    "bare",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A lean swimmer's bare chest and arms; a single twisted kelp cord knotted round the left upper arm."
+}

@@ -1,0 +1,75 @@
+{
+  "id": "mt18_sea_silk_tunic",
+  "kind": "top",
+  "name": "Sea-Silk Tunic",
+  "gender": "male",
+  "texture": "tops/mt18_sea_silk_tunic.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "scale_belt",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        6.6,
+        -2.5
+      ],
+      "size": [
+        9,
+        2,
+        5
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "belt_shell",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        6.6,
+        -2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        29,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A plain sleeveless sea-silk tunic with a running-wave hem and a scale belt: the everyday clothed merman."
+}

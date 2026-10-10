@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafriends:block/pearl_basin"
+    },
+    "facing=east": {
+      "model": "seafriends:block/pearl_basin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafriends:block/pearl_basin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafriends:block/pearl_basin",
+      "y": 270
+    }
+  }
+}

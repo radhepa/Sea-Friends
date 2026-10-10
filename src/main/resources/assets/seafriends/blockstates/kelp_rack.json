@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafriends:block/kelp_rack"
+    },
+    "facing=east": {
+      "model": "seafriends:block/kelp_rack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafriends:block/kelp_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafriends:block/kelp_rack",
+      "y": 270
+    }
+  }
+}

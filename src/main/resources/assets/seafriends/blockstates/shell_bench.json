@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafriends:block/shell_bench"
+    },
+    "facing=east": {
+      "model": "seafriends:block/shell_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafriends:block/shell_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafriends:block/shell_bench",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "mf10_shellwright_wrap",
+  "kind": "top",
+  "name": "Shellwright Wrap",
+  "gender": "female",
+  "texture": "tops/mf10_shellwright_wrap.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "work"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "right_sleeve_roll",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -3.45,
+        3.4,
+        -2.45
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "left_sleeve_roll",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.45,
+        3.4,
+        -2.45
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": "apron_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        8.2,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -3,
+        0,
+        0
+      ],
+      "size": [
+        6,
+        5,
+        1
+      ],
+      "uv": [
+        42,
+        0
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "shell_chisel",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        8.2,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.3,
+        -2.2,
+        -1.0
+      ],
+      "size": [
+        1,
+        4,
+        1
+      ],
+      "uv": [
+        57,
+        0
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "mallet_handle",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        8.2,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        1.6,
+        -0.2,
+        -1.0
+      ],
+      "size": [
+        1,
+        3,
+        1
+      ],
+      "uv": [
+        0,
+        8
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "mallet_head",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        8.2,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        1.1,
+        2.8,
+        -1.3
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        5,
+        8
+      ],
+      "inflate": 0.05,
+      "motion": "flap_front"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A shellwright's crossover work wrap of beaded ray hide over sea silk with rolled sleeves, and a short tool apron carrying a shell chisel and a mallet in its loops."
+}

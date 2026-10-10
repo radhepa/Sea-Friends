@@ -1,0 +1,75 @@
+# REEF WARDEN (a Village Friends knight with a trident; training dummy). Guards the town against the drowned,
+# rides the reef on a nautilus, keeps night watch until midnight.
+# Canon: see merfolk.txt ("Hold the arch.", the Barnacle King, the first wardens' fence posts, conch calls).
+
+## warden.greet
+Fair currents, {player}. Stay inside the arches and you'll be safe. That's my job: the arches.
+Fair currents! Don't mind the trident. I always hold it like this. It's a comfort.
+Fair currents. Seen anything shambling about past the lamps? No? Good. Tell me if you do.
+Fair currents, {player}. "Hold the arch," as we say. You're on the right side of it today.
+Fair currents! You've got good shoulders for a sandtoe. Ever held a trident? You should.
+Fair currents. I'm on watch, but I can talk. I can always talk. Wardens are terrible gossips.
+Fair currents! My nautilus likes you. It flared its tentacles. That's either fondness or hunger.
+Fair currents, friend. Hold still so I can see you properly. Right. Not drowned. Welcome.
+
+## warden.chat
+The drowned are the ones the Tide wouldn't take. Slow, heavy, and they don't stop. We pity them. We still poke them with tridents.
+"Hold the arch." That's the Warden's Oath. Stand in the archway and nothing gets past you into the town. Simple to say. Hard on a long night.
+The Barnacle King? Fry story. A great drowned with a crown of barnacles, sitting on the shrine of lost Lowmere. Fry story. I keep my trident sharp anyway.
+A trident's better than a sword down here. It goes through water like it was made for it. Swords drag. Swords sulk.
+I ride the reef on my nautilus every afternoon: round the edges, past the gardens, along the shelf. It pretends it's a chore. It isn't; it loves it.
+The first wardens fought the drowned with fence posts from the old villages. We've got tridents now. I think about those fence posts and feel very lucky.
+The drowned come at night, mostly. They follow the lights. That's why the lights are inside the arches and we're outside them.
+If a drowned has a trident, take it. That's the rule. Anything they'd use against us, we take back and use better.
+I've polished this trident so often I can see my tail in it. Gorgeous tail. Good trident.
+The guardians at the old monuments don't bother us so long as we don't bother them. That's the best kind of neighbour.
+Night watch is quiet. Mostly. You get to know every shadow on the reef. Then a new shadow turns up and your scales go stiff.
+We train the fry to swim fast and loud. A loud fry is a safe fry; we can always find them.
+I saw Old Coil once, on night watch. White, huge, slow, out past the shelf. I didn't tell anyone for a moon. Who believes a tired warden?
+Every scratch on my armour's a story. That one's a drowned. That one's a guardian. That one's a very angry clam.
+The deep doesn't scare me. The shallows at night, when the lamps flicker... those scare me a bit.
+
+## warden.work
+Drilling with the trident: thrust, twist, pull back, check the arch. A thousand times. Then a thousand more.
+I keep watch on the arches until midnight, every other night. The other nights, I lie awake listening anyway.
+My job's simple: no drowned past the arches. Everything else is gossip and polishing.
+I train on the dummy every morning. It's never once complained, and it's won a few. Don't tell anyone.
+Riding the reef is half the work. From a nautilus you spot a drowned early. From the ground you spot it late.
+If the conch blows twice, I'm the first thing you'll see. Then the drowned, behind me, regretting things.
+I check every lamp at dusk. A dark lamp is a gap, and a gap is where the drowned come through.
+The singers brew me night-eyes for the watch. The dark goes grey and the drowned go bright. Tastes like old kelp, but it works.
+I teach the fry to throw tridents. Little ones, blunt. They're terrifying. One of them got me in the tail last week. So proud.
+A warden keeps their trident sharp, their armour tight and their nautilus fed. In that order, unless the nautilus is hungry. Then the nautilus.
+When the drowned come in numbers, the conch sounds and every warden swims for the arches. We've never lost one yet. The arch, I mean. Well, either.
+I patrol the gardens too. Seadragons can't fight. They just pretend to be kelp and hope. Somebody has to hope for them.
+Training's not about being strong. It's about being where you're needed before you're needed there.
+My armour is shell over leather over hope. The shellwright says the hope's the weakest layer. I say it's the most important.
+Want to help? Keep your eyes open on the shelf road, and tell me if anything grey is walking where it shouldn't.
+
+## warden.heart
+I don't love fighting. I love {place}. Sometimes loving it means fighting. That's the trick of it.
+Every drowned I turn away was somebody once. I say "rest easy" when I send them off. They can't hear me. I say it anyway.
+On long watches I think about everyone asleep behind the arches. Then the dark doesn't feel so big.
+I was scared on my first night watch. I'm still scared, a bit, every time. Brave isn't not being scared. Brave is staying at the arch.
+If anything ever came for you here, {player}, it would have to come through me first. I want you to know that.
+
+## warden.held.trident
+That's a trident! Good. Hold it like this: thumb along the shaft. No, the other way. There. Now you look like a warden.
+Took that off a drowned, did you? Well done. Every trident we take back is one less coming at us.
+Let me see the balance on that {item}. Hmm. Good weight. Throw it true and it'll come home to you like a faithful nautilus.
+If you ever want to train, the dummy's free. Bring that trident. It'll like the exercise.
+
+## warden.held.sword
+A sword. It'll do in a pinch, but it's slow down here. Get a trident, friend.
+That {item}'s pretty. Points beat edges under water, though. Remember that when the drowned come shambling.
+I trained with a sword once, in the shallows. Felt like fighting with a kelp leaf. Never again.
+
+## warden.held.shield
+Good! A shield's a warden's best friend after the trident and the nautilus. Third best friend. Still a friend.
+Keep that {item} up. The drowned throw tridents, and they're not polite about where they land.
+Nice shield. Mine's shell over leather. Does yours float? Mine sinks. Better for standing your ground.
+
+## warden.player.unarmored
+No armour? Out here? I'm going to fuss. You can't stop me. Get some armour on, {player}.
+You're as bare as a fry. The drowned will be delighted. I won't.
+Not even a bit of shell? Right. Stay by me, and stay inside the arches until you find some.

@@ -1,0 +1,163 @@
+{
+  "id": "mf13_one_shoulder_drape",
+  "kind": "top",
+  "name": "One-Shoulder Drape",
+  "gender": "female",
+  "texture": "tops/mf13_one_shoulder_drape.png",
+  "extrasHeight": 16,
+  "tags": [
+    "formal",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "brooch",
+      "bone": "TORSO",
+      "pivot": [
+        -2.6,
+        1.6,
+        -2.15
+      ],
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "origin": [
+        -1.5,
+        -1.5,
+        -1
+      ],
+      "size": [
+        3,
+        3,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "brooch_pearl",
+      "bone": "TORSO",
+      "pivot": [
+        -2.6,
+        1.6,
+        -2.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        9,
+        0
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "brooch_drop",
+      "bone": "TORSO",
+      "pivot": [
+        -2.6,
+        3.2,
+        -2.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        16,
+        0
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "drape_hem_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        4,
+        1
+      ],
+      "uv": [
+        21,
+        0
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "drape_hem_back",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        4,
+        1
+      ],
+      "uv": [
+        40,
+        0
+      ],
+      "motion": "flap_back"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A length of pale sea silk swept over one shoulder and pinned with a pearl brooch, covering the chest to the waist in one soft fold, with a short draped hem and a pearl armlet on the bare arm."
+}

@@ -1,0 +1,161 @@
+{
+  "id": "mf08_tide_singer",
+  "kind": "top",
+  "name": "Tide Singer",
+  "gender": "female",
+  "texture": "tops/mf08_tide_singer.png",
+  "extrasHeight": 16,
+  "tags": [
+    "fins",
+    "merfolk",
+    "silk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "high_collar",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4,
+        -0.9,
+        -2.5
+      ],
+      "size": [
+        8,
+        2,
+        5
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "right_sleeve_fin",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        -2.7,
+        2.6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        28,
+        -16
+      ],
+      "origin": [
+        -3,
+        0,
+        -0.5
+      ],
+      "size": [
+        3,
+        6,
+        1
+      ],
+      "uv": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": "left_sleeve_fin",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        2.7,
+        2.6,
+        0.4
+      ],
+      "rotation": [
+        0,
+        -28,
+        16
+      ],
+      "origin": [
+        0,
+        0,
+        -0.5
+      ],
+      "size": [
+        3,
+        6,
+        1
+      ],
+      "uv": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": "conch",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        3.6,
+        -2.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": "conch_spire",
+      "bone": "TORSO",
+      "pivot": [
+        0.5,
+        2.8,
+        -2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        52,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A tide singer's high-necked sea-silk top that darkens below a wave line like deepening water, long sleeves with thin fins along the arms and a conch pendant on a pearl cord."
+}

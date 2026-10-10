@@ -1,0 +1,19 @@
+{
+  "id": "mt10_scale_vest",
+  "kind": "top",
+  "name": "Scale Vest",
+  "gender": "male",
+  "texture": "tops/mt10_scale_vest.png",
+  "extrasHeight": 0,
+  "tags": [
+    "merfolk",
+    "scales",
+    "vest"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "An open-fronted, sleeveless vest of overlapping fish scales over the bare chest, its front edges and hem trimmed with a row of bright nacre scales."
+}

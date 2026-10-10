@@ -1,0 +1,19 @@
+{
+  "id": "mt05_tide_marks",
+  "kind": "top",
+  "name": "Tide Marks",
+  "gender": "male",
+  "texture": "tops/mt05_tide_marks.png",
+  "extrasHeight": 0,
+  "tags": [
+    "bare",
+    "markings",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Ritual tide markings painted on bare skin: a rolling wave across the chest, a low tide-line at the hips, wavering lines down both arms to banded wrists and a great spiral on the back."
+}

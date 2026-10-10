@@ -1,0 +1,590 @@
+# MERFOLK: shared pools every merfolk falls back to (diver, farmer, shellwright, singer, warden, elder, child).
+#
+# MERFOLK CANON (invented here; keep it the same across every merfolk file)
+# - The Tide: the sea's own will. When the Great Flood drowned the old coast villages, the Tide "took" some of
+#   the drowning and gave them tails; the ones it would not take came back as the drowned (pitied and feared).
+#   Oaths: "Tide's teeth!", "Tide willing", "Tide keep you". Saying: "The Tide gives and the Tide keeps."
+# - Nobody alive remembers the Flood; the Song does. The old coast villages: Saltcombe (everyone claims their
+#   family came from Saltcombe), Gullstone, Brinewick, Hollin Bay. Every Reef Town keeps one bell from its old
+#   land village, wrapped in kelp-cloth and brought out only on Bell Night.
+# - Festivals: Bell Night (the Flood remembrance: the old bell is rung once for every lost name, until morning);
+#   Lantern Night (the Pact festival: every family sets a sea pickle on the shrine steps, a Prismari envoy comes
+#   up to "look upon the light", everyone sings "The Lantern Promise"); Blushing Day (a fry's pale silver tail
+#   takes its family colour; a singer sings the family song and the fry gets a carved shell comb); the Long Cut
+#   (the great kelp harvest: everyone hauls and sings "Haul the Green"); the Spiral Race (a nautilus race round
+#   the reef).
+# - Songs: "The Song of the Flood" (forty verses and a forty-first nobody sings; the Elders know it, won't say);
+#   "Hush Now, Little Fin" (the lullaby, first song and last); "Haul the Green" (kelp work song); "The Lantern
+#   Promise" (the Pact song, learned from the Prismari); "The Nautilus Who Wouldn't" (comic; the fry demand it).
+# - Wenna Saltcombe: the first Tide Singer. She swam down into the dark with one lantern and sang until the
+#   Prismari came up to see what was singing. The Pact of Lanterns: the Prismari gave each town a conduit
+#   (merfolk call it "the Heart"); the merfolk keep the shallows lit, carry news of the sun down to the deep, and
+#   never enter the old monuments. Her fry's tail went gold on the first Blushing Day.
+# - Lost Lowmere: a Reef Town past the shelf whose singers forgot the songs (so the Elders say); its Heart went
+#   dark (within the oldest Elders' memory) and the drowned took it. The Weeping Pearl (the greatest Tidepearl,
+#   black as the deep and wet even out of water) went down with it.
+# - The Barnacle King: a great old drowned with a crown of barnacles who sits on Lowmere's shrine. The fry's
+#   bogey ("eat your kelp or the Barnacle King gets your fins"). Wardens say "fry story" and sharpen tridents.
+# - Old Coil: the white nautilus as big as a cottage who carried the first fry down in the Flood, a dozen to a
+#   shell. Never ridden since; seen out past the shelf on still nights; seeing her means a year's luck.
+# - Old Pell (Pell Whelk): the wandering storyteller who swims reef to reef telling tales for supper; a famous,
+#   beloved liar; does all the voices. "True as one of Pell's" means not true at all.
+# - Sandtoes: the merfolk's fond word for land folk ("dry-walkers" is the old polite word). Merfolk are
+#   fascinated by toes. The surface/land = "the dry". Goosebumps = "goose-scales". "Fins up" = cheer up.
+# - Superstitions: never whistle over the drop-off (the shelf, where the deep begins: the deep thinks it's being
+#   called); knock on coral three times before a long swim; never say "drown" at supper; sleep with your tail
+#   toward the Heart (bad dreams go the other way); if the Heart hums off-key, someone nearby told a lie; a
+#   seadragon in your garden keeps the drowned from your door; never chase a light in the deep; if a bell rings
+#   at night that isn't yours, don't swim toward it; the Undertow is sly and listens ("Mind the undertow").
+# - Bottle post: merfolk write to land cousins in bottles; old Letter Rocks at the tideline where the two
+#   peoples once traded pearls for apples. When the first merfolk came ashore, the land folk brought blankets:
+#   "remember the blankets".
+# - Daily life: beds are sponge cushions; lamps are sea pickles (never eat a lit one); doors are kelp curtains;
+#   kelp is dried on the sun-rocks at low tide; evenings at the shrine. Dolphins are the sea's worst gossips.
+# - Tidepearls: a speck of prismarine crystal tucked into a basin clam and sung to for a moon; grades moonwhite,
+#   dawnblush, deepblue (rarest: the clam had a sad moon). Every diver keeps one pearl they'll never sell.
+# - Shellwrights: the Spiral Rule (never carve against a shell's spiral); Corran the Carver made the first
+#   nautilus saddle from a cart seat out of the old village (every town claims to have it). Living coral is
+#   never cut from the shrine. Singers: conch calls (one long blow: come to the shrine; two: danger; three:
+#   supper); brews are "breath-brews" (for sandtoes) and "night-eyes" (for the watch).
+# - Wardens: the Warden's Oath is "Hold the arch." The first wardens fought the drowned with fence posts.
+# - Prismari: "I see you" is answered "And I am seen." The fry call them "Big Eyes" (never to their faces).
+# - Hard times: "a pickle moon" (the year of the great storm, when the kelp tore loose and everyone ate pickles).
+
+## merfolk.greet
+Fair currents, {player}! Mind your elbows; the coral bruises easy.
+Fair currents! Come in, come in, the water's lovely. It always is. That's rather the point of it.
+Fair currents, {player}. You've got that sandtoe look about you: all elbows and bubbles.
+Oh! Fair currents! Sorry, I was admiring my tail in a polished shell. It's a good tail. You may look.
+Fair currents, and welcome to {place}. Wipe your feet. Oh, you actually have some! How wonderful.
+Fair currents! Don't mind the seadragons. They stare at everyone.
+Fair currents, {player}. Swim slow; the fry have strung kelp streamers across the path again.
+There you are! Fair currents. {place} has been wondering about you. Well, I have, and I'm a good part of {place}.
+Fair currents! You found us. Most sandtoes swim right over the top and never think to look down.
+Fair currents, friend of the sun. What brings you down where the light goes green?
+Fair currents, {player}. Did you come down on purpose, or did the sea just sort of happen to you?
+Fair currents! You've got a bit of seaweed in your hair. No, leave it. It suits you.
+Fair currents! Watch the drop by the arches; it's where the paths forget themselves.
+Fair currents! You're breathing all right? Good. I can never tell with sandtoes. You go such a funny colour.
+Ah, fair currents. Sit a while, if you can work out how to sit in water. We just sort of hover.
+Fair currents! I'm {name}. If anyone in {place} says otherwise, they're thinking of someone less charming.
+Fair currents, and a calm sea over you.
+Fair currents! You've caught me between chores, which is my favourite place to be caught.
+Fair currents, {player}! Tide keep you.
+Fair currents! Have you met the seadragons yet? No? You'll be ruined for land pets.
+Fair currents! Mind the nautilus by the stable gate. It nips at boots, out of curiosity.
+Oh, a visitor! Fair currents! I'll pretend I wasn't gossiping. I was, though.
+Fair currents, {player}. The Heart's humming well today; it likes company.
+Fair currents! Bubbles up, chin up, welcome down.
+Fair currents! Don't be shy. We were all dry once, a long way back.
+Fair currents, sandtoe! It's a fond word. Mostly.
+Fair currents! You smell of sun. Lucky thing.
+Fair currents! I'd offer you a cushion, but the fry have used them all to build a fort.
+Fair currents! Come to see how the other half swims?
+Fair currents, {player}. You're welcome in {place} for as long as your breath holds, and longer if a singer likes you.
+Fair currents! Careful where you step. Ha! Step! Listen to me, as if anyone steps down here.
+Fair currents, and a fine {time} to you, {player}!
+
+## merfolk.greet.stranger
+Fair currents, stranger. You're a long way from the dry. Are you lost, or just brave?
+Fair currents. You've the look of a sandtoe who's never seen a tail up close. Go on, have a look. Everybody does.
+A stranger in {place}! Fair currents. The wardens will be along to stare at you; it's nothing personal.
+Fair currents. I don't know your face yet, but faces are easy. Names take a bit longer.
+Fair currents, stranger. We don't get many of your kind down past the kelp. Swim kindly and you'll be welcome.
+Fair currents! Are you one of the land folk? You are! Do your toes get cold? I've always wanted to ask someone.
+Fair currents, newcomer. Swim gentle, speak kind, don't touch the Heart, and we'll get on beautifully.
+Oh! A sandtoe! Fair currents. Sorry, that's what we call your folk. It's affectionate, I promise.
+Fair currents, stranger. If you're here for treasure, the treasure is the friends we make. Also there's pearls.
+Fair currents. You're holding your breath like it owes you money. Relax; the singers have brews for that.
+Fair currents, stranger. My gran said every stranger might be a cousin from the dry. Are you? No? Worth asking.
+Fair currents. You came all the way down and you didn't panic. That's more than most land folk manage.
+
+## merfolk.greet.friend
+{player}! Fair currents, friend! I was hoping you'd swim by.
+Fair currents, {player}! The whole reef brightens when you come down. Well, I do. The reef's already bright.
+There's my favourite sandtoe! Fair currents!
+Fair currents, {player}. I've saved you the good spot by the Heart for the evening song, if you'll stay.
+{player}! Fair currents! I told the seadragons you'd be back. They didn't believe me. They never do.
+Fair currents, old friend. You're starting to swim like one of us. Badly, but like one of us.
+Oh, it's you! Fair currents, {player}. Come here, you've got news all over your face.
+Fair currents, {player}. {place} has missed you. I've missed you. The nautilus hasn't, but it's a nautilus.
+{player}, fair currents! Tell me everything you've seen up in the dry. Leave nothing out, especially the gossip.
+Fair currents, dear heart. You keep coming back, and I keep being glad.
+Fair currents, {player}! If the Tide ever took you, you'd get a gold tail. That's a compliment. Gold is the best.
+There you are, {player}! Fair currents! I was about to send a bottle up after you.
+
+## merfolk.greet.morning
+Fair currents, and a bright morning to you! The light comes down green this early; it's my favourite.
+Morning, {player}! Fair currents. The fry are already up chasing seadragons, so the day's begun whether we like it or not.
+Fair currents! Up with the sun, are you? Down here we're up with the shimmer.
+A morning visitor! Fair currents. Have you eaten? Nobody should face the reef on an empty belly.
+Fair currents, {player}. Dawn's when the pearls are shiniest, or so the divers say to get us all up.
+Morning! Fair currents. The kelp's all leaning the same way; the current's in a good mood.
+
+## merfolk.greet.evening
+Fair currents, {player}. Everyone's drifting to the shrine for the evening song. Come and listen, if you like.
+Evening! Fair currents. The water's gone that deep blue, like the inside of a mussel shell.
+Fair currents. You've come at the best hour: work done, songs starting, everyone pretending not to gossip.
+Fair currents, {player}! The sea pickles are lit along the paths. Follow them and you'll never lose the shrine.
+Evening, friend. Fair currents. If you hear humming, that's the Heart and the singers trying to out-sing each other.
+Fair currents! The light's going. That's when the reef gets pretty and the deep gets ideas.
+
+## merfolk.greet.night
+Fair currents... you're out late, {player}. The drowned are out late too. Stay near the lights.
+Fair currents. Whisper, would you? The fry are asleep, and if they wake, everyone wakes.
+You're swimming about at night? Fair currents, but you're braver than me, or sillier.
+Fair currents, night-swimmer. Keep the Heart's glow in sight and you'll be safe enough.
+Fair currents, {player}. Couldn't sleep either? The sea's loud at night, once you listen.
+Shh, fair currents. Something big went by the shelf a while ago. Probably a squid. Probably.
+
+## merfolk.chat
+Do you know what I'd give to see a sunset from the dry side? Well, not my tail. But nearly my tail.
+My cousin lives in a land village. We send bottles. The last one said "it rained". I've read it a hundred times and I still don't really understand it.
+Everyone thinks their tail is the best colour. Everyone is wrong, except me.
+We knock three times on coral before a long swim. Is it silly? Yes. Have I ever skipped it? Never.
+Kelp wraps for breakfast, kelp wraps for lunch, and on festival days, a kelp wrap with a little extra kelp.
+The Heart hums all day. You stop hearing it, like your own heartbeat. Then it changes note and every head in town turns.
+You land folk walk about on the bottom of the air. I think about that a lot.
+Never whistle over the drop-off. The deep's listening, and the deep thinks it's being called.
+Seadragons look like someone made a fish out of kelp and forgot to finish it. That's why we love them.
+The nautili are terribly stubborn. You don't ride a nautilus so much as negotiate with one.
+Old Pell the storyteller came through last moon and swore a whale once proposed marriage. Pell gets more wonderful every visit, and less true.
+Do you know the trick to a good gossip down here? Lean in close. Sound travels under water, and so do secrets.
+We sleep on sponge cushions. You float a little in the night and wake up somewhere slightly else. It's lovely.
+The light comes down in ripples on a calm day. I could watch it for hours. I have, actually. Work did not get done.
+My gran used to say the Tide gives and the Tide keeps. Usually right before taking the last kelp wrap.
+Toes! What are they for? Truly. Do they help? Do you name them?
+I tried walking once, on the beach at low tide. I flopped. I flopped with great dignity, mind.
+There's no weather down here. There's just the surface going grumpy, and us looking up at it.
+When the surface storms, the light goes dark green and the whole reef goes quiet. We sing louder then.
+Sea pickles: lamp, snack and decoration, all in one. Don't eat the lit ones. You'll glow, and the fry will never let you forget it.
+The shrine's where everyone ends up in the evening. Singing, gossiping, and pretending we came for the singing.
+My tail's been itchy all week. The singers say it means a change in the current. My gran said it meant someone was talking about me. I'm going with the gossip.
+Fry learn to swim before they learn to talk. Then they learn to talk and never stop.
+Our town keeps a bell from the old land village, wrapped in kelp-cloth. It rings once a year. You'd never think a bell could sound sad until you hear it under water.
+Some days I wonder what our old land village looked like. Then I look at the reef and stop wondering.
+If the Heart ever hums off-key, somebody nearby just told a lie. So mind what you say near the shrine.
+Leafy seadragons pretend to be kelp. You'd be surprised how much of the kelp in a garden is pretending.
+The fathers carry the seadragon eggs, did you know? On their tails. Proud little things, swimming about with a tail full of babies.
+People ask if it's cold down here. It's not cold. It's fresh.
+The trick to living under the sea is not to think too hard about the surface. Also kelp. A great deal of kelp.
+I polish my scales every evening. Vanity? Yes. But it keeps the barnacles off, and barnacles are worse than vanity.
+You've got such a funny swim. All arms and kicking. It's very brave, considering.
+I once dared myself to touch the top of the water. Just a fingertip. It was so dry up there! Like touching nothing at all.
+My cousin up on land married a farmer. There's a bottle on my shelf that just says "harvest went well". I keep it like treasure.
+There's an old saying: a seadragon in your garden, and no drowned at your door. Our garden's full of them. I sleep like a stone.
+The deep past the shelf goes from blue to black, like a door closing. We don't swim through that door.
+Gossip travels faster than the current here. By supper, everyone will know you came down. By morning, they'll know what you had for breakfast.
+If you ever see a white nautilus as big as a cottage, that's Old Coil. Make a wish. Then swim away, very politely.
+Do land folk have festivals? We've got Lantern Night and Bell Night and Blushing Day and the Long Cut, and every one has a song you can't get out of your head.
+We don't have doors. Doors are for people with secrets. We have kelp curtains, which are for people with small secrets.
+Nobody alive remembers the Flood. The Song does, though. That's what songs are for.
+My scales go a little pale when I'm nervous. Don't tell anyone. They'll tease.
+Have you tried a kelp wrap? Fish, kelp, a pinch of salt. Though down here, everything comes with a pinch of salt.
+Tide keep me, I'd love to see snow. Is it cold rain? Bits of cloud? Nobody's bottle has ever explained it properly.
+The fry dared each other to touch a pufferfish this morning. We now have three puffy fry and one very smug pufferfish.
+You can tell how a merfolk's day went by the way they swim. Fast and straight, they're cross. Slow and loopy, it was a good one.
+It's rude to swim over someone's dome without saying "fair currents". Nobody tells sandtoes that, so I'm telling you.
+Every Reef Town claims to keep the oldest bell from the old coast. {place} actually does. Don't check.
+I count the sea pickles on my path home every night. Same number every night. One night it won't be, and I'll know something's moved.
+When I was small I thought the surface was a great silver ceiling and the sun was a lamp someone left on. I'm still not entirely convinced otherwise.
+The singers say the Tide chose who got tails by listening to how we sang as we sank. I like to think my family sang something cheerful.
+A good tail swish can say more than a sentence. That one means "I'm very interested". This one means "I'm being polite".
+Nobody says "drown" at supper. It's bad luck, and it puts everyone off their wraps.
+The drowned walk slow and they walk heavy. We swim. That's the whole difference, really, and it's everything.
+Cousins on land send us apples in bottles sometimes. They arrive pickled. We eat them anyway, out of love.
+You can always tell a nautilus that's been ridden by a warden. It swims like it's late for something.
+Our beds are sponge cushions, our lamps are pickles and our doors are kelp. It's a soft sort of life. We like it soft.
+The fry name every seadragon in the garden. One of them is called Lord Wiggles the Third. Nobody knows what happened to the first two.
+Dolphins are the worst gossips in the sea. Worse than me! They'll tell the whole reef you came down before you've finished saying hello.
+Lovely {time} for a swim, isn't it? Then again, they all are.
+The best thing about a tail is the swish. The second best thing is the colour. The third best thing is never needing shoes.
+I've heard land folk sleep lying flat, on top of their beds, and they don't drift at all. How do they know they've slept?
+"Fins up," we say, when someone's low. It means cheer up. It also means "you're slouching", depending on who's saying it.
+The current changes every evening, right when the songs start. My gran said the sea leans in to listen. I've never heard a better reason.
+Up in the dry, you have to carry everything. Down here, if you let go of something, it just drifts about nearby, thinking it over.
+
+## merfolk.chat.new
+You're new, so here's the first rule: never touch the Heart. The second rule: never touch my tail. The third rule is mostly about manners.
+Settle in, sandtoe. It takes a while to get used to looking up at the waves instead of down at them.
+First time in a Reef Town? Don't be embarrassed if you gawp. We gawp at you too.
+If you're staying a while, find a singer for a breath-brew. You'll go a funny colour otherwise.
+New faces are rare down here. You'll be talked about at the shrine tonight. Don't worry: kindly, mostly.
+We don't bite. The nautili might. The seadragons are cowards. You'll be fine.
+Welcome to {place}. It's not big, but every bit of it is somebody's favourite.
+You'll learn our ways soon enough. Swim slow near the gardens, greet everyone, and never whistle over the deep.
+I'd show you round, but honestly, you'll get lost the nice way if you just follow the pickles.
+Don't be offended if the fry follow you about. You're the most interesting thing that's sunk past the kelp all week.
+
+## merfolk.chat.close
+You know, {player}, if the Tide ever took you, I think you'd get a gold tail. I've thought about it. Probably too much.
+I don't tell everyone this, but I'm a little scared of the deep. Not the drowned. The dark itself. You're easy to tell things to.
+When you're up in the dry, do you think of us? I think of you whenever the light goes golden.
+You've got a place by the Heart now, {player}. It's yours. The fry sit in it, but they get up when asked.
+I'd swim to the shelf and back for you, and I hate the shelf.
+If you ever stop visiting, I'll send bottles up until the beach is full of them. Fair warning.
+You're family now, {player}. That means you'll be expected at Bell Night, and you'll be expected to cry, a little.
+I set a shell on the shrine steps for you last Lantern Night. For safe travels. It worked; here you are.
+Of all the sandtoes that ever splashed into {place}, you're my favourite. Don't let it go to your head. Or do, a little.
+Sometimes I think the Tide gave my family tails just so I'd be here when you swam by.
+I told my cousin on land all about you in my last bottle. Three pages. They'll think I've gone soft.
+Stay for the evening song, {player}. I want to hear you try to sing it. Badly. Lovingly.
+
+## merfolk.past
+The Song says the water came in one night and didn't go out in the morning. The old coast villages went under, bells and all.
+When the Great Flood came, the Tide took some of the drowning and gave them tails. The rest... well. The rest are the drowned. We never laugh at them.
+My family came from Saltcombe, on the old coast. Everyone's family came from Saltcombe, if you ask them. It must have been an enormous village.
+Wenna Saltcombe was the first Tide Singer. She swam down into the dark with one lantern and sang until something sang back. That was the Prismari, and that was the Pact of Lanterns.
+The first merfolk didn't know how to swim with tails. They wriggled about like eels for a moon, crying for their legs. Then they got the hang of it, and hardly anyone's cried for legs since.
+Old Coil the white nautilus carried the first fry down from the Flood, a dozen to a shell, or so the Song says. She's never been ridden since.
+There used to be a town called Lowmere, out past the shelf. Its singers forgot the songs, the Heart went dark, and the drowned came in. Now the Barnacle King sits on its shrine.
+Every town keeps one bell from the old land villages. On Bell Night we ring it once for every name we lost. It takes until morning.
+Our people kept the village ways because they were all we had left of the land. Names, gossip, festivals. Especially gossip.
+They say the first Reef Town was built under the drowned roof of Saltcombe's market hall. The first Heart sat where the cheese stall used to be.
+The Pact of Lanterns is simple: the Prismari gave us the Hearts, and we keep the shallows lit and carry them news of the sun. And we never go into the old monuments. Never ever.
+My gran's gran's gran had legs. I think about that sometimes, looking at my tail. Then I think: the poor thing had to wear boots.
+When the first merfolk went ashore to find their families, half the land folk screamed and the other half brought blankets. We remember the blankets.
+Corran the Carver made the first nautilus saddle out of a cart seat from the old village. It's still kept in a shrine somewhere. Every town claims it's theirs.
+In the old days there were no Tide Lamps and no Hearts, only sea pickles and singing. The deep was so much closer then.
+The Song of the Flood has forty verses. There's a forty-first that nobody sings. The Elders know it. They won't say.
+Before the Flood, Saltcombe held a fish market every seventh day. The fish have never forgiven us.
+The first Blushing Day was when Wenna's own fry's tail went gold. She cried so hard the singers had to wait to start the song.
+Old Pell says Lowmere still has its bell, and on Bell Night you can hear it ring from the wrong direction. Pell says a lot of things. That one, I believe.
+The Tide didn't ask anyone if they wanted a tail. Some of the first merfolk were cross about it for years. Then they had grandchildren with tails, and that was that.
+There was a time merfolk and land folk traded at the tideline every full moon: pearls for apples, shells for bread. Some of the old Letter Rocks are still there.
+The first wardens fought the drowned with fence posts from the old villages. Tridents came later. Fence posts are surprisingly good, apparently.
+The year of the great storm, the kelp tore loose all at once and the whole town lived on sea pickles for a moon. We still call a hard time "a pickle moon".
+Old Pell remembers when there were half as many Reef Towns. Pell also remembers being friends with a whale, so, mixed.
+
+## merfolk.night
+At night the reef glows: pickles, lamps, the Heart, the jellies far down. You'd think the stars fell in.
+Stay close to the light. The drowned don't like the Heart's glow, and I don't like the drowned.
+Night's when the deep creeps a little closer to the shelf. It always goes back by morning. Always has.
+Can't sleep? Me neither. I've counted every scale on my tail twice. Seven hundred and twelve. Then I lost count at the fluke.
+If you hear a bell in the night that isn't ours, don't swim toward it. That's the old wisdom, and I'm sticking to it.
+The fry sleep with their tails toward the Heart. Old habit. It keeps the bad dreams pointed the other way.
+At night the surface goes black and silver and the moon comes down in pieces. It's my favourite thing in the sea.
+The night watch says Old Coil went by the shelf last night, white as bone. Or it was a jellyfish. They'd been up a long time.
+"Hush now, little fin, the Tide's rocking the reef..." Sorry. Lullaby. You hum it once and it's in you for life.
+Nights are for sleeping, singing, and gossiping in whispers. Mostly the last one.
+The glow squid come up the shelf on dark nights and hang there like lanterns nobody lit. Pretty, as long as you don't think too hard.
+
+## merfolk.work
+Everyone in {place} works: the divers dive, the farmers farm, the singers sing, and the fry get underfoot. It comes out about even.
+Work's slow down here. You can't hurry water. The water won't let you.
+We trade pearls and shells for what the dry sends down, and honestly, the dry gets the worse of it. Have you seen a good pearl?
+If you want to help, haul kelp at the Long Cut. Everyone hauls. Even {elder} hauls, with commentary.
+A good day's work under the sea ends with a song at the shrine. A bad day's work ends with a longer song.
+We work from shimmer to dusk. The light tells us when to stop: when it goes from green to blue, tools down.
+Nobody in {place} works alone. Even when you're on your own, the Heart's humming at you, so you're not really.
+Land folk ask what we do all day. We work, we gossip, we sing. Same as you, but wetter.
+You can't light a forge down here, so everything's carved, woven, grown or sung. It takes longer. It lasts longer, too.
+If you see a merfolk resting, they're not lazy. They're listening to the current for work. That's what we say, anyway.
+Our best trades go to friends. That's not a rule; that's just how hearts work.
+Every job in {place} feeds the Heart somehow. Pearls for the Pact gifts, kelp for the brews, shells for the wardens. Even the gossip helps; it keeps everyone singing.
+
+## merfolk.adventure
+If you're after adventure, swim the reef edge at dusk. Everything's out: turtles, squid, and the odd drowned looking for a fight.
+Past the shelf, the water goes black and cold. The divers go down on a rope of knotted kelp. I've never had the nerve.
+The old coast villages are still down there somewhere, under the sand. Find one and bring me back a spoon. I've always wanted a land spoon.
+Ride a nautilus full speed through the arches some time. You'll scream. Everyone screams. It's tradition.
+If you go looking for lost Lowmere: don't. If you find it, swim away. If the Barnacle King sees you, swim faster.
+There's a cave in the reef wall where the light comes in blue through little holes. The fry swear it sings. I've heard it. It's the current. Probably.
+The ocean monuments? The Prismari's old halls, full of guardians. Don't. The guardians don't know you, and they don't care to learn.
+If you swim far enough out, you'll find the shipwrecks. Land folk lost them; we leave them be. Respect, you see.
+Want a real adventure? Talk a nautilus out of a sulk. Took me half a day once. Two pufferfish and a whole song.
+Some say Old Coil sleeps in a cave beyond the kelp forests, in a nest of white shells. Find her and you'll never want for luck again. Or so we tell the fry.
+The sea is bigger than the dry, you know. There's always one more thing past the next drop.
+Never chase a light in the deep. Sometimes it's a jelly. Sometimes it's a Prismari. Sometimes it's neither, and that's the worst one.
+You could try the long swim to the next Reef Town. Bring news, bring gossip, bring a pearl as a guest-gift. You'll be fed for a week.
+Up for a dare? Touch the shelf edge at night and swim back without looking behind you. I did it once. I looked behind me.
+Adventure's fine, but come back with all your fingers and both your funny feet. We've grown used to them.
+The drowned like the old wrecks and the dark trenches. If you go poking about either, take a friend and a trident, in that order.
+
+## merfolk.joke
+What do you call a merfolk who won't stop talking about their tail? A merfolk.
+How many Tide Singers does it take to change a sea lantern? Twelve. One to change it, and eleven to sing about how lovely the old one was.
+Why are seadragons so good at hide and seek? Every time you find one, it's kelp. Every time you find kelp, it's a seadragon.
+I told a joke to a Prismari once. It looked at me for a whole tide. Then it said "I see you." I think that means it got it.
+What's the difference between a warden and a nautilus? You can reason with the nautilus.
+My gran said never trust a fish that smiles. Then she met a pufferfish, and it smiled, and she was right.
+A sandtoe asked how we keep our hair so nice under water. I said "what do you mean, under water?" They're still thinking about it.
+Why won't the clams share their pearls? Because they're shellfish.
+Knock knock. Who's there? Water. Water who? Water you doing up there in the dry? Come down!
+How does a merfolk say goodbye to a land friend? With a wave! A wave! ...Sandtoes never get that one.
+Why did the nautilus cross the reef? It didn't. Nobody can make a nautilus do anything.
+Old Pell told me about a fish so big it had its own reef. Then Pell said the reef had its own fish. I left before the fish got a reef.
+Why do kelp farmers make terrible spies? They always spill the beans. Well, the pickles. They don't have beans.
+A drowned shambles up to the shrine and asks for a song. The singer says, "Sorry, we only sing for people with a pulse." The drowned says, "Fair enough," and goes home. Best drowned I ever heard of.
+What's a shellwright's favourite song? Anything with a good hook. And a good spiral. They're very particular.
+Why did the fry bring a pickle to the Spiral Race? For a light snack. Oh, come on. That's a good one.
+What's wet, green, and tells lies? Old Pell after a long swim.
+Why don't the wardens play hide and seek? Ever tried hiding from someone who stares at shadows all night? No fun at all.
+
+## merfolk.news
+Did you hear? The fry found a new seadragon in the garden. Well, it was a bit of kelp. Well, it was a seadragon pretending. Nobody's sure.
+Big news: the nautilus at the stable gate finally let someone ride it without biting. Small bite. Hardly counts.
+There's talk of the Spiral Race going all the way round the reef twice this year. Twice! The nautili will riot.
+The bottle post came in: three letters from land cousins, one wet apple, and a very confused fish.
+Someone heard a bell out on the shelf last night that wasn't ours. The wardens have been twitchy all day.
+The Heart dipped a note at supper and everyone looked round to see who'd fibbed. It was the fry. It's always the fry.
+Word from the next reef: Old Pell's on the way. Hide your supper and your patience.
+The singers say the current's turning colder. A cold current means a long Bell Night. Or a short one. They argued about it for an hour.
+Lantern Night's coming. Everyone's polishing their pickles and pretending they're not nervous about the Prismari envoy.
+Somebody's been leaving a shell on the shrine steps every morning. Nobody knows who. It's driving the gossips wild, and I'm one of the gossips.
+A drowned wandered right up to the arches yesterday. The wardens sent it off. It dropped a bit of copper. Nobody's touching it.
+The kelp's growing fast this moon. Fast kelp means a good Long Cut, and a good Long Cut means a good party.
+Two of the seadragons in the garden are courting. They do a little dance at dawn, round and round. Most romantic thing in {place}, and I've read every bottle.
+Someone dropped a land book from a boat. The fry are reading it a page at a time before it goes to mush. It's about a dragon. A land dragon! With fire!
+News from the dry: a cousin's bottle says the land folk have a new kind of pie. We have questions. So many questions.
+Big talk at the shrine: someone swears they saw a white nautilus out past the shelf. If it's Old Coil, it's luck for a year.
+The fry tried to teach a nautilus to fetch. The nautilus taught the fry to fetch instead. Very well, actually.
+{elder} is threatening to sing all forty verses of the Song at the next Bell Night. Everyone's practising staying awake.
+
+## merfolk.heart
+Sometimes I swim up close to the surface and look at the dry. I don't want legs. I just want to know who I'd have been.
+Bell Night always gets me. All those names. Somebody loved every one of them.
+I think the best thing the Tide ever gave us wasn't tails. It was each other, down here, when everything above was gone.
+If you're ever sad up there, look at the sea. We're under it somewhere, thinking of you. That's not nothing.
+I worry about the drowned sometimes. Not fighting them. Being them. They were people once, like us, and the Tide said no.
+My gran said: be kind to sandtoes, because one day you might wash up on their shore and need a blanket. I think about that blanket a lot.
+You don't have to be good at swimming to belong here. You just have to keep coming back.
+I sing to the Heart sometimes when nobody's at the shrine. Not well. It hums back anyway. Kind thing.
+I've always been a bit scared of the deep. But I swim out to the shelf every Bell Night, because someone has to look at the dark and say "not us".
+Being liked is easy down here. Being known takes longer. Thank you for taking longer.
+I keep every bottle my cousin ever sent. Some days I don't read them. I just hold them and imagine their hands on the glass.
+The Pact holds because both sides keep the lights lit. Friendship's like that, I think: you keep a light lit for someone in the dark.
+I'm glad the sea brought you down, {player}. It doesn't bring everyone. It's picky, the sea.
+When the last song ends at the shrine and everyone drifts home, there's this quiet. Not lonely. Full. Like a held breath.
+I don't really know what's at the bottom of the deep. I don't need to. I know what's here.
+
+## merfolk.rumor
+The divers say if you swim {rumor_dir}, you'll come to {rumor_name}. It's {rumor_dist}, if the current's kind.
+Off to the {rumor_dir}, there's {rumor_name}. I've never been. I've heard plenty.
+Old Pell swears blind there's {rumor_name} out {rumor_dir} of here. For once, the wardens say Pell's right.
+A nautilus came back from the {rumor_dir} all jittery yesterday. That's where they say you'll find {rumor_name}. Make of that what you will.
+If you're the exploring sort, head {rumor_dir}. That's where you'll find {rumor_name}. Bring a lamp.
+My cousin's last bottle mentioned it: out {rumor_dir}, there's {rumor_name}. That's {rumor_dist}. Too far for my fins.
+Swim {rumor_dir}, keep the light on your shoulder, and sooner or later you'll come to {rumor_name}.
+They say to the {rumor_dir} there's {rumor_name}. The fry dare each other to swim halfway. Nobody's made it past the second rock.
+Gossip at the shrine: there's {rumor_name}, out {rumor_dir}. That's {rumor_dist}. I'd go, if I were braver.
+Head {rumor_dir}. It's {rumor_dist}. That's where you'll find {rumor_name}.
+The singers mention it sometimes: {rumor_name}, out to the {rumor_dir}. They hum a funny note after, like they're not sure.
+If you go {rumor_dir}, past where our kelp stops, you'll come to {rumor_name}. Mind the undertow on the way.
+A diver came back from the {rumor_dir} full of stories of {rumor_name}. Half of them were probably true. Which half, I couldn't say.
+There's a current running {rumor_dir} that'll carry you most of the way to {rumor_name}. It's {rumor_dist}. Lazy swimmers love it.
+Everyone in {place} has heard of {rumor_name}. Go {rumor_dir} and see it for yourself. Then come back and tell me, so I can tell everyone else.
+
+## merfolk.rumor.none
+I've no gossip about far places today. Just near ones. Want the near ones? They're very good.
+Nothing new out in the wide water that I've heard. The current's been quiet. Too quiet? No, just quiet.
+Far-off news? Not a whisper. Ask me again after the next bottle comes down.
+I haven't heard of anything strange out in the deep lately. Which, for the deep, is the strangest thing of all.
+No rumours from the wide sea. Old Pell hasn't been through in a while, so we're short of lies.
+Nothing to tell of distant waters, I'm afraid. Everyone's staying home, mending nets and polishing tails.
+
+## merfolk.neighbors
+The Prismari are our old friends in the deep. Tall, solemn, one great eye. When one says "I see you", you say "And I am seen". It matters to them.
+A Prismari envoy comes up every Lantern Night to look upon our light. They don't smile. They don't need to. You can feel them being glad.
+Never startle a Prismari. Their spines go up, and then you're apologising to a very tall, very spiky person for an hour.
+The Prismari gave us the Hearts under the Pact of Lanterns. We keep the shallows lit and tell them about the sun. They love hearing about the sun.
+The Prismari will call you "Two-Eyes". Don't take it badly. It's just accurate.
+The Prismari count time in tides. Ask one how old they are and you'd better have a free afternoon.
+They built the ocean monuments, long ago. Then something happened they call the Silence, and they left. They don't talk about it. Don't ask. Really, don't.
+I asked a Prismari once what the surface was like. It said "bright, and brief". Then it looked at me with that eye until I had to go home and lie down.
+If a Prismari Oldest Eye ever gives you their seal, the guardians at the monuments will let you be. Nobody I know has one. Nobody.
+Their lamps are jellyfish. Living glowjellies, drifting in ponds. Don't touch. They sting anyone who isn't Prismari, and they sting with enthusiasm.
+The Prismari dress in kelp-cloth trimmed with gold. Gold! Down there! They're the only folk I know who look formal while floating.
+They speak so slowly and so properly. I once heard one say "the meal is acceptable". It was the most excited I've ever seen one.
+The Prismari keep sponges they call breath-stones. In the old days they'd drain a whole room dry for a land guest. Imagine, a dry room at the bottom of the sea!
+Our singers learned "The Lantern Promise" from the Prismari, note for note. When they sing it with us, the water shakes.
+The fry call them "Big Eyes". Not to their faces. Never to their faces.
+Their courts are down where the light gives out. If you go, take a lamp, take your manners, and don't blink first. You'll lose, but it's polite to try.
+The Prismari won't go near the old monuments anymore. If the folk who built them won't go in, I'm certainly not.
+Prismari Lightwrights make Tide Lamps that burn under water forever. We trade them pearls. It's the best bargain in the sea, for both of us.
+
+## merfolk.held.pickaxe
+Please don't dig at the reef with that {item}. The coral's alive, and it remembers.
+A pickaxe! Are you going to mine the sea floor? There's nothing down there but sand and grudges.
+That {item} would make a lovely tool for carving shell, if you held it gently. Can you hold things gently? You look like a hitter.
+
+## merfolk.held.sword
+Put that {item} away near the gardens, would you? You'll frighten the seadragons into being kelp.
+A sword under water swings so slow! It's like watching someone fight their way through soup.
+That {item} would do for a drowned, in a pinch. Better with a trident, mind. Points beat edges down here.
+
+## merfolk.held.axe
+An axe, under the sea? There's not a tree for miles. Please don't look at the kelp like that.
+What would you chop down here with that {item}? The farmers will have words. Many words. Loudly.
+My gran said the old villagers chopped wood. Wood! For houses! I wish I'd seen that.
+
+## merfolk.held.shovel
+Digging for treasure? Everyone thinks there's treasure in the sand. There is. It's mostly old boots.
+A shovel! Careful you don't dig up the reef's roots. Coral's got roots. Sort of. Don't check.
+That {item} could clear a whole garden bed of sand in a morning. The farmers would love you forever.
+
+## merfolk.held.bow
+A bow? Under the sea? Your arrows will go about three swims and then give up.
+I've seen land folk shoot arrows at the drowned from their boats. Very brave, very wet, not very useful.
+That's a pretty {item}. Do you ever shoot anything with it, or do you just carry it about to look dashing?
+
+## merfolk.held.shield
+A shield! Good. Hold it up when the drowned throw tridents. They throw like they mean it.
+That {item} is a fine thing. The wardens carry shell shields, but I won't tell them yours is nicer.
+Keep that shield handy past the shelf. Things down there like to take a bite first and ask later.
+
+## merfolk.held.torch
+Your {item} looks miserable. Fire doesn't like the sea, and the sea doesn't think much of fire either.
+Oh, a land lamp! Down here we use pickles. Yes, pickles. Sea pickles. They glow. Don't laugh.
+Put that {item} away before it drips soot in my hair. We've got perfectly good sea lanterns.
+
+## merfolk.held.ore
+Rocks from the dark under the hills? Land folk dig for those. We just wait for the sea to wash things up.
+What will you make from that {item}? Something clanky, I bet. You land folk love clanky things.
+Is that worth something up top? Down here, if it doesn't shine like a pearl, it's a doorstop. Well, a curtain-weight. We don't have doors.
+
+## merfolk.held.diamond
+A diamond! It's like a pearl that decided to be difficult.
+That {item} is lovely, but it's cold. A pearl's warm. That's the difference between the land and the sea, I think.
+The Prismari would tilt their eye at that {item}. They like things with angles. We like things with curves.
+
+## merfolk.held.gold
+Gold! The Prismari paid tribute in that, long ago. They still trim their robes with it.
+Shiny! You know the old monuments are full of gold? You know they're also full of guardians? Leave it.
+Gold looks better under water. Everything does, really. Except the drowned.
+
+## merfolk.held.emerald
+Emeralds! The land cousins trade in those. We trade in pearls. A pearl's prettier, but don't tell the land merchants.
+That {item} is the colour of shallow water at noon. I'd keep it just for that.
+My cousin sent me an emerald in a bottle once, as a present. I use it to admire my tail in.
+
+## merfolk.held.food
+Is that land food? Does it have kelp in it? Everything's better with kelp.
+Ooh, what does that {item} taste like? Sweet? Dry? Is everything up there dry?
+You brought a snack down? Good thinking. Sea air makes you hungry. Sea water makes you hungrier.
+That smells of fire and sun. Land cooking! I'd swap you a kelp wrap for a bite, if it doesn't go soggy first.
+
+## merfolk.held.map
+A map! Show me where {place} is on it. Oh. It's just blue. We're somewhere in the blue. That's lovely, really.
+Land maps stop at the shore. Ours start there. Funny, isn't it?
+If you want a proper sea chart, ask a diver. Land maps always forget the deep bits.
+
+## merfolk.held.compass
+Does that {item} point home? Ours do. Every merfolk can find the Heart with their eyes shut.
+A compass! The needle's shivering. Probably the Heart. Everything shivers a bit near the Heart.
+Land folk carry a little arrow to find north. We just follow the warm water.
+
+## merfolk.held.book
+A book! Down here? Hold it tight; the pages will be soup in a moment.
+Is that a story? Read me a bit before it gets soggy. Quickly, the ink's starting to swim.
+{elder} keeps the Song of the Flood written out in a book at the hall. Wet through and still readable. Prismari ink.
+
+## merfolk.held.tnt
+Is that what I think it is? Take it away from the reef. Far away. Further than that.
+Please don't. The last time a land boat dropped one of those, we found fish in the kelp for a week, all looking surprised.
+That {item} isn't welcome in {place}. Put it back in your bag, gently, and nobody need tell the wardens.
+
+## merfolk.held.potion
+A brew! Is it one of ours, from a singer, or a land one? Land brews taste of mushrooms and regret.
+If that's a breath-brew, drink it now; you're looking a bit blue round the edges.
+Is that night-eyes? Don't drink it at noon. Everything goes far too bright, and you'll squint at the fry for a week.
+
+## merfolk.held.flower
+A flower! A real land flower! Can I smell it? Oh. It smells of sea. Everything does, down here. Never mind.
+I press land flowers in shells. I've got two. Could I... could I have that one? Only if you don't mind.
+It's so soft. Like coral that decided to be kind.
+
+## merfolk.held.bucket
+Taking some of the sea home? Bring it back when you're done; we'll want it.
+A bucket! The fry carry seadragons about in those. Please don't put a seadragon in a bucket. Unless it wants to go. They sometimes want to go.
+What do land folk keep in buckets? Milk, I'm told. What's milk? Nobody's bottle has explained it properly.
+
+## merfolk.held.trident
+A trident! That's a warden's weapon. Where did you get it? Off a drowned? Good. Serves them right.
+Hold that {item} point-down near the fry, please. They will try to touch it. They always try to touch it.
+That's a fine trident. It hums when it flies, did you know? Like it's glad to be home.
+The wardens say a trident chooses its hand. Yours seems content.
+
+## merfolk.held.fishing_rod
+A fishing rod! Down here! You know the fish can see the hook, don't you? They're just being polite.
+Please don't fish in the garden. The seadragons don't understand the difference between food and a joke.
+My cousin on land fishes. Every catch, they wonder if it's someone I know. Sometimes it is.
+
+## merfolk.held.shell
+Ooh, that {item}! A good shell is a good friend. Keep it out of the sun or it'll fade.
+A nautilus grows its shell one chamber at a time, a room for every moon. That's a whole life you're holding.
+Let me see that {item}! The shellwrights would offer you half the reef for one that good.
+If you hold a shell to your ear on land, they say you hear the sea. Down here, you hear the land. It's all wind and footsteps.
+
+## merfolk.held.pearl
+A pearl! Oh, the shine on that {item}. Pearls are our weakness. Every single merfolk's.
+Is that {item} a Tidepearl? Let me see the colour. A pearl tells you where it was grown, if you look long enough.
+Careful. Flashing a pearl about in {place} is how you get twenty new best friends.
+A pearl in your hand and a pearl in your eye, as the divers say. I don't know what it means either. It sounds good.
+
+## merfolk.held.fish
+That {item} looks familiar. I don't want to know. Don't tell me.
+A fine fish! Wrap it in kelp and you've got supper. Wrap it in two kelps and you've got a festival.
+Is that one of ours? Ha! Only joking. We don't name the eating ones. Mostly.
+
+## merfolk.held.boat
+A boat! From down here they look like great wooden fish bellies. I always wave. Nobody waves back.
+That's a boat? It's so small! Do you sit in it? On top of the sea? Doesn't the sea mind?
+My gran said the old villagers had boats. Then the Flood came and gave us tails, and we've been a bit smug about boats ever since.
+
+## merfolk.held.spyglass
+Can you see the deep with that? No? Nobody can. Not even the Prismari, and they've got the biggest eye in the sea.
+A spyglass! Look up through the water with it. The sun looks like a jelly. A big, warm jelly.
+Point that at the surface and tell me if you see my cousin. Short, wet, waving. Always waving.
+
+## merfolk.held.seal
+Is that a Monument Seal? From a Prismari Oldest Eye? Tide's teeth! You must be the most trusted sandtoe in the sea.
+Put that seal away, carefully. A thing like that is worth more than every pearl in {place}, and that's a great many pearls.
+With that seal, the guardians will let you be. Don't go poking about the monuments just because they let you. Some halls are empty for a reason.
+The Prismari don't give their seal lightly. Or at all, usually. You must have sat still and polite for a very long time.
+
+## merfolk.held.prismarine
+Prismarine! That's Prismari stone, from the deep. The trim on our shrine is made of it, gifts of the Pact.
+That {item} glows like the Heart does. Hold it up to the light. See? A little bit of the deep in your hand.
+Where did you get prismarine? Not from the monuments, I hope. Tell me it wasn't the monuments.
+
+## merfolk.held.kelp
+Kelp! Good, sensible, honest kelp. You'll fit in nicely.
+That {item} would make a fine wrap. Bit of fish, bit of salt, roll it tight. Supper.
+You carry kelp about with you! Now that's a sandtoe with taste.
+
+## merfolk.player.hurt
+You're hurt! Come and rest by the Heart a while; it hums the ache out of you.
+Oh, you're bleeding. Stay away from the deep like that; things down there can smell it from a long swim off.
+What happened to you? Drowned? Guardian? Nautilus? Don't be embarrassed if it was the nautilus.
+You look battered, {player}. Sit. Float. Whatever you do. Just rest a moment.
+
+## merfolk.player.hungry
+You look hungry. Have you eaten? Go and smell the kelp racks. It's not a meal, but it's a start.
+Your stomach just growled so loud a fish looked round. Go and get yourself a kelp wrap.
+You're looking peaky. Sandtoes have to eat more often than we do, I think. All that walking.
+
+## merfolk.player.unarmored
+No armour at all? Brave. Or new. The drowned bite down here, so I'd get some shell on you.
+You're swimming about in just your clothes! Well, so am I. But I've got scales.
+Not a scrap of armour? The wardens will fuss over you. Let them; they love fussing.
+
+## merfolk.player.diamond
+Look at you, armoured like a warden's dream! You'd light up the shrine on Lantern Night.
+That's heavy armour. How do you not sink? Oh, you do sink. That explains the walking.
+All that armour and still those funny feet poking out the bottom. I'd armour them too, if I were you.
+
+## merfolk.player.leather
+Leather! Doesn't it go soggy down here? It looks soggy. It looks very soggy.
+Leather armour under the sea? You'll squeak all the way home.
+That leather's going to dry stiff as a board when you climb out. My cousin warned me about leather.
+
+## merfolk.player.fire
+You're on fire! Quick, into the water! That's what it's for!
+Tide's teeth, you're smoking! Get in the sea; the sea will sort you out.
+Is that how land folk keep warm? Setting themselves alight? Get in the water, you silly thing!
+
+## merfolk.player.damaged
+That tool's on its last tooth. Get it mended before it snaps on you at the worst moment.
+Your tool's nearly worn through. Our shellwrights could make it prettier, if not stronger.
+That's a tired old tool you've got. It deserves a rest. So do you, by the look of it.

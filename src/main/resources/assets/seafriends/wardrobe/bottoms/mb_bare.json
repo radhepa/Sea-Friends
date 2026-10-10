@@ -1,0 +1,14 @@
+{
+  "id": "mb_bare",
+  "kind": "bottom",
+  "name": "Tail",
+  "gender": "unisex",
+  "texture": "bottoms/mb_bare.png",
+  "extrasHeight": 0,
+  "tags": [
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": []
+}

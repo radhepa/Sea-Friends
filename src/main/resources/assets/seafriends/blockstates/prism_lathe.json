@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "seafriends:block/prism_lathe"
+    },
+    "facing=east": {
+      "model": "seafriends:block/prism_lathe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "seafriends:block/prism_lathe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "seafriends:block/prism_lathe",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# TIDE SINGER (job site: conch_shrine). Breath-brews and night-eyes, the Conch, the conduit ("the Heart").
+# The Elder falls back to these pools, so nothing here refers to "the Elder" or {elder} or sounds like a novice.
+# Canon: see merfolk.txt (Wenna Saltcombe, the Pact of Lanterns, the Song of the Flood, conch calls).
+
+## singer.greet
+Fair currents, {player}. The Heart hummed a little brighter when you came in. I noticed. It noticed.
+Fair currents! Come and sit by the shrine. You look like someone who needs a song.
+Fair currents, sandtoe. Your breathing's very loud. Would you like a breath-brew? It's no trouble.
+Fair currents! I was just warming up my voice. Well. I was warming up the conch. Same thing.
+Fair currents, {player}. Sing with me? No? Hum, then. Everyone can hum.
+Fair currents. Listen: the Heart's on a low note today. Good for thinking. Bad for gossip.
+Fair currents! You've the face of someone the sea's been kind to. Sit, and tell me about it.
+Fair currents, friend of the dry. The Tide sees you. So do I.
+
+## singer.chat
+Every Reef Town's conduit was a gift of the Prismari under the Pact of Lanterns. We call it the Heart. We sing to it every day, and it hums back.
+Wenna Saltcombe sang the Pact into being, down in the dark with one lantern, until the Prismari came up to see what was singing. Every singer since has tried to be half that brave.
+Some say a conduit doesn't need singing to. Those people have never heard a Heart that's been sung to. It purrs.
+The conch is for calling. One long blow means come to the shrine. Two means danger. Three means supper. Three gets the quickest answer.
+I brew breath-brews for land guests and night-eyes for the watch. The trick is the right kelp, and the singing over the pot.
+"The Song of the Flood" takes a whole night to sing through. Forty verses. The forty-first nobody sings, and nobody asks about it twice.
+"The Lantern Promise" is the song we sing with the Prismari envoy on Lantern Night. Their voices go so low the coral rattles.
+Every song we keep is somebody's memory. Lose a song and you lose a piece of everyone. That's why we practise every day, even the dull ones.
+Lowmere's singers forgot the songs, they say, and their Heart went dark. True or just a story to keep singers practising, it works.
+If the Heart ever changes note on its own, I drop everything. It's either a storm coming, a drowned coming, or a lie being told.
+Breath-brews let sandtoes stay down. Night-eyes let the wardens see in the dark. Songs let everyone feel less alone. That's the whole of my work.
+I learned "Hush Now, Little Fin" before I could talk. Every merfolk did. It's the first song and the last one.
+Singing under water is different. The sound goes everywhere at once, so you can never sing a secret.
+The Prismari taught us the deep notes. We taught them the cheerful ones. A fair swap, but I think we got the best of it.
+The Heart's warmest near midnight. That's when the old singers did their deepest work. I prefer mornings, but don't tell anyone.
+
+## singer.work
+I sing to the Heart from shimmer to dusk. Not all the time; even the Heart needs a quiet. But often.
+Today I'm learning an old song. Three verses about a fish who wanted to be a bird. It's sadder than you'd think.
+I brew two things, mostly: breath-brews for land guests and night-eyes for the watch. And a horrible-tasting cough brew for the fry.
+Keeping the Heart is easy. Keeping it happy is the work. Song, light, company. Like anyone, really.
+I make conches from the big spiral shells. Blow one and you'll swim as if the Heart's own breath were with you, for a little while.
+If you want a conch, you'll need to learn to blow it. Lips like this. No, like this. Now you sound like a sad whale. Perfect.
+The conch shrine keeps the old songs written in shell, a notch for every note. I read them with my fingers.
+I'm practising for Lantern Night. The Prismari envoy listens very carefully. Go flat, and that great eye narrows. It's terrifying.
+I trade brews and conches, and songs on request. Once a singer of this town gave a whole Heart to a reef that had lost theirs. That's the greatest gift a singer can give.
+Every morning I tell the Heart the news. Who's courting, who's quarrelling, what the fry broke. It hums along. I think it likes gossip.
+The hardest song is the Bell Night song. You sing every lost name. My voice goes at the same name every year, and I don't even know whose it is.
+I keep the songs; the songs keep the town. That's what singers say. It sounds grand. Mostly it means a great deal of practice.
+A good brew wants the right kelp, the right pickle, and the right song sung over it. Get the song wrong and it tastes of feet.
+When a fry's tail blushes its colour, a singer sings the family song over them. I've done it more times than I can count. I cry at every one.
+Some nights I keep the Heart company alone. It hums, I hum, the reef sleeps. It's my favourite part of the work.
+
+## singer.heart
+When I sing to the Heart and it sings back, I feel like the whole sea is listening. That's a lot to feel at once. Good, though.
+I'm afraid of forgetting a song. Not a verse. A whole song. Lowmere forgot, and Lowmere's gone.
+I sang Wenna's verse alone once, in the dark at the shelf, just to feel what she felt. Something in the deep hummed back. I've never told anyone that.
+Songs are just memories with a tune, so they don't wander off. I've got so many in me, some days I feel like a whole town.
+If you ever need a song, {player}, come and ask. Even just one line. I'll find you the right one.
+
+## singer.held.potion
+Let me see that brew. Hmm. Land-made. Smells of mushrooms. Ours smell of kelp and moonlight. Ours are better, but I'm biased.
+Is that one of mine? It might be! I always scratch a little fin on the glass.
+A brew! Drink it slowly. Brews like to be noticed.
+
+## singer.held.seal
+The Monument Seal. Oh, {player}. The Prismari trust you. Under the Pact, that makes you nearly kin to us both.
+I've only ever heard of that seal in the old songs: "the eye that sees gave a stone that is seen". I never thought I'd see one in a sandtoe's hand.
+Keep that seal close. The guardians will let you pass. But keep your wits closer; the old halls are dark for a reason.
+
+## singer.held.prismarine
+Prismarine! The Prismari's stone. Hold it near the Heart and listen. Hear that? The same song in two voices.
+That {item} is a piece of the deep. Every bit of prismarine in {place} came from the Prismari as a Pact gift. Keep yours kindly.
+The Heart's frame is prismarine. I polish it every morning and thank the deep folk out loud. They can't hear me. I do it anyway.

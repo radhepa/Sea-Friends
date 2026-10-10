@@ -1,0 +1,581 @@
+# Prismari: the shared pools every Prismari falls back to (jobs, the Oldest Eye and the young add their own).
+#
+# CANON. Keep every Prismari file consistent with this block and with the lectern books in
+# tools/villages/designs/prismari.py ("The Long Tide", "The Reckoning of Tides", "The Halls We Left").
+#
+# From the books and signs:
+# - The Long Tide: the age of the great halls (the monuments). It lasted ten thousand Long Counts. The Silence
+#   lasted one. Since the leaving: four hundred and twelve (the lathe hall's Pact crate is marked "Count 412").
+# - The Reckoning: one tide = a rising and a falling; two tides = a day; twenty-eight tides = a turning; thirteen
+#   turnings = a Long Count (about half a land year). The pull of the water is felt in the spines. A young one is
+#   "given their count" when they first feel the pull; when an Oldest "stops counting" (dies), the court counts for
+#   them. "No tide goes unkept."
+# - The halls: the Hall of the Green Lamp, the Hall of Spines, the Deep Gate, the Seat of the Eldest, the Cold Hall,
+#   the Hall of Many Pillars, the Sponge Vaults, the Last Hall (where the Silence began), and others whose names
+#   went into the dark with their keepers.
+# - Guardians are the watch-beasts. Elder guardians are "the eldest", set at the hearts of the halls; in the dark
+#   they "went strange". "The beasts remember the Seal, not our faces."
+# - Sponges are breath-stones: a dry one drinks a sealed room dry so guests who breathe air can stand in it. The
+#   halls' gold was tribute, "not ours to take back"; "Two-Eyes take the gold. Let them carry it, if they can."
+# - The Pact of Lanterns with the merfolk: "our light for their friendship" (conduits, Tide Lamps).
+# - The Archive's barred shelf: "THE SILENCE. Sealed by the Oldest Eye. Do not read."
+#
+# Invented here:
+# - OSSIVETH: the last Oldest Eye of the halls. Sat in the Seat of the Eldest, led the leaving, sealed the first
+#   record of the Silence. Looked back once, at the Deep Gate: the histories record the look, not what was seen.
+#   Stopped counting in the first Long Count after the leaving. Every Oldest since seals the Silence's shelf again,
+#   unread, on the day they become Oldest. Whether the Seat was named for the Oldest Eye who sat in it or for the
+#   eldest beast that lay beside them, the Archive keeps both opinions.
+# - The halls in the old tongue (use sparingly): Ithra Velune (the Hall of the Green Lamp), Ithra Kessuth (the Hall
+#   of Spines), Omvarra (the Deep Gate), Saelorun (the Seat of the Eldest), Ithra Hesk (the Cold Hall), Ithra Tammun
+#   (the Hall of Many Pillars, where the old Archive stood), the Lummaren (the Sponge Vaults). The Last Hall's own
+#   name is never said aloud, except once, by each Oldest Eye to the next. ithra = hall. velunai = "lit by someone else's lamp" (said of a dear friend).
+# - Nobody now living has been inside a hall or seen one lit up close. A Prismari lives some three hundred Long Counts.
+# - The gold was tribute from the shore-kings: land rulers who came down to the halls for light in the Long Tide and
+#   breathed in rooms drained for them. Their cities are sand now.
+# - Greeting "I see you." Answer "And I you." Farewell "Stay seen." (do not be forgotten). The worst thing to be is
+#   unseen: the dead are counted, the unseen are only missing.
+# - A slow blink is a smile. Spines rise when hurt, angry or afraid (sometimes when glad); remarking on someone's
+#   spines is rude, and everyone does it. The young have soft spines that set hard when they come of count.
+# - They no longer sing (the halls were full of song before the Silence); they hum. The merfolk sing for both.
+# - No family names ("Vaelion of the Court of Still Water"). No doors in a court: "welcome works better". The
+#   tide-meal, twice a day (dried kelp, raw cod). Cooking with fire is a Two-Eyes oddity. The Eye Spire is the
+#   court's open eye; its heart (the conduit) never goes dark; the court gathers there in the evening to hear the
+#   Oldest tell the Long Tide, word for word. Every spire keeps a niche of breath-stones for Two-Eyes guests.
+# - The drowned are "the Unseeing": two eyes each, and they see nothing. The Eyeguards' oath: "We watch so the court
+#   may close its eye." The eldest beasts' curse is "the eldest's weariness" (arms heavy, tools slow).
+# - The merfolk: "the reef cousins", the Tide-taken, young to the sea since the Great Flood. The Prismari met them new
+#   to their tails and afraid of the dark. The merfolk carry the Prismari's wet breath-stones up to the sun to dry.
+#   A crate of Tide Lamps goes up to the reef each turning, the count written on its side. The Pact was sworn at the
+#   edge of the deep: the merfolk sang, the Prismari kept silent, and both counted as an oath.
+# - Prismarine "thinks" (its colour never settles). Glowjellies never sting Prismari; nobody knows why.
+# - The young practise the stillness: sit unmoving and unblinking by the jelly pond until a glowjelly drifts against
+#   them. Their toys are little prismarine guardians.
+# - Proverbs: "Still water sees farthest." "Count the tide, not the wave." (do not fret over small things) "A raised
+#   spine is a word unsaid." "Light given is light kept." (the Pact) "What the deep keeps, the deep keeps." (do not
+#   pry). The Archivists' addition to the second: "But record the wave, in case."
+# - The Silence is only ever HINTED at: it began in the Last Hall; it lasted one Long Count; afterwards there were
+#   fewer Prismari than halls; the tides of it are written in hands that grow shorter, then one careful new hand; the
+#   Archive cannot agree whether it came in through the Deep Gate or began within; the bars on the sealed shelf are
+#   not there to keep the books in. Never explain it.
+
+## prismari.greet
+I see you.
+I see you. The water is calm today, and so am I.
+I see you. Come in out of the current.
+I see you, {player}. Mind the lamps; they are older than they look.
+A visitor with two eyes, and both of them open. I see you.
+I see you. You are welcome in {place}.
+I see you. Forgive me if I do not blink; it is not our habit.
+I see you. I was counting the tide, but the tide will keep.
+I see you. Swim slowly here, please; the glowjellies startle.
+You have found {place}. I see you.
+I see you. My spines are down, which means you are welcome.
+I see you, and I see you are still breathing. Good. Keep doing that.
+Be still a moment. There. Now I see you properly.
+I see you. The court has been quiet; you are the most interesting thing to happen since the last tide.
+I see you. Sit, if your kind sits. Float, if it floats.
+I see you. The light here is kind to strangers. So are we, mostly.
+I see you. Our greeting is short so that the listening can be long.
+{name} of {place} sees you.
+I see you. Do not mind the stares; there are not many visitors in the deep.
+I see you. Your heart is beating very fast. Is that usual for your kind?
+I see you. The tide is turning; a good moment to arrive.
+I see you. Few come down this far on purpose.
+I see you. Now you say, "And I you." That is how it is done.
+I see you. There are no doors in {place}; we have found that welcome works better.
+I see you. Your kind would call this the {time}. Down here it is the same water as always.
+I see you. You have brought the warm water down with you; I can feel it on my spines.
+
+## prismari.greet.stranger
+I see you, Two-Eyes. State your business, or simply admire the lamps. Both are allowed.
+Two-Eyes. I see you. Is it true that each of your eyes sees a slightly different world?
+I see you, Two-Eyes. You are a long way from the sun.
+A Two-Eyes in {place}. I see you. Do not touch the glowjellies.
+I see you, Two-Eyes. Forgive the spines. They rise on their own when someone new arrives; they will settle.
+I see you, Two-Eyes. You may call me {name}. In time, I may call you something other than Two-Eyes.
+Two-Eyes. You came down the slope like a dropped stone. I see you.
+I see you, Two-Eyes. If you are lost, you are at least lost somewhere well lit.
+I see you, Two-Eyes. We do not get many of your kind, and fewer who greet us first.
+I see you, Two-Eyes. Here, the custom is to answer: and I you.
+I see you, Two-Eyes. Breathe while you can, and then breathe again. Your kind always forget the second part.
+
+## prismari.greet.friend
+{player}. I see you, and I am glad of it.
+I see you, {player}. The court has been asking after you, in its quiet way.
+{player}! My spines nearly rose. That was gladness. I am told it looks the same.
+I see you, {player}. You have stopped swimming like a dropped stone. Well done.
+I see you, {player}. Sit with me a tide, if you have one to spare.
+{player}. I see you, and you see me. That is rare enough to be thankful for.
+I see you, {player}. I blinked slowly just now. Among us, that is a smile.
+Ah, {player}. The lamps seem brighter. That is nonsense, of course, but I will say it.
+I see you, {player}. I kept your name in my count today. That is what we do for friends.
+{player}, I see you. You are no longer Two-Eyes to anyone here.
+I see you, {player}. Stay; the tide is long and the company is good.
+
+## prismari.greet.morning
+I see you. The first tide of the day is rising; I can feel it in my spines.
+I see you. Your kind call this morning. We call it the rising. It is the same water.
+I see you. Up early, for a Two-Eyes. Or up late. Down here it is hard to tell.
+I see you. A new tide, a new count. Let us keep it well.
+I see you. Somewhere far above, the sun is up and being very loud about it. Down here we only felt the tide turn.
+
+## prismari.greet.evening
+I see you. The court gathers at the spire soon to hear the Long Tide. You may listen.
+I see you. The second tide is falling. A gentle hour.
+I see you. Evening, you call it. We call it the falling. The water tells us when.
+I see you. Come to the spire this evening, if you like. We sit, and we listen, and nobody hurries.
+I see you. The tide-meal is done and the court is drifting toward the spire. Drift with us.
+
+## prismari.greet.night
+I see you, even in the dark. That is rather the point of us.
+I see you. It is the deep of the night; even the Eyeguards blink slowly now.
+I see you. Swim softly; half the court is sleeping with its eye shut, which is a great trust.
+I see you. Night in the deep is not darker, only quieter.
+I see you. You should be resting. Your kind tire faster than the tide.
+
+## prismari.chat
+We count by tides. One tide is a rising and a falling; two make your day. It is more honest than counting by a sun you cannot see.
+Twenty-eight tides make a turning, and thirteen turnings make a Long Count. Ask me my count and I will tell you. Ask me my age and I will look at you strangely.
+You keep blinking. Is something wrong with your eyes, or is it only that you have two of them to keep wet?
+Still water sees farthest. That is the first thing our young are taught, and the last thing anyone learns.
+Count the tide, not the wave. It means: do not fret over small things. I say it to myself often, and at length.
+My spines are a terrible secret-keeper. Whatever I feel, they announce to the whole court.
+Every lamp in {place} faces outward. That is not for us. That is so the dark knows we are here and are not afraid of it.
+We keep no family names. I am {name} of {place}, and that is enough to be found by.
+You land folk build up, toward the sun. We built down and out, toward the quiet. Both are reasonable.
+A court is small. Everyone knows whose spines rose at the tide-meal, and why.
+The tide-meal is taken twice a day, once for each tide. Dried kelp, a little cod. Your kind cook things with fire, I hear. That seems like an argument with the food.
+We do not sing. We hum, sometimes, under our breath. The merfolk sing enough for both peoples.
+The Eye Spire is the court's open eye. While its heart burns, {place} is awake, even when all of us sleep.
+To blink slowly at someone is to smile at them. You have been smiling at everyone all day. It is very confusing.
+Gold does not rust and does not rot. That is the whole of its virtue, and the reason it was given as tribute.
+A raised spine is a word unsaid. Remember that when you meet an Eyeguard.
+The sponges in our gardens are alive, you know. The slowest creatures in the sea, and the most generous.
+If you ever lose your way in the deep, swim toward the light that does not flicker. That will be us.
+I have been told your kind sleep for a third of every day. A third! What do you see in there?
+We say "I see you" because it is the most anyone can promise: I have noticed you, and I will not pretend I have not.
+When we part, we say "stay seen". It means: do not be forgotten. Do not go where no one will look for you.
+The worst thing a Prismari can be is unseen. Not dead: unseen. The dead are counted. The unseen are only missing.
+People ask why the deep is so cold. I tell them it is keeping things fresh. Nobody believes me, but they stop asking.
+Your kind have two eyes, so you can look at two things and believe neither. We look at one thing until it tells us the truth.
+Some rooms of the old halls were drained dry for guests like you, with breath-stones in the walls and air you could stand in. We were good hosts, once. We are trying to be again.
+We do not go near the old halls. Please do not ask me why. My spines will answer for me, and they are not polite.
+Patience is cheap in the deep. We have so much of it that we give it away.
+The light in a court never goes out. That promise is older than {place}.
+I like your kind. You are always in a hurry, and it is restful to watch someone else be in a hurry.
+Every court has an Oldest Eye who keeps the Long Tide and tells it again in the evenings, in the same words, so that nothing slips.
+The glowjellies drift where they please. We built the pond around wherever they happened to be. That is how most of {place} was planned.
+Prismarine never settles on one colour. Watch a block of it long enough and it changes its mind. Our Lightwrights say it is thinking.
+We do not have a word for "hurry". We have a word for "the current is strong today", which is not the same.
+A court is quiet, but never silent. We are careful with that word.
+Our histories are written very small, so that they take less space and more time to read. Both are virtues here.
+Every eye in a court is its own colour: gold, sea-green, violet, rose, pale blue. They run in lines, like tides. Yours, I see, come in pairs.
+I was told your kind cannot see in the dark. Then how do you know where the dark ends?
+The guardians in the old halls were bred by us, long ago. Our watch-beasts. They still keep the halls, though there is nobody left to keep them for.
+Do not be alarmed by how slowly we talk. We are thinking of the next tide, not the next breath.
+In the deep, a thing said once is said for a long time. So we say few things, and choose them.
+You are welcome to the court's light, its kelp and its quiet. The quiet is the best of the three.
+If a Prismari offers you a breath-stone, take it. It means they would rather you lived.
+Every spire keeps a niche of breath-stones for Two-Eyes who need to rest. It went unused for many turnings. I am glad it is useful again.
+The young practise the stillness: they sit by the jelly pond until a glowjelly drifts against them. Some sit there for many tides. Some of us are still waiting.
+We keep every tide. Even the dull ones. Especially the dull ones; they are so easy to lose.
+Prismari do not shout. If you ever hear one of us shout, swim the other way. Quickly.
+A stranger once asked what the eye on our banners means. It means we are watching. It also means we are watching.
+In a court, nothing is wasted. Old lamp-cages become pond-rims. Old robes become kelp-cloth again. Old arguments become proverbs.
+You are looking at my spines. It is rude to stare at spines. It is also rude to stare at eyes. We are a difficult people to look at.
+We count the merfolk among our oldest friends, though they are a young people. To us, almost everyone is a young people.
+What the deep keeps, the deep keeps. It means: do not pry. It is also, I admit, what we say when we have lost something.
+Light given is light kept. That is the heart of the Pact of Lanterns, and the reason every court has a lamp to spare.
+We are a long-lived people, so we try not to make friends carelessly. Then someone like you swims in, and all our care goes to waste.
+
+## prismari.chat.new
+You are new to the deep. Rule one: breathe. Rule two: do not touch the glowjellies. There is no rule three; we never needed one.
+I do not know you yet, Two-Eyes, and you do not know me. That is a good place to begin. There is nothing to unlearn.
+You may wonder why we call you Two-Eyes. Look around the court and count. It is not meant unkindly.
+Visitors from above usually come for the gold or the lamps. Which are you? No, do not tell me. I will find out by watching.
+Forgive us if we stare. One eye has to look harder than two.
+In {place}, a stranger is a guest until they prove otherwise. Few prove otherwise. Fewer prove it twice.
+If you wish to be known here, come back. And again. We trust what returns, like the tide.
+You have a name, I am sure. When I have seen you enough times, I will use it.
+Strangers are rare down here. The court will talk of you for a turning. Behave accordingly.
+Our ways are simple: greet with "I see you", answer with "and I you", and leave the glowjellies alone.
+You need not bow. You need not do anything. Only be seen, and see us back.
+
+## prismari.chat.close
+{player}, you have been seen in {place} so many times that the young count your visits like tides.
+I would not tell a Two-Eyes this, but you are not one any more: we are afraid of the old halls. All of us. That is the whole of our wisdom about them.
+When I stop counting, {player}, someone in {place} will count for me. I hope, now and then, you will help them.
+You have a court now, {player}. Whatever happens above, there is a light down here with your name in its count.
+My spines have not risen once while you were near. I only noticed today. It is the highest praise I know how to give.
+If you ever need breath-stones, a lamp or a quiet tide to sit in, you need not ask. Just come.
+I have started blinking twice when I think of you, {player}. Once for each of your eyes. It is a terrible habit and I am very pleased with it.
+You see us. Few from above ever did. The halls were full of guests once, and I do not think one of them looked at us the way you do.
+I told {elder} about you. The Oldest Eye blinked slowly. You do not know what that is worth.
+Friends among us share their count: the tide on which they first felt the pull. I will tell you mine some day. That I have said so is already a gift.
+Stay seen, {player}. I mean it more than the words can hold.
+There is a word in the old tongue, velunai: to be lit by someone else's lamp. You are that, here.
+When the court gathers at the spire in the evening, there is a space on the bench where you sit. Nobody sits in it when you are gone.
+
+## prismari.past
+In the Long Tide we raised the great halls of the deep. Your kind call them monuments. We called them home, and we were never cold in them.
+The Long Tide lasted ten thousand Long Counts. The Silence lasted one. Since the leaving we have counted four hundred and twelve. We are still counting.
+The guardians were our watch-beasts. We bred them for loyalty, and they gave it. They give it still, to halls with nobody in them.
+The eldest beasts lay at the hearts of the halls. They were wise, in their way. In the dark they went strange. I do not think it was their fault.
+Some say the eldest went strange because we left. Some say we left because they went strange. The Archive does not say which.
+The Silence began in the Last Hall. That is all the histories say, and all I will say, and my spines would thank you not to ask again.
+The halls were full of song once. We have not sung since the leaving. We hum. It is not the same, but it is ours.
+Ossiveth was the last Oldest Eye of the halls. It was Ossiveth who led the leaving, and Ossiveth who sealed the first record of the Silence. Every Oldest since has kept that seal unbroken.
+They say Ossiveth looked back only once, at the Deep Gate. The histories record that look. They do not record what Ossiveth saw.
+The gold in the old halls was tribute, brought down by the shore-kings in the Long Tide, when the land still came to us for light. Their cities are sand now. The gold is still there.
+In the Long Tide our sponges filled whole vaults; the Sponge Vaults, we called them. Guests came down from the land and breathed in rooms we had drained for them.
+The halls had names. The Hall of the Green Lamp. The Hall of Spines. The Deep Gate. The Seat of the Eldest. The Cold Hall. The Hall of Many Pillars. We say them so they are not lost.
+Some halls' names went into the dark with their keepers. When an Archivist finds one in an old ledger, the whole court gathers to hear it said aloud.
+After the Silence there were fewer of us than there were halls. Count the courts, count the halls, and you will see why we do not speak of it.
+We met the merfolk when they were new to their tails and afraid of the dark. We gave them light. They gave us the first warm voices we had heard since the leaving. That was the Pact of Lanterns.
+The first courts were built in sight of nothing at all, on purpose. The old halls glow. We wanted a place where nothing glowed but us.
+In the Silence, the count was kept by whoever was left to keep it. Some of those tides are written in hands we cannot name. We keep them anyway. No tide goes unkept.
+Our histories are careful, not secret. There is a difference. A secret hides something. Care only waits.
+The eldest beasts were never cruel. I think, in the dark, they simply forgot whom they were guarding against.
+We have never agreed whether the Silence came in through the Deep Gate or began within. The Archive keeps both opinions, on different shelves.
+The Seat of the Eldest was where Ossiveth sat. Whether it was named for the Oldest Eye or for the eldest beast that lay beside them, the Archive keeps both opinions, and its spines are up about it.
+In the Long Tide, the Lightwrights of the Hall of the Green Lamp could turn a lamp in a single tide. We still have the lathes. We do not have the hands.
+After the leaving, the first thing the courts made was light. Before beds, before walls. You cannot count tides in the dark.
+The first lamp given under the Pact of Lanterns still burns in some reef garden, they say. Nobody knows which. Every reef claims it.
+When we left the halls, we left the Sponge Vaults full and wet. Nobody went back to dry them. Perhaps they are drinking still.
+In the Long Tide we needed no Eyeguards; the beasts watched the halls for us. When we left them, we had to learn to watch for ourselves. We are still learning.
+The first Eyeguards stood at the Deep Gate during the leaving, to see everyone out. The Archive names every one of them. Every Eyeguard knows those names by heart.
+The trident is older than the halls. We carried it when we first came down into the deep, before we had built anything at all.
+The Halls We Left names eight halls and admits it does not know the rest. The Archivists say it is the most honest book they keep.
+The tides of the Silence are written in many hands, one after another, each shorter than the last. Then a new hand takes over and writes very carefully. That is all anyone will say of them.
+In the Long Tide, the Archive was the Hall of Many Pillars, and every pillar was a shelf. When we left, we carried what we could. We could not carry the pillars.
+When we left the halls, we left the lamps lit, so the beasts would not be alone in the dark. The lamps burn still. The eldest went strange anyway. Light is not company.
+In the old tongue the Deep Gate is Omvarra, and the Hall of Spines is Ithra Kessuth. The Last Hall has a name too. We do not say it.
+
+## prismari.night
+At night the court's lamps seem to lean a little closer together. It is a good time to be quiet.
+We sleep with the eye shut, which takes more trust than you might think. That is why the Eyeguards watch.
+Night does not change the deep, only the people in it. Listen: you can hear the court breathing.
+If you cannot sleep, sit by the jelly pond. The jellies do not care whether you sleep. It is very restful, not being cared about.
+In the old halls, they say, the eldest beasts never slept. I hope that is not true. I hope they rest.
+A Prismari asleep looks exactly like a Prismari thinking. You will have to take my word that I am awake.
+The second tide is falling. Far above, the moon is pulling at the sea, and I can feel it in my spines like a hand on my back.
+You should rest too. Your kind breathe so much more than ours; it must be exhausting.
+The watch-eye on the Eyeguards' post never closes. It is only a carving. At night, it is a comfort anyway.
+
+## prismari.work
+Every Prismari has work, and the work is the same: keep the court lit, keep the count, keep the guests breathing.
+Work is slow in the deep. That is not idleness. A thing done slowly is done once.
+I am at my task. You may watch. Watching is a respected art here.
+Between the tides there is work, and between the work there is stillness. A good day has both, in the right order.
+Each turning a crate of lamps goes up to the reef. Everyone in {place} has a hand in it, even if only to carry.
+The court works so that the Eye Spire never goes dark. That is the whole of our labour, once you take away the details.
+Forgive me if I do not stop. The tide does not stop for me either.
+Our hands are webbed. It makes fine work harder and holding things under water much easier. We have decided it is a fair trade.
+Ask the court what it needs and it will say "nothing". Then it will show you a list.
+I work by the pull of the tide. When it slackens, I rest. When it turns, I begin again. Your kind have bells for this, I hear.
+
+## prismari.adventure
+If you go to the old halls, go with the Seal or do not go. The beasts remember it. They do not remember mercy.
+The eldest beasts lay a weariness on anyone who comes near the hearts of the halls. Your arms grow heavy and your tools grow slow. Do not dig there. Only leave.
+In the deep, carry a light that does not mind the water. A Tide Lamp, a sea lantern. Your little fires will only sulk.
+The Unseeing walk the sea floor at night: the ones you call drowned. Two eyes each, and they see nothing. Keep a trident between you and them.
+Two-Eyes take gold from the old halls. We do not stop them. It was tribute, and it is not ours to take back. Carry it, if you can.
+A good traveller in the deep breathes before they need to. A wise one buys a breathing brew from the merfolk Tide Singers first.
+Swim the long way round the old halls. The short way has eyes in it.
+If the guardians see you without the Seal, they will not ask your business. They were bred not to ask.
+The deep is wider than any land. Go, by all means. But tell someone in {place} which way, so that if you do not come back, you are counted, not lost.
+A conduit's light keeps breath and sight in the deep. The merfolk keep one in every Reef Town. Swim from light to light and you will not go far wrong.
+Watch the bubbles that rise from the floor. Some will lift you; some will drag you down. The deep is full of currents with opinions.
+Do not stay in a hall past a tide. That is not a rule of ours. It is only what we have noticed about the ones who did.
+The deep is not cruel. It is only uninterested in whether you live. Bring your own interest.
+If you find writing in the old halls, any writing at all, bring it to an Archivist. Do not read it first.
+
+## prismari.joke
+How many Two-Eyes does it take to see a thing clearly? Two, apparently, and they will still disagree.
+A young one asked why guardians have one eye and spines. "We made them to look like us," I said. "Then why do they bite?" I changed the subject.
+The merfolk asked us to teach them the stillness. After half a tide, three had fallen asleep and one was humming. We called it a success.
+Our proverb says "Still water sees farthest." The merfolk version is "Still water is boring." Both are true.
+I tried winking once, to see what Two-Eyes find so amusing about it. I could not see anything for a while.
+There is one joke about the Silence. Nobody tells it.
+A Two-Eyes once gave me a hat. It is still on my spines and will be until it rots. Nobody had the heart to tell them.
+Our word for "sarcasm" is the same as our word for "a spine rising slowly". Draw your own conclusions.
+I asked a merfolk child how old they were. They said "nine". Nine what? Tides? Turnings? They swam off laughing. I am still waiting.
+The best thing about one eye: nobody can ever call you cross-eyed. The worst: you cannot wink. We have tried. It is a long, uncomfortable blink.
+A guardian, an eldest and a Two-Eyes swim into a hall. Only one swims out, and it is never the one carrying the gold. That is not a joke. It is a warning with a rhythm.
+You have two eyes. Do you ever close one to rest it and keep watch with the other? No? What a waste.
+How many Lightwrights does it take to light a court? One, and a hundred tides of everyone else saying it is too bright.
+The Spongekeepers want less water. The Lightwrights want more light. Together they would make the land, and nobody wants that.
+A Spongekeeper's favourite joke is very long and has no ending. It soaks up an entire evening.
+The Archivists keep a book of Prismari jokes. It is one page. The page is mostly footnotes.
+An Archivist swims into a court and records it. That is the joke. We are a very literal people.
+The merfolk asked an Archivist to write down one of their songs, every word and note. They said it was wrong. The Archivist said it was accurate. They said that was the problem.
+Why do Eyeguards never wink? Because then nobody would be watching.
+I told an Eyeguard a joke on watch once. The court is still waiting for them to laugh. So am I.
+"Count the tide, not the wave," says the oldest proverb. The Archivists added a second line: "But record the wave, in case."
+Why did the glowjelly not come to the gathering at the spire? It was already lit. That one is very old. It still works on the young.
+
+## prismari.news
+A glowjelly in the pond split in two last tide. The young have named both halves and are arguing about which one is the original.
+The Lightwrights have finished a crate of Tide Lamps for the reef. It goes up when the merfolk next come down, with the count written on the side.
+The Eyeguards saw the Unseeing walking along the far ridge last night. They did not come close. They never do, while the spire burns.
+A merfolk courier came down with news from the shallows: storms above, and a ship broken on the rocks. They told it very loudly. It was wonderful.
+The Archivists think they have found a lost hall's name in an old ledger. The court will gather to hear it said aloud. That does not happen often.
+The sponge gardens are full this turning. Breath-stones enough to drain a room for ten Two-Eyes. We are hoping for fewer.
+Someone has left a gold nugget at the tribute alcove again. Nobody knows who. It keeps happening. Nobody minds.
+A young one held the stillness for a whole tide, and a glowjelly settled on their crest. They have not stopped telling everyone, which rather undoes the stillness.
+The merfolk say a tame nautilus slipped its stable and was seen at the edge of the deep. They want it back. We have offered to look at it very hard.
+Nothing has happened in {place} for three tides. That is the best news there is.
+The current from the north has turned colder. The Archivists have written it down. That is all that will be done about it, and that is correct.
+A guardian was seen swimming alone, far from any hall. The Eyeguards watched it until it turned back. It did not look at us. It never does.
+Someone dropped a lens down the spire's shaft. It is lodged somewhere near the heart, and nobody wants to be the one to fetch it.
+A Lightwright and a Spongekeeper argued about how bright the sponge garden should be. The Oldest ruled for the glowjellies. Neither was pleased; both agreed.
+
+## prismari.heart
+Sometimes I sit by the jelly pond and do nothing at all, and that is the best part of my day. I hope you have a pond like that somewhere.
+When my spines rise in anger, I am ashamed after. It is hard to hide what your body shouts.
+I wonder what the halls looked like, lit and full. I have only seen them from very far away, glowing at the edge of the dark like someone else's memory.
+I do not fear the dark. I fear being in it without anyone counting the tides for me.
+The merfolk laugh so easily. I envy that. We laugh too, but slowly, and by the time it reaches the surface the moment has usually gone.
+I like it when you visit. I am telling you plainly, because my spines are bad at saying good things.
+We are few. Every Prismari who stops counting leaves a gap in the court that does not close. That is why we watch each other so closely.
+I would like, once, to hear the song the halls were filled with. Nobody remembers it. Somewhere in the dark, perhaps, the eldest beasts do.
+I am not as calm as I look. No Prismari is. We are only very good at waiting for the feeling to pass.
+When I look at your two eyes, I wonder whether you see twice as much, or only half of it twice.
+Being seen is everything to us. Thank you for looking.
+Sometimes I dream of swimming into the old halls and finding everyone still there at work, as if no time had passed. I wake with my spines up.
+I have kept every tide since my count began. Not one missed. It is a small pride, but it is mine.
+
+## prismari.rumor
+The merfolk speak of it often: {rumor_dist} to the {rumor_dir}, there is {rumor_name}.
+If you swim {rumor_dir}, {rumor_dist}, you will find {rumor_name}. Or so the currents say.
+Our Eyeguards have seen it from the watch-eye, far off to the {rumor_dir}: {rumor_name}.
+To the {rumor_dir}, {rumor_dist} from {place}: {rumor_name}. The Archivists have written it down, so it must be true.
+The water that comes from the {rumor_dir} tastes of somewhere else. The merfolk say it is {rumor_name}.
+A merfolk courier told me of it, waving their whole tail to the {rumor_dir}, which is how merfolk give directions: {rumor_name}.
+There is {rumor_name}, {rumor_dist} to the {rumor_dir}. We do not go. You might.
+I have never been, but I have counted the tides it takes the merfolk there and back: {rumor_name}, to the {rumor_dir}, {rumor_dist}.
+Out to the {rumor_dir}, {rumor_dist}, lies {rumor_name}. Go slowly, and come back seen.
+The young keep asking me about the place to the {rumor_dir}. I keep telling them it is {rumor_dist}, and that it is {rumor_name}. They keep looking that way as if it were close.
+Something waits to the {rumor_dir}: {rumor_name}. The Archive has a note on it, in a margin, in a hurried hand.
+The merfolk swear by it, and the merfolk swear by many things: {rumor_dist} to the {rumor_dir}, {rumor_name}.
+If you are restless, swim to the {rumor_dir}. {place} is not the only thing in the deep. That way lies {rumor_name}.
+
+## prismari.rumor.none
+I know of nothing beyond {place} worth the swim. The deep keeps its places to itself.
+The merfolk bring us news of the world beyond the court, but they have brought none lately. Perhaps the world is resting.
+I have heard of nothing nearby. Ask the merfolk; they hear everything, and repeat most of it.
+Beyond the lamps of {place} there is only the deep, as far as I know. And the old halls, which we do not count as places.
+Nothing new lies near that I know of. The Archive would have told me. The Archive tells everyone everything, slowly.
+
+## prismari.neighbors
+The merfolk are our friends under the Pact of Lanterns: our light for their friendship. We have both kept our side, which is more than most pacts can say.
+We gave the merfolk their conduits. They gave us noise, gossip, songs and kelp wraps. I think we got the better bargain.
+The merfolk are a young people. The Tide took them in the Great Flood and gave them tails. To us they are still new to the water. To them, we are very old furniture.
+A merfolk greets you with "fair currents" and leaves with "mind the undertow". We greet with "I see you" and leave with "stay seen". Between us, we have the whole sea covered.
+Their Tide Singers keep the conduits we gave them, and sing to them. We never sang to ours. Theirs seem happier.
+The merfolk carry our wet breath-stones up into the sun to dry. We cannot go up there. They do it for a song, which they sing on the way.
+When the merfolk come down to trade, the court is noisier for a tide. We complain about it for a turning. We miss it for the rest of the Long Count.
+Their young are called fry. They ask questions without waiting for answers. Ours wait so long for answers they forget the question. We should swap for a turning.
+The Reef Wardens and our Eyeguards drill together sometimes. The Wardens move like a struck lamp; the Eyeguards move like the tide. Both are very hard to get past.
+The merfolk ride the wild nautili. We have tried. The nautili did not care for our spines.
+Each turning, a crate of Tide Lamps goes up to the reef with the count written on its side. The merfolk never ask what the number means. They just say thank you. We like that about them.
+The merfolk still keep land ways: names, gossip, feasts, family quarrels. We find it exhausting and wonderful, like weather.
+A merfolk pearl diver once gave me a Tidepearl, for no reason at all. I keep it beside my bed. I still do not know what the reason was.
+If you are going up to the reef, tell them {place} sees them. They will know what it means. They will say it back wrong, warmly.
+The merfolk think the deep is frightening. We think the shallows are. We are both right, and we visit each other carefully.
+Some merfolk have cousins in the land villages, I am told. Family who breathe air! You must be somebody's cousin, then. Whose?
+A merfolk Elder came down to a court once and talked for three tides without stopping. The court still speaks of it with awe.
+The merfolk call our courts "down where the light gives out". We call their towns "up where the noise begins". Both are said fondly.
+
+## prismari.held.pickaxe
+A digging tool. Please do not dig in the old halls. The eldest will make your arms heavy, and they will be right to.
+You carry that pick as if the deep were a wall. It is not. It is a door that opens slowly.
+Our walls are prismarine, turned by a Lightwright's hand. If you are thinking of borrowing a piece, ask first. We will probably say yes.
+
+## prismari.held.sword
+A blade. In the deep, a blade has to push the whole sea aside to reach anything. A trident is more polite.
+Keep that low in {place}, please. The Eyeguards' spines are already rising.
+A sword is a fine thing on land. Here, the water argues with every swing.
+
+## prismari.held.axe
+An axe. There are no trees down here to frighten. You may put it away.
+What do you cut with that, in the deep? Kelp? Kelp forgives you. It grows back by the next tide.
+A woodcutter's tool. I have seen wood only once: a plank from a sunken ship. It was soft, and sad.
+
+## prismari.held.shovel
+A tool for moving sand. We let the currents do that. They are slower, but they never tire.
+If you dig in the sea floor here, you will find more sea floor. We have checked.
+Please do not dig up the court's paths. The Lightwrights will notice, and sigh, and it will be the longest sigh you ever heard.
+
+## prismari.held.bow
+A bow is a sad thing in the deep. The arrows give up after a few lengths. A trident never gives up.
+You aim with both eyes at once, I suppose? We have always wondered how that works.
+Keep the string dry, if you can. I do not see how you can. Good luck.
+
+## prismari.held.shield
+A shield. Good. The deep is not cruel, but it is careless.
+If you meet the watch-beasts without a Seal, hold that up. It will not stop them. It may stop the first of them.
+A wall you can carry. We built walls we could not carry, and then we left them. Yours is wiser.
+
+## prismari.held.torch
+A land light, in the sea? It will only sulk. Take a Tide Lamp instead; it does not mind the water.
+Your little fire is very brave. The sea is braver. Put it away before it is embarrassed.
+Land light flickers. Ours does not. We have never understood why yours chooses to.
+
+## prismari.held.ore
+Rock from the land, with metal in it. We have prismarine, which has light in it. I think ours is more cheerful.
+You carry the land's bones in your hand. Is it heavy? It looks heavy. Everything from above looks heavy.
+Ore. The Lightwrights will want to look at it and pretend they are not interested.
+
+## prismari.held.diamond
+A clear stone. Pretty, but it does not hold light the way prismarine does. It only throws it away again.
+Land folk prize those, I am told. We would trade a lamp for it and think you foolish, and you would think the same of us.
+A diamond. The shore-kings brought those as tribute too, in the Long Tide. The eldest beasts never cared for them.
+
+## prismari.held.gold
+Gold. Was that from one of the old halls? Do not tell me. It was tribute, and it is not ours to take back.
+Gold does not rust. That is its only virtue. Well, and it is shiny. Two virtues.
+If you leave that at our tribute alcove, nobody will thank you, and everyone will be pleased.
+In the Long Tide gold came down to the halls by the cartload. Now it goes back up by the pocketful. The sea is patient about these things.
+Carry it, then, if you can. The halls never needed it, and neither do we.
+
+## prismari.held.emerald
+A green stone. The land folk trade with those. We trade with lamps and patience; it takes longer, but nobody is short-changed.
+That is almost the colour of good prismarine. Almost.
+The merfolk know what emeralds are worth. Ask them. We only know they are pretty and very hard to eat.
+
+## prismari.held.food
+That smells of fire. Your kind always eat things after the fire has finished with them.
+Eat. You look like someone who forgets to eat. We take the tide-meal twice a day; you should take yours.
+Land food. The merfolk bring us some now and then. We are always very polite about it.
+
+## prismari.held.map
+A map. May I see? Ah: it is all land. Where is the sea? That blank part? You draw the sea as nothing?
+Our maps are not drawn; they are counted. So many tides along this current, so many across that one. Yours are prettier.
+If your map shows the old halls, swim around them. Not near. Around, and wide.
+
+## prismari.held.compass
+Your kind need a needle in a box to know the way home. We feel the pull of the tide in our spines. Yours is easier to put away.
+The needle trembles. So would I, so far from home.
+It always points the same way, whatever you do? How restful. I should like a friend like that.
+
+## prismari.held.book
+A book! Is it about the sea? Most land books are about the land. The Archive would like a word with you.
+Our books are written small, so they last longer. Yours is written large, so it is finished sooner. Both are honest.
+The Archivists will want to see that, if it is the kind of book they collect. They collect every kind.
+Books are the only thing we carried out of the halls that we still use every day. Everything else, we left.
+
+## prismari.held.tnt
+Is that a fire-maker? Please put it away. Slowly. My spines are up, and they would like to stay attached.
+That is the sort of thing that turns a hall into a ruin. We know a great deal about ruins. Put it away.
+No. Whatever you are planning: no. I do not need to know what it is to say no.
+
+## prismari.held.potion
+A brew. If it lets you breathe, keep drinking. If it does not, why did you bring it?
+The merfolk Tide Singers brew draughts for breath and for seeing in the dark. Down here, your kind need both.
+Another little bottle. Your kind carry so many little bottles. It is like watching a reef carry its own weather.
+
+## prismari.held.flower
+A land flower? It is lovely. It is also drowning. Shall I hold it, so it drowns a little slower?
+We have nothing like that down here. Sea pickles, perhaps, if you squint. You squint very well, with two eyes.
+Is that a gift? Flowers do not last down here. That is what makes it a gift.
+
+## prismari.held.bucket
+A pail. You cannot carry the sea away in that, you know. We have watched your kind try.
+If there is a glowjelly in there, be gentle with it. If there is not, you have brought us a very small piece of home.
+The Spongekeepers carry glowjellies between the ponds in pails like that. Do not swing it.
+
+## prismari.held.trident
+A trident. You hold it like a land spear. Turn your wrist. There. Now the sea will listen.
+Our Eyeguards carry those. So did the watchers of the old halls. I hope yours has only seen kind work.
+Where did you get that? From the Unseeing? Then it has come home to better hands.
+A trident remembers who threw it. That is why it comes back. The good ones, anyway.
+
+## prismari.held.fishing_rod
+You catch fish with a string and a hook, from above? We usually just ask them to come closer.
+Fishing. The merfolk do it with their hands. It is much louder.
+Do not cast that near the jelly pond. The glowjellies are not fish, and they do not like being mistaken for one.
+
+## prismari.held.shell
+A nautilus shell. Every chamber is a turning of its life. The Archivists love those: a creature that keeps its own count.
+That shell is older than it looks. Most things down here are.
+Hold it close and you will hear the sea, they say. Which is strange, since you are in it.
+
+## prismari.held.pearl
+A Tidepearl! The merfolk grow those in their basins. If one gave it to you, you are loved somewhere on the reef.
+A pearl. It holds the light the way a good memory does: softly, and from the inside.
+The merfolk give pearls between friends. We give lamps. Theirs are smaller and easier to lose. That is the merfolk all over.
+
+## prismari.held.fish
+A fish. Is that for the tide-meal, or a friend? With your kind I can never tell.
+Cod is good, raw and cold. Do not let the fire near it. Fire ruins everything it touches; that is its whole purpose.
+That fish was alive this tide. Thank it before you eat it. That is not a custom of ours; it is only polite.
+
+## prismari.held.boat
+A boat? That is a house for floating on the roof of the sea. We have one on the floor, upside down and very quiet. A gift from a storm.
+You travel on top of the sea. It must be so bright up there.
+The merfolk swim up to boats and wave. The boats rarely wave back. We find that rude, on the merfolk's behalf.
+
+## prismari.held.spyglass
+A tube that makes far things near. We have one eye and we do not need it. You have two and you still do. Interesting.
+Look through it at the old halls, if you must look. From here. Only from here.
+Point that at me and I will point my eye at you, and we will see who blinks first. It will be you.
+
+## prismari.held.seal
+You carry the Monument Seal. An Oldest Eye trusted you with that. Do not make them wrong.
+The Seal. The old beasts will know it, even if they know nothing else any more. Keep it close.
+The guardians remember the Seal, not our faces. With that in your hand, you are more one of us to them than we are.
+Put the Seal away, please. Not because it is secret. Because looking at it makes my spines rise, and I do not know why.
+The Seal will keep the beasts from you. It will not keep anything else from you. Remember that, in the halls.
+To give the Seal is to say: you may go where we cannot. Go carefully. Come back and tell us what you saw, or tell us nothing. Both are allowed.
+
+## prismari.held.prismarine
+Prismarine. Watch it a while; it changes its mind about its colour. Good prismarine is always thinking.
+That came from the old halls or from our lathes. If from the halls, please do not tell me.
+You hold it like a stone. Hold it like a lamp. There; it already looks happier.
+The Lightwrights will want to see that. They will turn it over and over and say "hm". That is high praise.
+
+## prismari.held.kelp
+Kelp. The heart of every tide-meal. Dried, it is a feast. Fresh, it is a snack. Either way, it is kelp.
+Our robes are kelp-cloth. That is why we always smell faintly of supper.
+Kelp grows a little every tide. It is the most patient thing in the sea after the Prismari, and it is catching up.
+
+## prismari.player.hurt
+You are hurt. Your colour is wrong. Sit by the lamps a while; the deep will wait.
+Your blood is in the water. The whole court can taste it. Please let someone tend you.
+My spines rose when I saw you. You are hurt, and you swim as if you were not. Stop that.
+Rest here. Nobody in {place} has stopped counting in a long while, and you will not be the one to change that.
+
+## prismari.player.hungry
+You are thin in the face, for a Two-Eyes. When did you last eat? Take some dried kelp. Do not argue.
+Your stomach is speaking. We heard it across the court. It sounded sincere.
+Eat something. We take the tide-meal twice a day; your kind seem to need it more often and remember it less.
+You look hungry. There is dried kelp in every home in {place}. Nobody will mind. Somebody will watch very closely, but nobody will mind.
+
+## prismari.player.unarmored
+No armour at all? In the deep? You are either very brave or very new. I suspect both.
+You have no scales and no plates, and you came down here like that. The sea admires your courage and means to test it.
+Your skin is very soft and very bare. Please put something between it and the Unseeing.
+Even our young have spines. You have nothing. Be careful.
+
+## prismari.player.diamond
+That armour glitters like a tribute hoard. The guardians will not care. The Unseeing might.
+You are wearing a very hard shell, for a creature born without one. Sensible.
+Such bright plates. You look like a lamp that walked down from the land.
+Heavy armour sinks well. You have saved yourself a great deal of swimming down. Swimming up is another matter.
+
+## prismari.player.leather
+Animal skin, worn over your own. You land folk are very practical, and slightly alarming.
+Your armour is soft. In the water it will grow heavy and smell. I say this with love.
+Leather. It will not stop a guardian's spines, but it keeps off a little of the cold. That counts for something.
+
+## prismari.player.fire
+You are on fire. In the sea. How did you manage it? No: first, swim down. Questions after.
+You are burning! The water will help. Get further into it!
+My spines have never risen so fast. You are on fire! Deeper, quickly!
+
+## prismari.player.damaged
+Your tool is nearly worn through. Our Lightwrights would mend it, but they would also lecture you. Choose.
+That is badly worn. A thing used so hard is either well loved or badly kept. Which is yours?
+Your tool is tired. Let it rest, or give it a better end than breaking at the bottom of the sea.

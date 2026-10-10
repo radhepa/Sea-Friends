@@ -1,0 +1,52 @@
+{
+  "structures": [
+    {
+      "structure": "seafriends:reef_town",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "seafriends:spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 1931640211,
+    "avoid": [
+      {
+        "set": "minecraft:villages",
+        "chunks": 4
+      },
+      {
+        "set": "minecraft:ocean_ruins",
+        "chunks": 3
+      },
+      {
+        "set": "minecraft:shipwrecks",
+        "chunks": 3
+      },
+      {
+        "set": "villagefriends:homesteads",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:dens",
+        "chunks": 2
+      },
+      {
+        "set": "plataclan:warrens",
+        "chunks": 3
+      },
+      {
+        "set": "oceanexpansion:sites",
+        "chunks": 5
+      },
+      {
+        "set": "minecraft:ocean_monuments",
+        "chunks": 4
+      },
+      {
+        "set": "seafriends:prismari_courts",
+        "chunks": 10
+      }
+    ]
+  }
+}

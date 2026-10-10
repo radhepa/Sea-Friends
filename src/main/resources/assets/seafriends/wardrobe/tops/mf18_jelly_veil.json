@@ -1,0 +1,252 @@
+{
+  "id": "mf18_jelly_veil",
+  "kind": "top",
+  "name": "Jelly Veil",
+  "gender": "female",
+  "texture": "tops/mf18_jelly_veil.png",
+  "extrasHeight": 32,
+  "tags": [
+    "formal",
+    "glow",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "bell_rim",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -5,
+        8.4,
+        -3
+      ],
+      "size": [
+        10,
+        2,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "right_bell_cap",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -3.5,
+        -2.5,
+        -2.5
+      ],
+      "size": [
+        5,
+        3,
+        5
+      ],
+      "uv": [
+        33,
+        0
+      ],
+      "inflate": 0.08
+    },
+    {
+      "id": "right_sleeve_ribbon",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        -3.1,
+        0.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        6
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "uv": [
+        54,
+        0
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "left_bell_cap",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        -2.5,
+        -2.5
+      ],
+      "size": [
+        5,
+        3,
+        5
+      ],
+      "uv": [
+        0,
+        9
+      ],
+      "inflate": 0.08
+    },
+    {
+      "id": "left_sleeve_ribbon",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        3.0999999999999996,
+        0.3,
+        0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        -6
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "uv": [
+        21,
+        9
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "ribbon_fr",
+      "bone": "TORSO",
+      "pivot": [
+        -2.5,
+        10.2,
+        -3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        4
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "uv": [
+        26,
+        9
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "ribbon_fl",
+      "bone": "TORSO",
+      "pivot": [
+        2.5,
+        10.2,
+        -3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        -4
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "uv": [
+        31,
+        9
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "ribbon_back",
+      "bone": "TORSO",
+      "pivot": [
+        0.0,
+        10.2,
+        3.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        5,
+        1
+      ],
+      "uv": [
+        36,
+        9
+      ],
+      "motion": "sway"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A singer's costume after the moon jelly: a pale bell-shaped bodice with faint radial canals, a frilled bell rim at the waist and bell caps on the shoulders, trailing soft tentacle ribbons, all dotted with glowing lights."
+}

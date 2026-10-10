@@ -1,0 +1,191 @@
+{
+  "id": "mt15_tide_mantle",
+  "kind": "top",
+  "name": "Tide Mantle",
+  "gender": "male",
+  "texture": "tops/mt15_tide_mantle.png",
+  "extrasHeight": 32,
+  "tags": [
+    "fin",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "mantle_fins",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -8,
+        0.6,
+        -3
+      ],
+      "size": [
+        16,
+        4,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "mantle_collar",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -6,
+        -0.3,
+        -3.5
+      ],
+      "size": [
+        12,
+        2,
+        7
+      ],
+      "uv": [
+        0,
+        11
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "mantle_drop_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        4.4,
+        -3.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        2,
+        1
+      ],
+      "uv": [
+        39,
+        11
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "mantle_drop_back",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        4.4,
+        2.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        2,
+        1
+      ],
+      "uv": [
+        0,
+        21
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "conch",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        4.2,
+        -3.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        19,
+        21
+      ]
+    },
+    {
+      "id": "conch_tip",
+      "bone": "TORSO",
+      "pivot": [
+        0.5,
+        6.2,
+        -3.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        26,
+        21
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A tide singer's capelet of scalloped fin layers over the shoulders, a conch pendant, bare arms."
+}

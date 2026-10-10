@@ -1,0 +1,70 @@
+# KELP FARMER (job site: kelp_rack). Kelp, dried kelp, kelp wraps, sea pickles, fish.
+# Canon: see merfolk.txt (the Long Cut and "Haul the Green", kelp dried on the sun-rocks at low tide,
+# Gran's sea-pickle wrap, "a pickle moon").
+
+## farmer.greet
+Fair currents! Mind the rows; the kelp's touchy today.
+Fair currents, {player}! You've caught me with kelp in my hair again. It's always in my hair. I've given up.
+Fair currents! Hungry? Everyone's hungry when they swim past the racks. It's the smell.
+Fair currents! Come and see the rows. They've grown a full arm's length since you were last down.
+Fair currents! Don't tread on the seedlings. Don't float on them either. Just admire.
+Fair currents, {player}. I've got a wrap going spare if you need one. A kelp farmer always has a wrap going spare.
+Fair currents! Grand day for growing. Every day is, down here. That's the secret.
+Fair currents! "Haul the green, haul the green..." Sorry. Work song. Hello.
+
+## farmer.chat
+Kelp grows faster than anything in the sea. Turn your back for a day and it's taller than you. Turn it for a week and it's taller than the shrine.
+Drying kelp's the one thing we need the sun for. We carry it up to the sun-rocks at low tide and lay it out. Best part of the job, honestly. Warm rocks!
+A good kelp wrap is fish, kelp and patience. Mostly patience. You roll it tight, then you roll it again.
+The seadragons hide in my rows pretending to be kelp. I've harvested two by accident. Both forgave me.
+My gran's sea-pickle wrap is famous across three reefs. The secret is a pickle in the middle. That's the whole secret. Don't tell anyone.
+The Long Cut's the best day of the year. Everyone hauls, everyone sings "Haul the Green", everyone eats until they float sideways.
+Sea pickles grow in clusters, four to a cluster when they're happy. One on its own is lonely. I move it next to the others.
+Fish wander into my rows and get lost. I lead them out by the fins. They never say thank you.
+Kelp needs sand under it and water over it. That's it. That's the whole of farming. The rest is worrying.
+I tried growing a land thing down here once. A potato. It just sat there looking betrayed.
+The turtles come through my rows some moons and nibble the tips. I let them. Turtles were here long before farms.
+The trick is height. Short kelp's sweet, tall kelp's tough. Wraps want the sweet stuff; ropes want the tough.
+When the current's strong, all the kelp leans one way like it's listening to something. I listen too. Never hear a thing.
+People think kelp farmers are dull. We're not. We're patient. It just looks the same from outside.
+Fresh kelp keeps a day, dried kelp keeps a year, and a good friend keeps forever. That's not farming advice. I just thought of it.
+
+## farmer.work
+Tending the rows today: thinning the tall ones, coaxing the short ones, scolding the ones that lean.
+Hanging kelp on the racks is half the job. You hang it, you turn it, you take it up to the sun-rocks to finish, and then you turn it again.
+I sell dried kelp, kelp wraps, sea pickles and fish. Basically, I sell supper.
+A kelp rack wants hanging from the top down, longest strands first. My gran would rap my knuckles if I did it backwards.
+The rows by the shelf grow tallest but bitterest. The rows by the Heart grow sweetest. Nobody knows why. Everyone has a theory.
+Want to help? Grab a bundle and swim it to the racks. Don't stop to gossip on the way. You will, but try.
+Fish are a kelp farmer's business too. They live in the rows, I get to know them, and then one day it's a wrap. That's life in the green.
+Sea pickles are my side crop. They're lamps, they're snacks, they're presents. Every home in {place} has some of mine.
+I sing "Haul the Green" while I work. Everyone in the rows sings it. It keeps us together, and it keeps the fish out of the way.
+The worst job is untangling the kelp after a storm up top. The whole field ties itself in knots overnight, out of spite.
+Some days the seadragons follow me down the rows like ducklings. I don't know what ducklings are, but a land cousin said so, and I liked the sound.
+A good harvest feeds the town. A great harvest feeds the town and the next reef over. We've had three great ones running. Touch coral.
+Never cut kelp at the root. Cut it a hand above the sand. It grows back by the next moon, and it remembers you were kind.
+Dried kelp is what the town lives on when the fish move off. I dry more than we need every moon. Better a full rack than an empty belly.
+I'm teaching the fry to plant. They plant everything upside down. It grows anyway. Kelp's forgiving.
+
+## farmer.heart
+I like knowing everybody in {place} ate something I grew today. It's a quiet sort of pride. It fills you up.
+These rows were my gran's before they were mine. I still talk to her when I'm working them. Kelp's a good listener.
+A bad harvest scares me more than the drowned. You can fight a drowned. You can't fight an empty rack.
+Some evenings I just float in the rows and let the kelp sway round me. It's the safest I ever feel.
+If you ever go hungry up in the dry, come down. There'll be a wrap for you. There'll always be a wrap for you.
+
+## farmer.held.kelp
+That's good kelp! Grown in the shallows? You can tell; it's sweeter. Where'd you get it?
+Is that {item} from my rows? It is! I can tell by the curl. I'll forgive you if you eat it properly.
+Hold kelp by the middle, not the tip. You're squashing its feelings.
+Ah, {item}. Now there's a sensible thing for a sandtoe to carry.
+
+## farmer.held.fish
+That's a fine {item}. Wrap it in kelp, little bit of salt, roll it tight. There. You're a kelp farmer now.
+Is that from my rows? I thought I was missing one. No, I'm joking. Mostly.
+Nice fish! Bring me three of those and I'll show you how we make a festival wrap.
+
+## farmer.held.food
+What's that, land food? Smells of fire. Everything up there smells of fire. Do you ever get tired of it?
+If you're eating that, you'll want a kelp wrap after. For balance.
+That {item} looks nice, but has it got kelp in it? No? Pity. A missed chance.

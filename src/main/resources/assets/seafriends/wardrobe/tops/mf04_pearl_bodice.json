@@ -1,0 +1,76 @@
+{
+  "id": "mf04_pearl_bodice",
+  "kind": "top",
+  "name": "Pearl Bodice",
+  "gender": "female",
+  "texture": "tops/mf04_pearl_bodice.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "pearls"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "pearl_cluster",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.9,
+        -2.15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "pearl_drop",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        3.1,
+        -2.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        7,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A fitted sea-silk bodice to the hips, covered in a lattice of pearl strands, with pearl straps over the shoulders and a pearl cluster at the neckline."
+}

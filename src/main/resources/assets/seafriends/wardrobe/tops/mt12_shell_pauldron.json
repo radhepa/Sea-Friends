@@ -1,0 +1,135 @@
+{
+  "id": "mt12_shell_pauldron",
+  "kind": "top",
+  "name": "Shell Pauldron",
+  "gender": "male",
+  "texture": "tops/mt12_shell_pauldron.png",
+  "extrasHeight": 16,
+  "tags": [
+    "armor",
+    "bare",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "strap_shell",
+      "bone": "TORSO",
+      "pivot": [
+        0.6,
+        3.4,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "left_great_shell",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "origin": [
+        -2.0,
+        -3.0,
+        -3
+      ],
+      "size": [
+        6,
+        3,
+        6
+      ],
+      "uv": [
+        7,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "left_shell_crown",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "origin": [
+        -1.0,
+        -4.0,
+        -2
+      ],
+      "size": [
+        4,
+        1,
+        4
+      ],
+      "uv": [
+        32,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "left_shell_ear",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "origin": [
+        -3.0,
+        -3.4,
+        -2
+      ],
+      "size": [
+        2,
+        1,
+        4
+      ],
+      "uv": [
+        49,
+        0
+      ],
+      "inflate": 0.05
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Bare chest and one great ribbed shell on the left shoulder, strapped on with sharkskin across chest and back."
+}

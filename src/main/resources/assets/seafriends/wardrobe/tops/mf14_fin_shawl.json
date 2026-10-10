@@ -1,0 +1,135 @@
+{
+  "id": "mf14_fin_shawl",
+  "kind": "top",
+  "name": "Fin Shawl",
+  "gender": "female",
+  "texture": "tops/mf14_fin_shawl.png",
+  "extrasHeight": 32,
+  "tags": [
+    "formal",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "fin_cape",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -8.5,
+        -0.6,
+        -3.1
+      ],
+      "size": [
+        17,
+        3,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.04
+    },
+    {
+      "id": "fin_under",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -8.5,
+        1.8,
+        -3.1
+      ],
+      "size": [
+        17,
+        2,
+        6
+      ],
+      "uv": [
+        0,
+        10
+      ],
+      "inflate": 0.32
+    },
+    {
+      "id": "fin_end_right",
+      "bone": "TORSO",
+      "pivot": [
+        -2.3,
+        2.9,
+        -3.3
+      ],
+      "rotation": [
+        0,
+        0,
+        12
+      ],
+      "origin": [
+        -1,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        5,
+        1
+      ],
+      "uv": [
+        47,
+        10
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "fin_end_left",
+      "bone": "TORSO",
+      "pivot": [
+        2.3,
+        2.9,
+        -3.3
+      ],
+      "rotation": [
+        0,
+        0,
+        -12
+      ],
+      "origin": [
+        -1,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        5,
+        1
+      ],
+      "uv": [
+        54,
+        10
+      ],
+      "motion": "sway"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A shawl of pale fin layers, ribbed like a fish's fins and tinted at the scalloped edges, laid over the shoulders of a deep-dyed scale bodice."
+}

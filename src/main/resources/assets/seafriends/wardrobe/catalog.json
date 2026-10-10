@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "bottom": "mb_bare",
+  "tops": [
+    {
+      "id": "mf01_scallop_top",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "diver",
+        "singer"
+      ]
+    },
+    {
+      "id": "mf02_scale_bandeau",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "child"
+      ]
+    },
+    {
+      "id": "mf03_kelp_wrap",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mf04_pearl_bodice",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "singer"
+      ]
+    },
+    {
+      "id": "mf05_coral_corset",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mf06_net_halter",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "diver"
+      ]
+    },
+    {
+      "id": "mf07_sea_silk_blouse",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "child"
+      ]
+    },
+    {
+      "id": "mf08_tide_singer",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "singer"
+      ]
+    },
+    {
+      "id": "mf09_diver_crop",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "diver"
+      ]
+    },
+    {
+      "id": "mf10_shellwright_wrap",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mf11_warden_cuirass",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "warden"
+      ]
+    },
+    {
+      "id": "mf12_starfish_halter",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "diver"
+      ]
+    },
+    {
+      "id": "mf13_one_shoulder_drape",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "singer"
+      ]
+    },
+    {
+      "id": "mf14_fin_shawl",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "elder",
+        "singer"
+      ]
+    },
+    {
+      "id": "mf15_abalone_vest",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mf16_elder_robe",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "elder"
+      ]
+    },
+    {
+      "id": "mf17_sailcloth_tunic",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "child",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mf18_jelly_veil",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "singer"
+      ]
+    },
+    {
+      "id": "mf19_urchin_guard",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "warden"
+      ]
+    },
+    {
+      "id": "mf20_anemone_ruffle",
+      "gender": "female",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt01_bare_chest",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "any",
+        "child"
+      ]
+    },
+    {
+      "id": "mt02_shell_cord",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "any",
+        "child",
+        "diver",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt03_kelp_sash",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "any",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt04_pearl_strands",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "any",
+        "singer"
+      ]
+    },
+    {
+      "id": "mt05_tide_marks",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "elder",
+        "singer"
+      ]
+    },
+    {
+      "id": "mt06_diver_harness",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "diver"
+      ]
+    },
+    {
+      "id": "mt07_shark_tooth",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "diver",
+        "warden"
+      ]
+    },
+    {
+      "id": "mt08_coral_bracers",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "any",
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mt09_net_vest",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "child",
+        "diver",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt10_scale_vest",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "warden"
+      ]
+    },
+    {
+      "id": "mt11_kelp_wrap",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt12_shell_pauldron",
+      "gender": "male",
+      "shirtless": true,
+      "jobs": [
+        "diver",
+        "warden"
+      ]
+    },
+    {
+      "id": "mt13_nautilus_cuirass",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "warden"
+      ]
+    },
+    {
+      "id": "mt14_sailcloth_wrap",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mt15_tide_mantle",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "singer"
+      ]
+    },
+    {
+      "id": "mt16_elder_robe",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "elder"
+      ]
+    },
+    {
+      "id": "mt17_shellwright_apron",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "shellwright"
+      ]
+    },
+    {
+      "id": "mt18_sea_silk_tunic",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "any",
+        "child",
+        "farmer"
+      ]
+    },
+    {
+      "id": "mt19_starfish_baldric",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "diver",
+        "warden"
+      ]
+    },
+    {
+      "id": "mt20_urchin_guard",
+      "gender": "male",
+      "shirtless": false,
+      "jobs": [
+        "warden"
+      ]
+    }
+  ],
+  "palettes": {
+    "WASHED_INDIGO_AND_CREAM": {
+      "name": "Lagoon & Pearl",
+      "ramps": {
+        "P": [
+          "#074257",
+          "#186671",
+          "#2f8c8a",
+          "#51baae",
+          "#7ce8d1"
+        ],
+        "S": [
+          "#79928d",
+          "#a7bfb9",
+          "#d9ece6",
+          "#ecfdf7",
+          "#f1fffa"
+        ],
+        "A": [
+          "#8c1725",
+          "#b73734",
+          "#e2725b",
+          "#f69a79",
+          "#ffbb94"
+        ],
+        "L": [
+          "#1d3b3a",
+          "#2d4d48",
+          "#3f5f55",
+          "#6e9a88",
+          "#a4d6bc"
+        ],
+        "M": [
+          "#808f95",
+          "#b0bdc2",
+          "#e3edf0",
+          "#f3fdff",
+          "#f5fdff"
+        ],
+        "K": [
+          "#0a1121",
+          "#111c2b",
+          "#1b2a35",
+          "#496c7d",
+          "#81b6c5"
+        ],
+        "D": [
+          "#10255c",
+          "#234779",
+          "#3d6f95",
+          "#60a0c0",
+          "#8ad4ec"
+        ]
+      }
+    },
+    "FOREST_AND_HEARTH": {
+      "name": "Kelp Forest",
+      "ramps": {
+        "P": [
+          "#17421f",
+          "#265728",
+          "#3f6b3a",
+          "#70a363",
+          "#a9db95"
+        ],
+        "S": [
+          "#678555",
+          "#95ae7b",
+          "#c5d7a6",
+          "#e2eec0",
+          "#f7ffd6"
+        ],
+        "A": [
+          "#873404",
+          "#b0681d",
+          "#d9a441",
+          "#f0cc61",
+          "#ffe382"
+        ],
+        "L": [
+          "#312412",
+          "#40361d",
+          "#4f4a2c",
+          "#8f8359",
+          "#d0c18f"
+        ],
+        "M": [
+          "#864c1d",
+          "#af7f3a",
+          "#d8b860",
+          "#efd67e",
+          "#ffe99c"
+        ],
+        "K": [
+          "#0b1610",
+          "#111d15",
+          "#18241a",
+          "#517153",
+          "#93be92"
+        ],
+        "D": [
+          "#0d2344",
+          "#1c3d59",
+          "#2f5a6e",
+          "#5593a5",
+          "#84d1dc"
+        ]
+      }
+    },
+    "SCHOLARLY_PLUM": {
+      "name": "Abyssal Violet",
+      "ramps": {
+        "P": [
+          "#19154a",
+          "#2c2561",
+          "#4a3b78",
+          "#7b62ac",
+          "#b390e0"
+        ],
+        "S": [
+          "#72788f",
+          "#9fa5ba",
+          "#cfd6e6",
+          "#e4ebf9",
+          "#edf4ff"
+        ],
+        "A": [
+          "#186a82",
+          "#33a0a9",
+          "#57d1c9",
+          "#76ead7",
+          "#97ffe4"
+        ],
+        "L": [
+          "#1b1932",
+          "#282641",
+          "#3a3550",
+          "#726790",
+          "#b19fd0"
+        ],
+        "M": [
+          "#6e718f",
+          "#999fba",
+          "#c9d0e6",
+          "#dee6f9",
+          "#e8f0ff"
+        ],
+        "K": [
+          "#08071a",
+          "#0e0d22",
+          "#15142a",
+          "#494175",
+          "#8b7ac1"
+        ],
+        "D": [
+          "#0e0b42",
+          "#191e57",
+          "#2b3a6b",
+          "#506ba3",
+          "#7fa6db"
+        ]
+      }
+    },
+    "DESERT_SUN": {
+      "name": "Sunlit Shallows",
+      "ramps": {
+        "P": [
+          "#954a07",
+          "#c28622",
+          "#f0c94a",
+          "#ffde69",
+          "#ffe484"
+        ],
+        "S": [
+          "#829796",
+          "#b2c6c3",
+          "#e6f4f2",
+          "#f3fffd",
+          "#f5fffd"
+        ],
+        "A": [
+          "#015068",
+          "#147d87",
+          "#2fa7a0",
+          "#50cdba",
+          "#79f3d4"
+        ],
+        "L": [
+          "#42281a",
+          "#56402a",
+          "#6a5a3e",
+          "#a29369",
+          "#dacc9b"
+        ],
+        "M": [
+          "#929698",
+          "#c0c4c6",
+          "#eef3f5",
+          "#f9fdff",
+          "#fafeff"
+        ],
+        "K": [
+          "#1d0e07",
+          "#25180e",
+          "#2e2416",
+          "#786743",
+          "#c2b27b"
+        ],
+        "D": [
+          "#1d457a",
+          "#37739f",
+          "#5aa6c4",
+          "#7acee1",
+          "#9ef6fe"
+        ]
+      }
+    },
+    "ROYAL_VELVET": {
+      "name": "Deep Sapphire",
+      "ramps": {
+        "P": [
+          "#01094e",
+          "#0f2566",
+          "#24477e",
+          "#4579b0",
+          "#71b3e2"
+        ],
+        "S": [
+          "#788494",
+          "#a6b3c1",
+          "#d8e4ee",
+          "#ebf6ff",
+          "#eef9ff"
+        ],
+        "A": [
+          "#7d1249",
+          "#a32c58",
+          "#c94e6a",
+          "#e56e7d",
+          "#ff9296"
+        ],
+        "L": [
+          "#141731",
+          "#202840",
+          "#2f3b4f",
+          "#5e758f",
+          "#95b6d0"
+        ],
+        "M": [
+          "#855b32",
+          "#ad8c52",
+          "#d6c27a",
+          "#eedb97",
+          "#ffeeb2"
+        ],
+        "K": [
+          "#03051b",
+          "#090e24",
+          "#101a2c",
+          "#375477",
+          "#6b9bc2"
+        ],
+        "D": [
+          "#050e39",
+          "#10224b",
+          "#1f3b5c",
+          "#427298",
+          "#72b2d5"
+        ]
+      }
+    },
+    "RUSTIC_TWEED": {
+      "name": "Driftwood & Brine",
+      "ramps": {
+        "P": [
+          "#445752",
+          "#5f716c",
+          "#7c8c86",
+          "#a8bab2",
+          "#d5e8df"
+        ],
+        "S": [
+          "#898f8c",
+          "#b4bab8",
+          "#dfe6e3",
+          "#f3f9f6",
+          "#fafffd"
+        ],
+        "A": [
+          "#134959",
+          "#266d74",
+          "#3f8f8a",
+          "#63bcae",
+          "#8ee9d2"
+        ],
+        "L": [
+          "#31201a",
+          "#403127",
+          "#4f4436",
+          "#8f8269",
+          "#d0c4a2"
+        ],
+        "M": [
+          "#717c82",
+          "#9ba5aa",
+          "#c8cfd2",
+          "#e1e8eb",
+          "#f6fdff"
+        ],
+        "K": [
+          "#18100c",
+          "#1f1812",
+          "#262119",
+          "#736951",
+          "#bfb591"
+        ],
+        "D": [
+          "#23334f",
+          "#375068",
+          "#4f6f80",
+          "#78a3b2",
+          "#a6dae3"
+        ]
+      }
+    },
+    "TANNER_AMBER": {
+      "name": "Coral Reef",
+      "ramps": {
+        "P": [
+          "#8b0d19",
+          "#b52f28",
+          "#e06a4e",
+          "#f5946d",
+          "#ffb78b"
+        ],
+        "S": [
+          "#929599",
+          "#c0c3c7",
+          "#eef2f6",
+          "#f8fcff",
+          "#f9fcff"
+        ],
+        "A": [
+          "#004565",
+          "#117084",
+          "#2b9fa3",
+          "#4ccac2",
+          "#75f1dd"
+        ],
+        "L": [
+          "#42141a",
+          "#572323",
+          "#6b3e36",
+          "#a36f5e",
+          "#dba98f"
+        ],
+        "M": [
+          "#789295",
+          "#a6c1c2",
+          "#d9f0f0",
+          "#eafffe",
+          "#eefffe"
+        ],
+        "K": [
+          "#24060b",
+          "#2f0e0e",
+          "#3a1d18",
+          "#815041",
+          "#c79175"
+        ],
+        "D": [
+          "#0e2e5f",
+          "#22537d",
+          "#3c7c9a",
+          "#5eadc4",
+          "#88e1ee"
+        ]
+      }
+    },
+    "WINTER_TUNDRA": {
+      "name": "Frost Tide",
+      "ramps": {
+        "P": [
+          "#465d7d",
+          "#6889a3",
+          "#8fb8c9",
+          "#addae5",
+          "#cbfaff"
+        ],
+        "S": [
+          "#959899",
+          "#c4c7c7",
+          "#f2f6f6",
+          "#fbffff",
+          "#fcffff"
+        ],
+        "A": [
+          "#0d235f",
+          "#21467d",
+          "#3b6f9a",
+          "#5d9fc4",
+          "#87d3ee"
+        ],
+        "L": [
+          "#2f3645",
+          "#434d5b",
+          "#5a6670",
+          "#8b9ca6",
+          "#bed4dd"
+        ],
+        "M": [
+          "#788591",
+          "#a5b4be",
+          "#d7e3ea",
+          "#eaf6fc",
+          "#f1fbff"
+        ],
+        "K": [
+          "#0b1021",
+          "#121c2c",
+          "#1c2a36",
+          "#4a6b7e",
+          "#83b4c6"
+        ],
+        "D": [
+          "#374976",
+          "#56739b",
+          "#7aa1bf",
+          "#9ac7de",
+          "#bdedfc"
+        ]
+      }
+    },
+    "SAGE_AND_TERRACOTTA": {
+      "name": "Seafoam & Shell",
+      "ramps": {
+        "P": [
+          "#3b7672",
+          "#5a9b8d",
+          "#7fbfa8",
+          "#9fdec1",
+          "#c1fcdc"
+        ],
+        "S": [
+          "#939794",
+          "#c0c6c2",
+          "#eef4f0",
+          "#fafffb",
+          "#fbfffc"
+        ],
+        "A": [
+          "#8b303c",
+          "#b55251",
+          "#e08a7a",
+          "#f5ae96",
+          "#ffcaae"
+        ],
+        "L": [
+          "#304431",
+          "#445944",
+          "#5d6e5a",
+          "#91a58b",
+          "#c8dcc0"
+        ],
+        "M": [
+          "#7f8498",
+          "#afb4c6",
+          "#e3e8f5",
+          "#eff4ff",
+          "#f2f6ff"
+        ],
+        "K": [
+          "#0f1c1a",
+          "#162420",
+          "#1f2d27",
+          "#587767",
+          "#98c2a8"
+        ],
+        "D": [
+          "#264165",
+          "#3f6684",
+          "#5d8fa3",
+          "#80bcca",
+          "#a9eaf1"
+        ]
+      }
+    },
+    "ASH_AND_TEAL": {
+      "name": "Storm & Glow",
+      "ramps": {
+        "P": [
+          "#29303f",
+          "#3a4653",
+          "#4f5d66",
+          "#81969f",
+          "#b7d1d9"
+        ],
+        "S": [
+          "#818585",
+          "#aaaead",
+          "#d2d7d6",
+          "#eaeeed",
+          "#fbfffe"
+        ],
+        "A": [
+          "#056981",
+          "#1da2a8",
+          "#3fd0c2",
+          "#5feacf",
+          "#83ffdb"
+        ],
+        "L": [
+          "#1f232b",
+          "#2c3138",
+          "#3a4045",
+          "#768188",
+          "#b5c4cc"
+        ],
+        "M": [
+          "#5d6b76",
+          "#82919b",
+          "#aab8bf",
+          "#c9d8de",
+          "#e9f8fc"
+        ],
+        "K": [
+          "#0b0d14",
+          "#10141a",
+          "#161c20",
+          "#51656e",
+          "#93b4bd"
+        ],
+        "D": [
+          "#1a2745",
+          "#2a405a",
+          "#3f5c6f",
+          "#6993a6",
+          "#9acfdc"
+        ]
+      }
+    }
+  }
+}

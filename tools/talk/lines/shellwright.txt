@@ -1,0 +1,70 @@
+# SHELLWRIGHT (job site: shell_bench). Coral, shells, nautilus saddles and armor, spears.
+# Canon: see merfolk.txt (the Spiral Rule, Corran the Carver's first saddle, living coral never cut from the
+# shrine, Blushing Day shell combs).
+
+## shellwright.greet
+Fair currents! Watch your elbows; there's coral drying on every shelf.
+Fair currents, {player}. Don't mind the dust. Shell dust gets everywhere. I've been sparkling for years.
+Fair currents! Hold still. Hold still. You've the shape of someone who needs a good shell pendant.
+Fair currents! Come in, and mind the saddle on the floor. It's not finished, and it's not forgiving.
+Fair currents, {player}! Look at this coral. Look at it! No, closer. That's the colour of a good morning.
+Fair currents! I'm carving, so I'll talk with my hands busy. It's rude, but it's honest.
+Fair currents! Tell me you've brought me a shell. No? Fine. I'll like you anyway.
+Fair currents! You've caught me measuring a nautilus. It does not want to be measured. Hold that end.
+
+## shellwright.chat
+The Spiral Rule: never carve against a shell's spiral. The shell knows which way it grew, and it'll crack just to prove it.
+Corran the Carver made the first nautilus saddle from a cart seat out of the old village. Every shellwright since has been trying to make one half as comfortable.
+Living coral is never cut from the shrine. Never. We take from the edges, from storms, from what breaks on its own. The reef gives; we don't grab.
+A nautilus saddle has to fit the shell exactly. Nautili are vain. If it pinches, they sulk for a week.
+Shell armour's lighter than iron and it never rusts. It'll shatter if you're hit just right, though. So don't get hit just right.
+I carve the shell comb for every Blushing Day in {place}, each one in the fry's own tail colour. Gold's the hardest to match. Gold families are fussy.
+Coral goes pale if you take it out of the water. Then it's dead, and it's chalk. Keep coral wet and it keeps its colour forever.
+The best spear points are shell, ground thin. They don't rust, they don't dull, and they look gorgeous on a wall.
+Every shell's got a story. This one was a nautilus's spare room. This one was a clam's front door. This one was somebody's lunch.
+The bone blocks we use for frames come from old whale bones on the sea floor. Whales are generous, even after.
+Land folk use hammers. We use patience and a sharp bit of shell. It took me a week to make that cup. It's a very good cup.
+I make nautilus armour from overlapping plates of shell, like the scales of a tail. The nautilus thinks it's being complimented.
+The wardens keep breaking their spears on drowned and bringing me the pieces like it's my fault.
+Fire coral's the hardest to carve and the prettiest to look at. Like some people I know.
+I'm making a shell flute. It plays one note. It's a lovely note. I'm hoping for a second one eventually.
+
+## shellwright.work
+Carving shell is slow work. You don't cut it so much as persuade it.
+Today I'm fitting a saddle. The nautilus is fitting a sulk.
+I trade coral, shells, nautilus saddles and armour, and spears. Also advice on spirals, free, whether you want it or not.
+When I'm not carving, I'm polishing coral. Sand, then grit, then a soft scrap of sponge. Then admiring. Admiring takes longest.
+You measure a nautilus for armour plate by plate, round the spiral. It takes three people and a great many pufferfish.
+I need coral stock for the Lantern Night lamps. Every family wants theirs carved special. I have never once finished on time.
+A spear for a warden takes four days. A spear for a fry takes one; it's a lot shorter and a lot more blunt.
+Brain coral for the bowls, fan coral for the screens, tube coral for the pipes. Every coral has a job if you listen to it.
+This bench was my teacher's, and their teacher's before them. Every nick in it is somebody's mistake. Some of them are mine.
+Someone's asked me to make a saddle for Old Coil, in case she's ever found. I've started. It's enormous. My workshop is full of a saddle for a legend.
+Shell dust gets in everything. My wraps, my hair, my cushion. I sparkle in my sleep.
+Bring me nautilus shells and I'll make you something worth bringing them for. That's the shellwright's promise.
+Armour first, then spears, then pretty things. That's the proper order. I break it every day. Pretty things are more fun.
+I'm restringing a warden's shield. They let a drowned chew on it. Chew! On my work!
+Finishing is the best part: the last polish, holding it up to the Heart's light, seeing it catch. Worth all the dust.
+
+## shellwright.heart
+I keep the first thing I ever carved. A lopsided little fish. My teacher said it looked like a sad bean. I still love it.
+When someone wears something I made, I feel like I'm out on the reef with them. It's nice, not being stuck at the bench.
+The reef gives us everything we carve. I try to give something back: a shell on the garden bed, a bit of coral replanted. It's only fair.
+I'd carve you anything, {player}. Anything. Just ask. Well, not a house. Not this moon.
+Some days the shell cracks wrong and I want to throw the lot into the deep. Then I remember the Spiral Rule and start again, slower.
+
+## shellwright.held.shell
+Give that {item} here. No, I'm not going to keep it. I just want to hold it. Just a moment. Oh, it's lovely.
+See the chambers? Each one's a moon of the nautilus's life. You're holding a whole life story. Gently, please.
+I could make a saddle buckle from that, or a comb, or the most beautiful bowl in {place}. Just saying.
+That's a good one. Right spiral, good weight, no cracks. Whoever had it before was careful.
+
+## shellwright.held.trident
+That {item}'s got a good balance. Who made it? Not one of ours; ours have shell grips.
+A trident! I could put a shell grip on that for you. Stops your hand slipping when it matters. Trust me.
+Let me see the prongs. Hmm. Sharp. Drowned-made, probably. They're good at the one thing, the drowned.
+
+## shellwright.held.prismarine
+Prismarine! I can't carve it; it's too hard. Only the Prismari can shape that. Annoying, really.
+That {item}'s got Prismari light in it. Look at it glow. It makes my coral look shy.
+I set the prismarine trim on the shrine arches, a gift of the Pact. Took me a whole moon, and I've never been prouder.

@@ -1,0 +1,352 @@
+{
+ "texture": [
+  64,
+  32
+ ],
+ "parts": [
+  {
+   "name": "tail_root",
+   "parent": "",
+   "pivot": [
+    0,
+    12,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      0,
+      8
+     ],
+     "from": [
+      -4,
+      -1,
+      -2
+     ],
+     "size": [
+      8,
+      2,
+      4
+     ],
+     "inflate": 0.5,
+     "mirror": false
+    },
+    {
+     "uv": [
+      8,
+      0
+     ],
+     "from": [
+      -4,
+      0,
+      -2
+     ],
+     "size": [
+      8,
+      3,
+      4
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    },
+    {
+     "uv": [
+      24,
+      8
+     ],
+     "from": [
+      -3.5,
+      3,
+      -2
+     ],
+     "size": [
+      7,
+      2,
+      4
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "right_fin",
+   "parent": "tail_root",
+   "pivot": [
+    -3.5,
+    4,
+    0.5
+   ],
+   "rotation": [
+    -0.35,
+    -0.6,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      0,
+      0
+     ],
+     "from": [
+      0,
+      -1,
+      0
+     ],
+     "size": [
+      0,
+      4,
+      4
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "left_fin",
+   "parent": "tail_root",
+   "pivot": [
+    3.5,
+    4,
+    0.5
+   ],
+   "rotation": [
+    -0.35,
+    0.6,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      0,
+      0
+     ],
+     "from": [
+      0,
+      -1,
+      0
+     ],
+     "size": [
+      0,
+      4,
+      4
+     ],
+     "inflate": 0.0,
+     "mirror": true
+    }
+   ]
+  },
+  {
+   "name": "tail_mid",
+   "parent": "tail_root",
+   "pivot": [
+    0,
+    5,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      32,
+      0
+     ],
+     "from": [
+      -3,
+      -0.5,
+      -2
+     ],
+     "size": [
+      6,
+      3,
+      4
+     ],
+     "inflate": -0.05,
+     "mirror": false
+    },
+    {
+     "uv": [
+      0,
+      14
+     ],
+     "from": [
+      -2.5,
+      2.5,
+      -1.5
+     ],
+     "size": [
+      5,
+      2,
+      3
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "tail_end",
+   "parent": "tail_mid",
+   "pivot": [
+    0,
+    4.5,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      16,
+      14
+     ],
+     "from": [
+      -2,
+      -0.5,
+      -1.5
+     ],
+     "size": [
+      4,
+      2,
+      3
+     ],
+     "inflate": -0.05,
+     "mirror": false
+    },
+    {
+     "uv": [
+      52,
+      0
+     ],
+     "from": [
+      -1.5,
+      1.5,
+      -1
+     ],
+     "size": [
+      3,
+      1,
+      2
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "fluke",
+   "parent": "tail_end",
+   "pivot": [
+    0,
+    2.5,
+    0
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      30,
+      14
+     ],
+     "from": [
+      -1,
+      -0.5,
+      -1
+     ],
+     "size": [
+      2,
+      1,
+      2
+     ],
+     "inflate": -0.05,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "fluke_right_lobe",
+   "parent": "fluke",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "rotation": [
+    0.15,
+    0.35,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      46,
+      8
+     ],
+     "from": [
+      -7,
+      -2,
+      0
+     ],
+     "size": [
+      7,
+      6,
+      0
+     ],
+     "inflate": 0.0,
+     "mirror": false
+    }
+   ]
+  },
+  {
+   "name": "fluke_left_lobe",
+   "parent": "fluke",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "rotation": [
+    0.15,
+    -0.35,
+    0
+   ],
+   "cubes": [
+    {
+     "uv": [
+      46,
+      8
+     ],
+     "from": [
+      0,
+      -2,
+      0
+     ],
+     "size": [
+      7,
+      6,
+      0
+     ],
+     "inflate": 0.0,
+     "mirror": true
+    }
+   ]
+  }
+ ]
+}

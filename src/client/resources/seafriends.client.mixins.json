@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.seafriends.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"HumanoidModelMixin",
+		"ResidentRendererMixin",
+		"ResidentRenderStateMixin",
+		"ResidentSkinsMixin",
+		"WardrobeLayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

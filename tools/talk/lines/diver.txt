@@ -1,0 +1,71 @@
+# PEARL DIVER (job site: pearl_basin). Tidepearls, prismarine, nautilus shells, sea charts of the reef.
+# Canon: see the comment block at the top of merfolk.txt (Tidepearl grades moonwhite/dawnblush/deepblue,
+# the Weeping Pearl lost with Lowmere, the knotted kelp rope for deep dives, never whistle at the drop).
+
+## diver.greet
+Fair currents! Mind the basins; there's pearls growing in there, and they hate being looked at before they're ready.
+Fair currents, {player}. I've just come up from the drop, so forgive the goose-scales. It's cold down there.
+Fair currents! You've got good lungs for a sandtoe. Ever thought of diving? No, you'd want a tail for the deep bits.
+Fair currents! Want to see a pearl? Everyone does. Nobody's ever said no.
+Fair currents, {player}. Back from the drop, me, and every scale still where I left it.
+Fair currents! I've got sand in places a merfolk shouldn't have places. Diving is glamorous work.
+Fair currents! The water's clear today; you can see right down to the shelf. Good day for diving.
+Fair currents, {player}! I found a shell this morning with its spiral the wrong way round. Lucky day, for both of us.
+
+## diver.chat
+Tidepearls grow from a speck of prismarine crystal tucked into a clam and sung to for a whole moon. Sing badly, you get a lumpy pearl. Sing well, you get a moonwhite.
+There's three grades of Tidepearl: moonwhite, dawnblush and deepblue. Deepblue's the rarest. You only get one if the clam's had a sad moon.
+I chart the reef as I dive. Every rock, every drop, every cave the fry aren't allowed in. My charts are prettier than the reef, honestly.
+The best pearls come from near the shelf, where the water's cold. Cold makes them think. Thinking makes them shine.
+Nautilus shells wash up on the reef now and then. A good one's worth a whole basin of pearls to a shellwright.
+I can hold a pearl to the light and tell you which basin it came from. It's not a talent. It's just staring at pearls for too long.
+The Weeping Pearl was the greatest Tidepearl ever grown. Black as the deep, and wet even out of water. It went down with Lowmere.
+Divers never whistle at the drop. Never. I knew one who did. Came back with their hair gone white. They said it was the cold. Nobody believed them.
+People think diving is all swimming down. It's mostly swimming down and then trying to remember what you came for.
+The clams in my basins each have names. That one's Grumbles. That one's Lady Pout. They know when I'm fond of them, I'm sure of it.
+I gather prismarine shards off the reef floor. They come up from the deep on the cold currents, like little letters from the Prismari.
+If you ever find a clam the size of a cottage, back away. That's a grandmother clam, and she's not in the mood.
+It's quiet at the bottom of a dive. Quiet like a held breath. I love it and I'm scared of it, and both are true.
+A pearl takes a moon to grow and a moment to drop. I've chased more pearls into the sand than I've ever sold.
+Pearls go dull if you leave them up in the dry too long. Same with merfolk, I'd say.
+
+## diver.work
+Pearl diving's simple: dive, find, sing, wait, wait some more, polish. The waiting's the hard part.
+I've got three basins going this moon. One's a moonwhite, one's a maybe, and one's sulking.
+When I'm not diving, I'm sorting shells. Big ones for the shellwrights, small ones for the fry, broken ones for the garden paths.
+The secret to diving is never to look straight down at the drop. Look at your hands. Your hands are familiar. The drop is not.
+I sell sea charts too. Every rock, every current, every spot a drowned's been seen. They're cheap, and they'll save your life.
+You have to sing to the clams every morning. Not loudly. Clams hate loud. A hum's fine. A hum and a compliment.
+Prismarine shards are worth gathering. The singers want them, the shellwrights want them, everyone wants a bit of the deep.
+Bad day today. Dropped a dawnblush in the basin weeds and spent the whole afternoon apologising to the clam.
+A pearl basin has to be kept spotless. One bit of rot and the whole moon's work goes cloudy.
+If you find me in a bad mood, a clam's been sulking. If you find me singing, a pearl's come good.
+You want a good pearl? Come back at the full moon. That's when they're ready, and that's when I'm generous.
+I dive on a rope of knotted kelp: one knot for every body-length down. I've never gone past the twentieth knot. Nobody sensible has.
+I'll trade pearls for anything from the dry. Last moon I got a spoon. A real land spoon. I don't know what it's for, but it's beautiful.
+Every diver keeps one pearl they'll never sell. Mine's lumpy and grey and the first one I ever grew. Don't you dare laugh.
+They say diving's a young merfolk's job. I say it's a stubborn merfolk's job. Different thing entirely.
+
+## diver.heart
+The first time I dived to the shelf, I cried the whole way back. Not from fear. It was just so big down there.
+When a pearl comes out perfect, I don't want to sell it. I always do. But I sit with it a while first, just the two of us.
+I think every pearl remembers the song it was grown to. I hum to mine before I give them away, so they won't be lonely.
+I'd dive to the bottom of the deep for a friend. I'd complain the whole way down. But I'd do it.
+The deep's taken a few divers over the years. We hang a pearl at the shrine for each of them. That's why the shrine glitters so.
+
+## diver.held.pearl
+Let me see that {item}. Hmm. Grown cold, polished warm, a little bit nervous. I'd give it a good grade.
+That {item}'s lovely, but it isn't one of mine. I'd know mine anywhere; they've got a smug sort of shine.
+Hold it up to the light. See the colour deep inside? That's the song it was grown to.
+Careful with that {item}. Drop it in the sand down here and you'll be searching till Lantern Night.
+Ooh. I'd trade you a sea chart for a look at that {item}. Just a look. A long look.
+
+## diver.held.shell
+That's a good {item}. Where did you find it? Don't tell me. No, tell me. Tell me exactly.
+A nautilus grows its shell one chamber at a time. That one had a long, happy life, by the look of it.
+I'd have dived for a week to find that {item}. You just swim about holding it like a sandwich.
+
+## diver.held.map
+A land map! Look at all that brown. Where's the sea? Oh, round the edge. You lot put the sea round the edge. Charming.
+My charts are better. Mine show the drops. Yours only show where the drops would be if you fell off the land.
+If you like, I'll draw the reef onto the blue bit of that map. Every rock, every current. No charge for a friend.

@@ -1,0 +1,47 @@
+{
+  "id": "mt02_shell_cord",
+  "kind": "top",
+  "name": "Shell Cord",
+  "gender": "male",
+  "texture": "tops/mt02_shell_cord.png",
+  "extrasHeight": 16,
+  "tags": [
+    "bare",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "shell_pendant",
+      "bone": "TORSO",
+      "pivot": [
+        0.0,
+        3.2,
+        -2.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "The everyday merman look: bare chest, a kelp-cord necklace with one scallop shell, wrist wraps."
+}

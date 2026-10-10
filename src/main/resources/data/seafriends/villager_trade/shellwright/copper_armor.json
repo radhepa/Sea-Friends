@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "gives": {
+    "id": "minecraft:copper_nautilus_armor",
+    "count": 1
+  },
+  "max_uses": 3,
+  "xp": 10,
+  "reputation_discount": 0.05
+}

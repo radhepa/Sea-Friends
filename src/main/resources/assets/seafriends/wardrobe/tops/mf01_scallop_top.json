@@ -1,0 +1,17 @@
+{
+  "id": "mf01_scallop_top",
+  "kind": "top",
+  "name": "Scallop Top",
+  "gender": "female",
+  "texture": "tops/mf01_scallop_top.png",
+  "extrasHeight": 0,
+  "tags": [
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Two ribbed scallop shells on a pearl halter over a scaled sea-silk wrap that covers to the waist."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mf15_abalone_vest",
+  "kind": "top",
+  "name": "Abalone Vest",
+  "gender": "female",
+  "texture": "tops/mf15_abalone_vest.png",
+  "extrasHeight": 16,
+  "tags": [
+    "craft",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "clasp",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        5.4,
+        -2.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        -0.5,
+        -1
+      ],
+      "size": [
+        3,
+        1,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.05
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A shellwright's showpiece: a vest of small iridescent abalone plates, edged in sharkskin, cut in a deep V and closed with one shell clasp, over a deep-dyed sea-silk blouse with gathered cuffs."
+}

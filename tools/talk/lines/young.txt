@@ -1,0 +1,124 @@
+# The Prismari young: earnest, curious about Two-Eyes, practising the stillness (sitting unmoving and unblinking by
+# the jelly pond until a glowjelly drifts against them), soft spines that will set hard when they come of count,
+# a toy prismarine guardian. They try to talk like the grown ones and keep slipping. Falls back to prismari.
+# Shared canon: the comment block at the top of prismari.txt.
+
+## young.greet
+I see you! I mean: I see you. Calmly. I am practising.
+I see you! Is it true your kind close both eyes to sleep? Both at once?
+I see you. My spines went up a little. They are still soft, so it does not count.
+I see you! Wait. Let me be still first. There. I see you.
+I see you. Did you come from the sun? What is it like? Is it loud?
+I see you! I have been watching the glowjellies all tide and you are much more interesting. Do not tell them.
+I see you. {elder} says I must not stare. I am not staring. I am seeing. It is different.
+I see you! You can say "and I you". That is the polite answer. I only learned it last turning.
+I see you. I am being very grown-up today. Can you tell? You can tell.
+
+## young.greet.stranger
+A Two-Eyes! A real one! I see you! Sorry. I see you.
+I see you, Two-Eyes. Which eye do you use for looking? Both? How do you choose?
+I see you, Two-Eyes. I am not supposed to talk to strangers, but you are a guest, and guests are different. I think.
+I see you, Two-Eyes. Are you lost? You do not look lost. You look lost but brave about it.
+
+## young.greet.friend
+{player}! I see you! I have been counting your visits in my own count. It is up to a lot.
+I see you, {player}! I held the stillness for half a tide yesterday. Nearly. Almost half.
+{player}, I see you! Will you watch the glowjellies with me? You do not have to be still. I will be still for both of us.
+I see you, {player}. I blinked slowly at you. That means I like you. You are supposed to know that now.
+
+## young.chat
+Can you look at two things at once? Really at once? I tried, with one eye, and it just went sideways.
+I am practising the stillness. You sit by the jelly pond and you do not move and you do not blink, and if you are still enough a glowjelly drifts against you. None has yet. I think they can tell when I am thinking about it.
+My spines are still soft. When I come of count they will set hard, like the grown ones'. Then I will look very fierce. I practise fierce in the pond.
+I have a toy guardian. It is made of prismarine and it has a little eye. It does not bite. Real ones bite. I am not allowed to go and see one.
+Do your kind have counts? When I first felt the pull in my spines, I was given my number. I will not tell you it. You have to be a very good friend first.
+What is the sun like? Is it a big glowjelly? Does it sting?
+The grown ones will not tell us about the Silence. I asked an Archivist, and their spines went up so fast that I said sorry before they answered.
+How do you breathe air? Where does it go? Does it just sit inside you?
+I want to be an Eyeguard. Or a Lightwright. Or an Archivist. Or the one who looks after the jellies. I have decided to be all of them, one after another, slowly.
+The merfolk fry came down to the court once, and they were so fast! They swam round the spire twice before I finished saying hello.
+Is it true that on land things fall down instead of floating? Everything? Even you? Even lamps?
+I counted all the lamps in {place}. Then I counted them again and got a different number. The Archivists say this is why we write things down.
+When I am old I will know the whole Long Tide by heart. I already know the beginning: "I see you, Two-Eyes. Hear the Long Tide as the Oldest have always told it." That part is easy.
+I watched a glowjelly split in two once. The whole thing! Nobody believed me. Then an Archivist wrote it down, so now it is true.
+Why do you blink so much? Are your eyes very dry? Do they get tired of looking?
+I am going to see the old halls one day. Not inside. Just from far away. The Eyeguards say maybe, when I am older. They say it very slowly, which means no.
+Is it true you only have one name? We do too! But we have a court as well. You can borrow ours. "{player} of {place}." See? It fits.
+I tried to stay awake as long as an Eyeguard. I fell asleep sitting up. Everyone said that counted as the stillness. I do not think it did.
+
+## young.chat.new
+You are the first Two-Eyes I have ever seen up close. You have so many eyes. Two is a lot.
+Can I look at you for a while? I will be very still. You will not even notice. You are noticing. Sorry.
+My name is {name}. When you have visited a lot, I will be allowed to call you by yours. I hope you visit a lot.
+
+## young.chat.close
+{player}, when I come of count and my spines set, will you come and see? I want you there. You can blink as much as you like.
+I told the glowjellies about you. They did not say anything. They never do. But they drifted closer, so I think they approve.
+You are my favourite Two-Eyes, {player}. You are also the only one I know. But you would be my favourite anyway.
+I gave my toy guardian your name. It does not suit it. It is fierce and you are kind. I kept the name anyway.
+I will tell you my count, {player}. Not yet. But I have decided. Deciding is the big part.
+
+## young.past
+In the Long Tide we lived in the great halls, and they were full of light and song. That is the beginning of the Long Tide. I know it by heart. The middle part I am still learning.
+The halls had names like the Hall of Spines and the Deep Gate. I like the Hall of Spines best. It sounds like my crest when I am cross.
+We used to have guardians as watch-beasts. Real ones. I asked if we could have one again, and everyone went very quiet.
+I asked what the Silence was. Everyone said "later". It has been later for a very long time.
+There was an Oldest called Ossiveth, who led everybody out of the halls and only looked back once. I asked what Ossiveth saw. That is another "later".
+
+## young.night
+I am not supposed to be up. I am practising the stillness. In bed. It is very hard to tell from sleeping.
+I like the evenings best, because the Long Tide gets told. The night is just the part after, when I am supposed to remember it.
+The Eyeguards watch all night. I asked if they get scared. They said no. Their spines said a little bit.
+When I cannot sleep I count the lamps through the window. I always fall asleep before I finish. One day I will finish.
+
+## young.work
+Watching the glowjellies. It is very important. If nobody watches them, they might do something and nobody would know.
+I am watching the jellies for the Spongekeeper. They drift left, then right, then left. I am remembering it all down.
+Practising the stillness. You are not supposed to talk while you practise. So I am not practising right now. I am explaining.
+I am helping! I carried a lamp to the Pact crate. It was heavy. I did not drop it. Nearly, but not.
+I am learning the Reckoning of Tides. One tide, a rising and a falling. Two tides, a day. Twenty-eight, a turning. Thirteen turnings... wait. A Long Count! I knew it.
+I am feeling for the pull. You can feel it in your spines if you are very still. Can you feel it? In your... what do you have? Elbows?
+The jelly by the far wall has not moved for a whole tide. It is either asleep or better at the stillness than me. Probably both.
+I am counting sea pickles. Some have four lights and some have one. I like the ones with one. They are trying hard.
+
+## young.heart
+Sometimes I worry I will never hold the stillness long enough. Then I worry that worrying is moving. Then I give up and watch the jellies.
+I want to make the grown ones proud. Mostly I make them sigh. A sigh is a kind of proud, I think. A slow kind.
+When my spines go up I feel ashamed, because everyone can see. Do your kind have anything that shows how you feel? You go red, someone said. Is that worse?
+I am glad you came. Not many people come here. I do not mind the quiet. I just like it better with you in it.
+I do not want to stop counting, ever. I told the Oldest Eye. The Oldest blinked slowly at me and said: good, then.
+
+## young.adventure
+Will you tell me what is out past the lamps? I am not allowed. You are. That is not fair, but tell me anyway.
+If you go to the old halls, will you look at them for me? Only look. And then tell me what colour the light is.
+The Eyeguards say the Unseeing have two eyes like you but see nothing. I think that is sad. I would rather have one and see everything.
+When you go out in the deep, keep a lamp with you. That is a rule. I made it up, but it is a good one.
+If you meet a guardian, do not stare at it. That is what everybody tells me. I think it is because guardians are better at staring than us, and it is embarrassing.
+Bring me back something from the land. Anything! I have never held anything that has been in the sun, except a breath-stone, and that does not count.
+
+## young.joke
+What do you call a glowjelly that will not glow? A jelly. That is my best joke. I made it.
+Why did the sponge go to the Archive? To soak up knowledge. The Archivist did not laugh. Their spines did, a little.
+I tried to wink like you do. I just closed my eye. Then I could not see anything and I swam into a lamp.
+How many eyes does a Two-Eyes have? Two! That is why they are called that! I worked it out myself.
+Knock knock. Oh. We do not have doors. That is the end of the joke. I think it is funnier that way.
+If the Eyeguards watch the court, who watches the Eyeguards? Me! I watch them all day. They hate it.
+What is a guardian's favourite game? Staring. They always win. That is not a joke, really. It is true.
+
+## young.held.trident
+A trident! Can I hold it? No? Can I look at it very hard? Thank you.
+When I am an Eyeguard, my trident will be called Stillness. Because it will be very fast. That is a joke. Kind of.
+
+## young.held.seal
+Is that the Seal? The real one? An Oldest Eye gave you that? Can I touch it? I will not. I just wanted to ask.
+The old beasts will know it! That is what the Long Tide says. Will you tell me if they do? Will you tell me what they look like up close?
+
+## young.held.prismarine
+Prismarine! Watch: it changes colour if you look long enough. Do not blink. You blinked.
+I am going to make a lamp from that one day. A tiny one. For a jelly to sleep under.
+
+## young.held.pearl
+A Tidepearl! From the merfolk? It is so round. Everything they make is round. Everything we make is pointy.
+
+## young.held.bucket
+Is there a jelly in there? Can I see? I will be still. I am very good at being still near jellies. Nearly very good.

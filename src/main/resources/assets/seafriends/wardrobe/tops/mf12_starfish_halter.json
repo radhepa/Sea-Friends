@@ -1,0 +1,130 @@
+{
+  "id": "mf12_starfish_halter",
+  "kind": "top",
+  "name": "Starfish Halter",
+  "gender": "female",
+  "texture": "tops/mf12_starfish_halter.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "star_arms",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.6,
+        -2.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        -0.5,
+        -1
+      ],
+      "size": [
+        3,
+        1,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "star_top",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.1,
+        -2.35
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        -1,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "uv": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "star_leg_r",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.7,
+        -2.35
+      ],
+      "rotation": [
+        0,
+        0,
+        34
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        2,
+        1
+      ],
+      "uv": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "star_leg_l",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.7,
+        -2.33
+      ],
+      "rotation": [
+        0,
+        0,
+        -34
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        2,
+        1
+      ],
+      "uv": [
+        19,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A dyed sea-silk halter top gathered at the neck under a little starfish clasp, covering to the waist and finished with a pale scalloped hem."
+}

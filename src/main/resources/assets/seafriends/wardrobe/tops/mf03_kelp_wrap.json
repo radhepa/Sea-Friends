@@ -1,0 +1,76 @@
+{
+  "id": "mf03_kelp_wrap",
+  "kind": "top",
+  "name": "Kelp Wrap",
+  "gender": "female",
+  "texture": "tops/mf03_kelp_wrap.png",
+  "extrasHeight": 16,
+  "tags": [
+    "kelp",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "shoulder_knot",
+      "bone": "TORSO",
+      "pivot": [
+        2.8,
+        0.6,
+        -2.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        -1,
+        -1
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "kelp_tail",
+      "bone": "TORSO",
+      "pivot": [
+        2.5,
+        1.4,
+        -2.95
+      ],
+      "rotation": [
+        0,
+        0,
+        -6
+      ],
+      "origin": [
+        -1,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        5,
+        1
+      ],
+      "uv": [
+        9,
+        0
+      ],
+      "motion": "sway"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Broad kelp blades wound crosswise over the chest and down to the hips, knotted at the left shoulder with a short kelp tail, a kelp-cord tie at the waist."
+}

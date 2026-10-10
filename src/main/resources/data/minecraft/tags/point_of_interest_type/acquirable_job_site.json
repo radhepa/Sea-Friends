@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "seafriends:pearl_diver",
+    "seafriends:kelp_farmer",
+    "seafriends:shellwright",
+    "seafriends:tide_singer",
+    "seafriends:lightwright",
+    "seafriends:spongekeeper"
+  ]
+}

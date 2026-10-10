@@ -1,0 +1,74 @@
+# THE ELDER (the eldest Tide Singer; conch_shrine; keeps the songs; tells the fry about the Flood).
+# Falls back to singer, then merfolk. {elder} is never used here (it names another elder, and there is none).
+# Canon: see merfolk.txt. The Elder saw Lowmere's Heart go dark, knows the forty-first verse, and has known
+# Old Pell since they were both young.
+
+## elder.greet
+Fair currents, child. Oh, don't make that face; at my age, everyone's a child.
+Fair currents, {player}. Come and sit by me. My old tail likes company, and my old mouth likes talking.
+Fair currents! The fry said a sandtoe had come. I had to see for myself. Yes, those are feet. Marvellous.
+Fair currents, and welcome to {place}. I've kept its songs longer than its coral's been growing. Mind you don't trip over any.
+Fair currents. You swim the way your grandparents did, I'd wager. All earnest. I like earnest.
+Ah, fair currents, {player}. You've come back. Good. I'd started a story for you, and I hate to waste a story.
+Fair currents, little sprat. Don't worry, I call everyone that. Even the wardens.
+Fair currents. My eyes aren't what they were, but they still know a friendly face. Yours is one.
+
+## elder.chat
+I've kept the songs of {place} longer than anyone's kept anything. My tail was gold, once. Now it's more of a distinguished brass.
+The Song of the Flood has forty verses and one more that nobody sings. I know it. No, I won't sing it. Not for pearls, not for pickles, not for you.
+I tell the fry about the Flood every afternoon. They wriggle through the sad parts and go very still for the scary parts. Just as I did.
+Old Pell came through again, telling everyone a squid stole the Barnacle King's crown. Pell's been telling lies longer than I've been telling truths. We're both very good.
+When I was a fry, the old Elder told me the Tide sang to the first merfolk as they sank. I've listened for that song my whole life. Some nights I nearly hear it.
+You know what the young don't understand? Gossip is how a town remembers. Without it, we'd all be strangers in a year.
+Wenna Saltcombe went into the dark with one lantern. Every singer since has carried a little of her fear and a little of her nerve. I've carried mine a long time.
+The Pact of Lanterns is older than this reef. The Prismari remember every word of it. We remember the tune. Between us, we've got the whole thing.
+I've sung through more Long Cuts and Lantern Nights than I can count. They've all blurred into one lovely, noisy evening.
+My scales creak when the current's cold. My voice creaks when I'm tired. My stories never creak. They've had too much practice.
+The fry ask if I remember the Flood. I tell them nobody does, but the Song does, and by now I am mostly the Song.
+Bell Night is the one night I let myself be sad all the way through. The rest of the year I'm far too busy being wise.
+In my day we didn't have Tide Lamps. We had pickles, and we liked them. We told stories in the dark, and the dark made the stories better.
+Every Elder before me left one song to the town. I'm still deciding what mine will be. I'm taking my time. I've earned it.
+You land folk have such short memories and such long legs. We've the opposite. It all evens out.
+
+## elder.work
+My work is keeping the songs. All of them. The happy ones, the sad ones, and "The Nautilus Who Wouldn't". Especially that one; the fry demand it.
+Today I'm teaching the fry the third verse of the Song of the Flood. They'll forget it by supper. I'll teach it again tomorrow. That's how songs survive.
+I keep the book of the Song here in my hall, in Prismari ink on shell-paper. Wet through and still clear. Read it if you like. Don't drip on it. Well. Don't drip more.
+An Elder keeps the songs, settles quarrels, names the fry, and gets the best spot at the shrine. It's mostly the last one.
+I sing to the Heart at dawn, before the other singers are up. It knows my voice best of all. We're old friends, the Heart and I.
+When two merfolk quarrel, they come to me. I listen, I hum, and I tell them a story about two fish who quarrelled. By the end they've forgotten what they were angry about.
+I name every fry in {place}. The family suggests; I decide. I've only been wrong once, and that fry grew into the name anyway.
+I lead the Bell Night vigil. Every name, every peal. I know them all by heart. It's the heaviest thing I carry, and I carry it gladly.
+On Lantern Night I greet the Prismari envoy. "I see you," they say. "And I am seen," I say. Then we sing until the coral shakes.
+I keep the town's memory. Who courted whom, who fell out, who stole whose pickles in which year. Don't make me tell you. I will.
+The young singers come to me when a song won't sit right. I sing it back to them slowly, and they hear where it went crooked.
+Some days my work is just floating at the shrine, being old where everyone can see. It reminds them we've been here a long while, and that we'll go on.
+I still brew a little for the old ones' aches. Kelp, pickle, a long hum. Tastes awful. Works beautifully.
+I keep a list of every visitor from the dry. You're on it now. I gave you a little star. Don't let it go to your head.
+I tell the fry the Flood story so they'll never be afraid of the water, and so they'll never forget the land. Both. That's the trick.
+
+## elder.heart
+I've sung the Bell Night names so many years, I sometimes think the lost ones know my voice. I hope it comforts them. It comforts me.
+When I go, the songs will go on in someone else. That's all right. That's the whole point of a song.
+I've watched every fry in {place} blush their colour. Every single one. There's no greater joy, in the sea or out of it.
+I'm not afraid of the deep, child. I've lived long enough to know it's just more sea, and the sea has always been kind to me.
+You remind me of a story I haven't told in years. A kind one. Come back some evening and I'll tell it to you properly.
+
+## elder.past
+When I was young, the old Elder sang the forty-first verse once, alone, out at the shelf. They didn't speak for a week after, and never sang it again. I've never asked what that verse does.
+My gran told me her gran remembered the blankets. When the first merfolk came ashore looking for their families, the land folk brought blankets. Remember the blankets, child.
+Lowmere was still lit when I was a fry. I remember its Heart on the edge of the dark, a little blue star. Then one night it wasn't there.
+In my youth we raced nautili without saddles. Just a fist on the shell and a prayer. The shellwrights call that foolish now. It was. It was glorious.
+I saw Old Coil once, when I was smaller than my own fluke. She looked at me with one great eye and went on her way. I've been lucky ever since.
+I met Old Pell when we were both young, and Pell was already a liar. Told me the moon was a pearl the Tide was growing. I believed it for years. I half believe it still.
+Every Elder before me is in a song. When I go, they'll sing me too. I've asked for something cheerful. With a chorus.
+I remember the pickle moon, the year of the great storm, when the kelp tore loose and we ate nothing but sea pickles. I couldn't look at a pickle for a year. Now I'm fond of them again.
+I was there the last time an Oldest Eye came up from the deep for Lantern Night. They looked at our light a long while and said "it is enough". We wept like fry.
+My first Bell Night as a singer, my voice broke on the twelfth name. The old Elder sang it for me, then handed the song back. That's how it's done. You catch each other.
+
+## elder.joke
+Why did the old merfolk cross the reef? To tell the young ones they were doing it wrong. Ha! That's me. I'm the old merfolk.
+I asked Old Pell how old Pell was. "Older than the Song," says Pell. "Then sing me the forty-first verse," says I. Pell went very quiet. Best joke I ever told.
+What's the difference between an Elder and a storyteller? About forty verses and a good deal of shame.
+The fry asked if I was around before the Flood. I said yes, I'm the one who left the well-bucket out. They still don't know if I'm joking.
+A young singer asked me the secret of a long life. "Never whistle over the drop, never eat a lit pickle, and never argue with a nautilus." They wrote it down. Good student.

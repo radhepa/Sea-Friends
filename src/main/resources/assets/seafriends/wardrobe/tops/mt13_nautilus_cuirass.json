@@ -1,0 +1,220 @@
+{
+  "id": "mt13_nautilus_cuirass",
+  "kind": "top",
+  "name": "Nautilus Cuirass",
+  "gender": "male",
+  "texture": "tops/mt13_nautilus_cuirass.png",
+  "extrasHeight": 32,
+  "tags": [
+    "armor",
+    "merfolk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "breastplate",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.0,
+        -2.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        8,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "backplate",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.0,
+        1.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        8,
+        1
+      ],
+      "uv": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": "right_shell_pauldron",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -3.5,
+        -2.5,
+        -2.5
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        42,
+        0
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "right_pauldron_crown",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.5,
+        -3.4,
+        -1.5
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        10
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "left_shell_pauldron",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        -2.5,
+        -2.5
+      ],
+      "size": [
+        5,
+        2,
+        5
+      ],
+      "uv": [
+        13,
+        10
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "left_pauldron_crown",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -0.5,
+        -3.4,
+        -1.5
+      ],
+      "size": [
+        3,
+        1,
+        3
+      ],
+      "uv": [
+        34,
+        10
+      ],
+      "inflate": 0.1
+    },
+    {
+      "id": "cuirass_belt",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.5,
+        9.0,
+        -2.5
+      ],
+      "size": [
+        9,
+        1,
+        5
+      ],
+      "uv": [
+        0,
+        18
+      ],
+      "inflate": 0.12
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "Warden armour: a nautilus-shell breastplate with a spiral boss, twin shell pauldrons over sharkskin."
+}

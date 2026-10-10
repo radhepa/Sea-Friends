@@ -1,0 +1,135 @@
+{
+  "id": "mf07_sea_silk_blouse",
+  "kind": "top",
+  "name": "Sea-Silk Blouse",
+  "gender": "female",
+  "texture": "tops/mf07_sea_silk_blouse.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "silk"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "right_ruffle",
+      "bone": "RIGHT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        1.6,
+        -3.0
+      ],
+      "size": [
+        6,
+        2,
+        6
+      ],
+      "uv": [
+        0,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "left_ruffle",
+      "bone": "LEFT_ARM",
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.0,
+        1.6,
+        -3.0
+      ],
+      "size": [
+        6,
+        2,
+        6
+      ],
+      "uv": [
+        25,
+        0
+      ],
+      "inflate": 0.05
+    },
+    {
+      "id": "hem_front",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        -2.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "uv": [
+        0,
+        9
+      ],
+      "motion": "flap_front"
+    },
+    {
+      "id": "hem_back",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        11.4,
+        1.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -4.0,
+        0,
+        0
+      ],
+      "size": [
+        8,
+        3,
+        1
+      ],
+      "uv": [
+        19,
+        9
+      ],
+      "motion": "flap_back"
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A flowing short-sleeved blouse of pale sea silk covering to the waist, ruffles at the sleeve ends and a hem dyed with rolling waves."
+}

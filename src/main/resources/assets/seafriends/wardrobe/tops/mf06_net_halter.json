@@ -1,0 +1,189 @@
+{
+  "id": "mf06_net_halter",
+  "kind": "top",
+  "name": "Net Halter",
+  "gender": "female",
+  "texture": "tops/mf06_net_halter.png",
+  "extrasHeight": 16,
+  "tags": [
+    "merfolk",
+    "net"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "neck_knot",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        1.0,
+        2.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1,
+        -0.5,
+        -0.5
+      ],
+      "size": [
+        2,
+        1,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "tie_end_1",
+      "bone": "TORSO",
+      "pivot": [
+        -0.5,
+        1.4,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        10
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        4,
+        1
+      ],
+      "uv": [
+        7,
+        0
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "tie_end_2",
+      "bone": "TORSO",
+      "pivot": [
+        0.5,
+        1.4,
+        2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        -10
+      ],
+      "origin": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "size": [
+        1,
+        4,
+        1
+      ],
+      "uv": [
+        12,
+        0
+      ],
+      "motion": "sway"
+    },
+    {
+      "id": "shell_float_1",
+      "bone": "TORSO",
+      "pivot": [
+        -2.2,
+        10.3,
+        -2.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -1
+      ],
+      "size": [
+        3,
+        2,
+        1
+      ],
+      "uv": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": "shell_float_2",
+      "bone": "TORSO",
+      "pivot": [
+        2.2,
+        10.3,
+        -2.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -1
+      ],
+      "size": [
+        3,
+        2,
+        1
+      ],
+      "uv": [
+        26,
+        0
+      ]
+    },
+    {
+      "id": "shell_float_3",
+      "bone": "TORSO",
+      "pivot": [
+        0,
+        10.3,
+        3.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.5,
+        0,
+        -1
+      ],
+      "size": [
+        3,
+        2,
+        1
+      ],
+      "uv": [
+        35,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "A diver's halter top: knotted fishing net laid over an opaque sea-silk halter that covers to the waist, little shell floats tied to the net and cord ties knotted behind the neck."
+}

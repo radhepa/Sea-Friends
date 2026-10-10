@@ -1,0 +1,67 @@
+# Prismari Spongekeepers: they grow, soak, rest and wring the breath-stones (sponges), keep sea pickles, and keep
+# the glowjellies (living lamps) in the court's ponds. Gentle, slow, gardener-patient, quietly odd.
+# Shared canon: the comment block at the top of prismari.txt.
+
+## spongekeeper.greet
+I see you. Step around the racks, please; the young sponges are drinking.
+I see you. Do not mind the glowjellies. They are curious, not hungry. Mostly curious.
+I see you. You come at a good time; the breath-stones are thirsty and I am bored.
+I see you. Mind your elbows near the soaking beds. Sponges bruise, and they hold a grudge for turnings.
+I see you. Welcome to the garden. Everything here is alive and very slow, including me.
+I see you. There is air in your chest; I can see it. The sponges are jealous.
+I see you. Pickles lit, jellies drifting, sponges drinking. All is well in the garden.
+I see you. Come slowly, please. In the garden, the fastest thing is supposed to be me, and I am not fast.
+
+## spongekeeper.chat
+A breath-stone is a dry sponge laid in a sealed room. It drinks the sea out of the room, and a Two-Eyes can stand there and breathe. We were famous for it, once.
+A sponge is an animal. Not a plant, not a stone. An animal that has decided, very sensibly, never to move.
+Wet sponges must be dried before they are breath-stones again. Nothing is dry down here, so the merfolk carry them up to the sun for us.
+Glowjellies sting your kind but not ours. Nobody knows why. The jellies are not telling. I think they simply like us.
+Sea pickles grow in clusters of one to four. Four is lucky. One is lonely. I move the lonely ones closer to the others.
+The glowjellies are our living lamps. They need no cages and no lathes; only to be left alone and spoken to kindly. I understand them completely.
+A Spongekeeper's hands are always wet. That is the joke. We are under the sea; everyone's hands are wet. We say it anyway.
+In the Sponge Vaults of the Long Tide there were breath-stones enough to drain a hall. Now we have a garden. A garden is enough.
+You can tell a good sponge by how slowly it drinks. The greedy ones fill too fast and tear. Patience, even in sponges.
+The spire keeps a niche of breath-stones for guests who breathe air. I keep them fresh. Nobody used them for many turnings. I kept them fresh anyway.
+I talk to the sponges. They do not answer. That is what makes them such good listeners.
+A glowjelly has never seen the sun, and yet it knows when the tide turns. It pulses a little slower at the falling. You have to watch a long time to notice.
+If a glowjelly drifts against your arm and does not sting, you are Prismari, or very lucky. Do not test which.
+I carry jellies between the ponds in a pail, slowly. A jelly carried fast arrives sulking, and a sulking jelly gives no light for a tide.
+Sponges grow on the racks for a turning, soak in the beds for a turning, and rest for a turning. Rest is part of the work. I am very good at that part.
+Breath-stones are the oldest kindness we have. Before the halls and before the beasts, we were a people who made air for strangers.
+A breath-stone that has drained a room for a guest is honoured. It sits on the top rack for a turning, where it can see the whole garden.
+The garden is the quietest place in {place}. That is on purpose. Sponges hear everything and dislike most of it.
+
+## spongekeeper.work
+Tending the breath-stones. Turn them, soak them, let them rest. Sponges need rest more than anyone, except me.
+These are the wet ones, waiting for the merfolk to carry them up to the sun. These are the dry ones, back from the sun. You can tell by the smell of daylight.
+Wringing out sponges. It does not dry them, not down here. But it makes them feel attended to.
+I am counting pickles. Four by the gate, two by the racks, one lonely one by the wall. I will move the lonely one.
+The jellies need feeding. Well, they need nothing. But I like to bring them something. They ignore it. It is a good arrangement.
+If you need a breath-stone, I can spare one. If you need a room drained, I will need three tides and your patience.
+This rack is for the young sponges. Do not lean on it. They are impressionable.
+A dry sponge lowered into the water too fast tears. Lower it slowly, like this. There. Now it is drinking.
+The garden must be lit, but not too bright; sponges grow pale in strong light. The pickles are just right. The pickles always are.
+I keep the glowjellies in the pond, the sponges on the racks, and the young out of both. Two out of three is a good day.
+Please do not squeeze the sponges. I know. Everyone wants to. Everyone who does is sorry.
+Ask the merfolk to dry your sponges and they will do it for a song. Ask them to bring them back and they will bring a song as well. They cannot help it.
+I am moving a glowjelly from the garden to the pond. It took a tide to persuade it into the pail. It will take another to persuade it out. That is the job.
+I check every sponge by hand, every tide. Most are fine. One or two are sulking. I sit with those a while.
+
+## spongekeeper.heart
+I worry that one day no Two-Eyes will need a breath-stone again, and we will forget how to make room for strangers.
+When a glowjelly drifts close and stays, I hold very still. It is the nearest thing to being chosen that I know.
+I like slow things. Sponges, kelp, the tide, the court. Fast things leave before you can love them.
+I have never seen the sun. The sponges have, on their trips up with the merfolk. Sometimes I hold a freshly dried one and try to imagine it.
+You stood in the garden and breathed, and did not hurry. I noticed. The sponges noticed. That was the kindest thing you could have done here.
+When I stop counting, I would like to be laid in the garden among the racks. The sponges will not notice. That is what I like about them.
+
+## spongekeeper.held.bucket
+A pail! Are you carrying a jelly? Hold it level. No, level. There. Now it is happy.
+If you bring a glowjelly home in that, speak to it kindly every tide. It will light your house and forgive you everything.
+A pail is a sponge that cannot make up its mind.
+
+## spongekeeper.held.kelp
+Kelp. Lay a strip over a resting sponge and it sleeps better. That is not learning; that is only kindness.
+The racks are tied with kelp-cord. If that is fresh, I will trade you a pickle for it.
+Fresh kelp! The young sponges like to be wrapped in it after a long soak. Do not ask me how I know. I just know.

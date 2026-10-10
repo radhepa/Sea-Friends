@@ -1,0 +1,69 @@
+# Prismari Lightwrights: they turn prismarine on the prism lathe into bricks, dark prismarine, sea lanterns and
+# Tide Lamps, grind lenses, and pack the Pact crate of lamps for the reef. Proud, exact, a little dry.
+# Shared canon: the comment block at the top of prismari.txt.
+
+## lightwright.greet
+I see you. Mind the shavings; prismarine dust makes the water glitter for a tide.
+I see you. Come into the light. All of it is mine, in a manner of speaking.
+I see you. I have been turning one lamp since the rising, and I am still not happy with its third face.
+I see you. Stand a little to the left, please; you are in the lens's light, and it is sulking.
+I see you. Forgive my hands; they are green to the wrist.
+I see you. Every lamp in {place} was turned at a lathe like this one. Some of them by me. The good ones.
+I see you. The lathe will wait. It is the only thing in the deep more patient than I am.
+I see you. You arrive just as the lamp is cooling. Good timing, or good instincts.
+I see you. Do not look straight into that crystal; it has not decided what colour it is yet, and it will decide on you.
+
+## lightwright.chat
+Prismarine is not really a stone. It grows, slowly, where the deep is quiet. We only coax it into the shapes it was already considering.
+A Tide Lamp is a sea lantern given a cage of prismarine, so the current cannot shake its light loose. That is the whole secret, and it took us a thousand Long Counts to learn it.
+Shards are for building. Crystals are for light. Never mix them up in front of an old Lightwright; you will hear their spines rise.
+Dark prismarine is plain prismarine soaked in ink until it forgets it was ever green. It takes patience, and a great many ink sacs. Bring some, if you have them.
+The lens window in the back wall was ground by many hands over many Long Counts. Every Lightwright adds one stroke. Mine is the slightly crooked one. Do not look for it.
+On land, I hear, you make light by burning things. Here we make it by convincing things. It is slower, but nothing is used up.
+The old halls were lit by Lightwrights whose names we have lost. Their lamps still burn. That is the only kind of fame I want.
+The prism lathe turns at the speed of the tide. Any faster and the stone cracks. Any slower and the Lightwright falls asleep.
+Every crate of lamps we send to the reef is counted, and the number goes on the side. The merfolk think it is a price. It is a promise.
+A sea lantern is light that has been taught to sit still. The crystals want to wander. The bricks are there to persuade them.
+When I was learning, I was made to watch one block of prismarine for a whole tide, without blinking. I saw eleven colours. I was told there were twelve. I am still looking for the twelfth.
+Glass comes to us from the merfolk, who have it from the land, which makes it from sand. Everything in my lenses has travelled further than I ever will.
+Your kind's lamps hang on chains. Ours stand on walls. A light that dangles always looks a little worried.
+A good lamp can be seen from a day's swim. A great lamp makes you want to swim the day.
+Every Lightwright keeps one lamp they turned badly, to remember. Mine is at the back. It flickers. I am fond of it.
+Light given is light kept. Every lamp I send away is still mine, only lit somewhere else.
+Lightwrights are judged by the plain parts. Anyone can turn a pretty lamp-cage. Turning a step that nobody notices for four hundred Long Counts: that is the craft.
+A spire's lamps are set so the court never casts a shadow. Your kind like shadows, I hear. You may keep them.
+
+## lightwright.work
+Turning prismarine. One face at a time, and each face a full turn of the lathe. Do not talk to me during the seventh face.
+These lamps go up to the reef at the turning. The Tide Singers say ours burn steadier than anything in the sea. They are right, but it is kind of them to say.
+Grinding a lens. You grind until you are bored, and then you grind until you are calm, and then you begin properly.
+Bring me prismarine shards and I will show you what they were meant to be.
+This one is for the spire. The spire takes the best of everything: the best lamp, the best tide, the best silence.
+A cracked lamp is never wasted. It becomes a pond-rim, or a step, or a lesson. Mostly a lesson.
+Mind the stonecutter. It does not care whose fingers are in it, and ours are webbed, which is to say, larger.
+Light needs water to be seen in, stone to be held in, and someone patient to put the two together. That is the work.
+I have three lamps waiting for cages and two cages waiting for lamps. The arithmetic is not encouraging.
+Dark prismarine for the floors, bricks for the walls, plain for the parts nobody looks at. Everybody looks at the plain parts. That is where the craft hides.
+One face per tide, on a good day. On a bad day, one tide per face, which is the same, only sadder.
+If you want a Tide Lamp of your own, I will make you one. It will outlast you. Do not take that personally; it will outlast me too.
+Hold this up to the light. No, the other light. There: do you see the flaw? Neither do I. That means it is finished.
+The best lamps I have ever turned are lighting merfolk gardens a long way up. I will never see them lit. That is the work too.
+
+## lightwright.heart
+I would like to see a lamp of mine from very far away, glowing in the dark, and not know at first that it was mine.
+Sometimes I think the old halls' lamps are lonely, burning for nobody. Then I think I am being foolish. Then I think it again.
+The light I make goes up to the merfolk, out to the dark and into the houses of strangers. None of it stays with me. I find I do not mind.
+I made one lamp, once, that was better than anything I have made since. I gave it away without a thought. I think about it now.
+When the spire is lit and I can pick out my own lamps among the others, my spines rise a little. Gladness looks like anger on us. I have stopped apologising for it.
+I was given a lamp by my teacher when I finished my first cage. It was not a good lamp. I have never let it go out.
+
+## lightwright.held.prismarine
+Shards! Let me see. No, keep them; only let me look. Good grain. These would make a lamp to be proud of.
+You carry that like a stone. Carry it like a promise. Better.
+Crystals, or shards? Crystals. I can tell from here; they are humming. You cannot hear it? Pity.
+If you will part with that, I will turn it into something that remembers you. Lamps do, you know. A little.
+
+## lightwright.held.torch
+A light that eats itself to shine. You live like that, on land? Let me make you a Tide Lamp. It eats nothing and complains less.
+Put that out, please. Professionally, it upsets me.
+Fire is light that cannot wait to be finished. Prismarine is light that never will be. You can guess which I prefer.

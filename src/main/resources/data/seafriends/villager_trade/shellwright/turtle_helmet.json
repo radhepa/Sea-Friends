@@ -1,0 +1,17 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 12
+  },
+  "gives": {
+    "id": "minecraft:turtle_helmet",
+    "count": 1
+  },
+  "max_uses": 2,
+  "xp": 15,
+  "reputation_discount": 0.05,
+  "additional_wants": {
+    "id": "minecraft:turtle_scute",
+    "count": 1
+  }
+}

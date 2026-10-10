@@ -1,0 +1,104 @@
+{
+  "id": "mt09_net_vest",
+  "kind": "top",
+  "name": "Net Vest",
+  "gender": "male",
+  "texture": "tops/mt09_net_vest.png",
+  "extrasHeight": 16,
+  "tags": [
+    "bare",
+    "merfolk",
+    "net"
+  ],
+  "requires": [],
+  "rejects": [],
+  "pieces": [
+    {
+      "id": "cork_float",
+      "bone": "TORSO",
+      "pivot": [
+        -2.4,
+        10.9,
+        -2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "shell_float",
+      "bone": "TORSO",
+      "pivot": [
+        2.4,
+        10.9,
+        -2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        7,
+        0
+      ]
+    },
+    {
+      "id": "back_cork_float",
+      "bone": "TORSO",
+      "pivot": [
+        1.5,
+        10.9,
+        2.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        -1.0,
+        0,
+        -0.5
+      ],
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "uv": [
+        14,
+        0
+      ]
+    }
+  ],
+  "tucked": false,
+  "coversWaist": false,
+  "description": "An open vest knotted from old fishing net, worn over the bare chest: diamond mesh with the skin showing through, corded front edges, and a cork float and a shell float still tied to the hem."
+}

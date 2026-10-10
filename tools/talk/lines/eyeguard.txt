@@ -1,0 +1,69 @@
+# Prismari Eyeguards: the court's guards, with tridents, at the Eyeguard Post (watch-eye tower, training dummies,
+# guardian-spike gate). Oath: "We watch so the court may close its eye." Terse, steady, protective, very dry.
+# They keep the Unseeing (drowned) past the lamps and watch the way to the old halls without ever going.
+# Shared canon: the comment block at the top of prismari.txt.
+
+## eyeguard.greet
+I see you. I saw you before you saw me. That is my work.
+I see you. State your purpose. Then relax; I already know it is harmless.
+I see you. Keep your hands where my eye can find them. Good. Welcome to {place}.
+I see you. You came down the slope three lengths to the left of the path. Everyone does.
+I see you. The watch is quiet. Long may you keep it that way.
+I see you. My spines are up. It is not you. It is never you. It is the job.
+I see you. Pass, friend of the court. I said friend. Do not make me take it back.
+I see you. You may come in. I will keep watching anyway. It is nothing personal; it is everything personal.
+I see you. Do not mind the trident. It is pointed at the deep, not at you. The deep has been warned.
+
+## eyeguard.chat
+We watch so the court may close its eye. That is the oath of the Eyeguard, and the whole of it.
+The Unseeing walk the sea floor at night. Your drowned. Two eyes apiece, and not one of them sees anything. We keep them past the lamps.
+A trident is not thrown in anger. It is thrown in conclusion.
+Sharpening my spines? Not really; they do not need it. But a guard should be seen doing something to them now and then. It reassures the court.
+The watch-eye on the post looks out over the deep. It is only a carving. The Unseeing do not know that.
+The spike gate is shaped like a guardian's back. In the Long Tide the beasts guarded our halls. Now we guard ourselves, and we borrowed their look.
+When a guardian swims too near the court, we do nothing. We watch it. It turns back. They always turn back. I would like to know why. I would also like never to know.
+We drill against the dummies every tide. The dummies have never won. They have never lost, either. They are very good at waiting, like the deep.
+The Reef Wardens of the merfolk drill with us sometimes. They are fast and loud and hit hard. We are slow and quiet and hit once.
+A raised spine is a warning. Two raised spines is a promise. All of them raised is too late.
+The best watch is the one where nothing happens. I have had a great many of those. I am very good at my job.
+We do not guard against the old halls. Nothing comes out of them. We only watch the direction they lie in. Out of respect. Out of habit. Out of something.
+An Eyeguard learns to sleep with the eye half-open. You get used to it. The pillow does not.
+Your kind fight with two eyes and still miss. We fight with one and do not. I think you are distracted by having options.
+A trident remembers who threw it. That is why it comes home. Mine has come home every time. It is the only loyalty I trust without checking.
+The Unseeing were Two-Eyes once, they say, who stayed in the water too long. Keep coming back up. I would hate to have to keep you past the lamps.
+The first Eyeguards stood at the Deep Gate during the leaving, to see everyone out. I know every one of their names. Ask me and I will say them all; it takes a while.
+Every Eyeguard is given the night watch on the tide of their count. I have stood mine through storms above and silence below. The silence is harder.
+
+## eyeguard.work
+Standing guard. You may stand with me, if you are quiet. Most are not quiet. Most leave.
+Drilling. Thrust, turn, recover. The water slows every motion, so every motion must mean something.
+Watching the ridge. The Unseeing came that way two nights ago. They did not come close. They never come close while the spire burns.
+Mending a trident's haft. The prongs are fine. The haft took the blow. That is what hafts are for.
+The watch passes from guard to guard at each turn of the tide. Never a gap. Not one tide unwatched since {place} was lit.
+If you are going out past the lamps, tell me which way. I will watch that way until you come back.
+Counting the lamps on the edge of the court. All lit. Counting them again. All lit. That is the work. It sounds dull. It is the opposite of dull.
+The dummy has a crack in its side from my strike last tide. I will apologise to it later.
+There is a guardian at the edge of sight, past the ridge. It has been there two tides. It is not coming closer. I am not going further. We understand each other.
+Keep clear of the sparring floor while we drill. A trident does not care whether you were invited.
+Each Eyeguard keeps a pebble for every watch that passed without trouble. My pile is very tall. I am proud and bored in equal measure.
+If you see the Unseeing on your way, tell me where. Do not fight them alone in the dark. They do not tire. You do.
+My trident is worn smooth at the grip from my own hand. I would know it blind. In the deep, sometimes, I am.
+Climbing the watchtower to the lookout ledge. From up there you can see the dark in every direction. It is a very thorough dark.
+
+## eyeguard.heart
+I am not afraid of the Unseeing. I am afraid of the moment I look away. That is why I do not look away.
+When the court sleeps, I am the only one awake. It is lonely. It is also an honour. Mostly an honour.
+My spines rise before I know why. Afterwards I find the reason. I have never yet found that they were wrong.
+I have never had to throw my trident at anything that mattered. I hope that is because of the watch, and not because of luck.
+You came back safe. I counted you out and I counted you in. I do not say that to everyone.
+Sometimes, on the lookout ledge, I catch myself facing the old halls instead of the court. I turn back round. I do not tell anyone. I have told you.
+
+## eyeguard.held.trident
+You hold it too close to the prongs. Back down the haft. There. Now it will throw true.
+A good trident. Where did it come from? If from the Unseeing, you have done the sea a service.
+Do not throw that in the court. It will come back to you. It will also go through two lamps on the way.
+Is it balanced? Let me see you turn it. Hm. Your wrist is honest. The trident will learn the rest.
+
+## eyeguard.held.sword
+A blade, in the water? It will be slow. Their hands will be slower. Still: learn the trident.
+Keep that sheathed in {place}. Not because I do not trust you. Because I trust it less.
